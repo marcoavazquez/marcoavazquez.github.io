@@ -1,6 +1,7 @@
 @import "normalize.styl"
-azul = #00BEFF
+azul = rgb(0, 72, 114)
 gris = #F9F9F9
+cafe = rgb(73, 76, 66)
 letra = #333333
 
 a
@@ -13,8 +14,8 @@ body
 header
 	background azul
 	color white
-	font-family 'Caviar Dreams'
-	//height 4em
+	font-family 'Poiret One'
+	height 8em
 
 h1
 	margin 0px
@@ -29,16 +30,13 @@ footer
 	color azul
 	text-align center
 	font-size 0.7em
+a
+	color azul
 
 .logo
-	margin 0px
-	right 0.1em
-	position absolute
-	top 0em
+	display none
 
 .menu
-	background white
-	color black
 	height 2.2em
 	list-style none
 	margin 0px
@@ -48,14 +46,15 @@ footer
 .item
 	display inline-block
 	cursor pointer
+	font-size 1.4em
 	padding-top 0.4em
 	text-align center
 	width 48%
 .item a
-	color letra
+	color gris
 
 .item a:hover
-	color azul
+	color white
 
 .social
 	border-bottom 1px solid azul
@@ -69,7 +68,9 @@ footer
 
 .texto
 	color letra
-	margin 0.2em
+	margin 0px auto
+	max-width 80em
+	width 100%
 
 .campo-form
 	border 1px solid white
@@ -94,41 +95,62 @@ footer
 	height 2.5em
 	width 100%
 
-.imgs
+.block-cont
 	display inline-block
 
 .formulario
 	display none
 
 .contacto
-	background azul
+	background cafe
 	color white
+	font-family 'Share Tech Mono'
+	font-size 1.2em
 	padding-bottom 1em
 	padding-top 0.2em
 	text-align center
 
 .contacto a
-	color #3333AA
-	font-family monospace
+	color gris
 
 .cel
-	color green
-	font-family monospace
+	color gris
 
-@media screen and (min-width:525px)
-
+@media screen and (min-width:480px)
 	header
 		height 6em
 
+@media screen and (min-width:600px)
+
+	header
+		height 7em
+
 	h1
-		padding 0.5em
+		font-size 2.5em
+	h2
+		font-size 1.5em
+
 
 @media screen and (min-width:1000px)
 	header
-		height 8em
+		height 10em
+		text-align center
 
 	h1
-		padding 1em
+		font-size 3em
+
+	h2
+		font-size 2em
 
 	.menu
 		display none
+
+	.logo
+		display inline-block
+		right 0.1em
+		position absolute
+		top 4em
+
+	.txt-desc
+		top 1em
+		width 50%
