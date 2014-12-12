@@ -1,6 +1,7 @@
 @import "normalize.styl"
 azul = rgb(0, 72, 114)
 gris = #F9F9F9
+otro_cafe = rgb(83, 86, 76)
 cafe = rgb(73, 76, 66)
 letra = #333333
 
@@ -22,12 +23,13 @@ h1
 	padding 1em
 
 h2
-	font-size 1em
+	font-size 1.2em
 	margin 0px
 	padding-left 2em
 
 footer
-	color azul
+	background azul
+	color gris
 	text-align center
 	font-size 0.7em
 a
@@ -105,7 +107,7 @@ a
 	background cafe
 	color white
 	font-family 'Share Tech Mono'
-	font-size 1.2em
+	font-size 1.6em
 	height 15em
 	padding-bottom 1em
 	padding-top 0.2em
@@ -135,7 +137,7 @@ a
 
 @media screen and (min-width:1000px)
 	header
-		height 20em
+		height 30em
 		text-align center
 
 	h1
@@ -149,11 +151,14 @@ a
 		display none
 
 	.logo
-		display inline-block
-		right 0.1em
+		display none
+		left 0.1em
 		position absolute
 		top 4em
 
 	.txt-desc
 		top 1em
 		width 50%
+		
+	.texto
+		height 25em
