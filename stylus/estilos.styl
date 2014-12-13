@@ -13,10 +13,11 @@ body
 	font-size 16px
 
 header
-	background azul
+	text-align center
+	background url('../images/codigo_3.png') //3
 	color white
 	font-family 'Poiret One'
-	height 30em
+	height 23em
 
 h1
 	margin 0px
@@ -36,14 +37,13 @@ a
 	color azul
 
 .logo
-	display none
-
-.menu
-	height 2.2em
-	list-style none
-	margin 0px
-	padding 0px
-	width 100%
+	border 8px outset azul
+	border-radius 4em
+	box-shadow 0.4em 0.4em 0.4em 0.4em black
+	display inline-block
+	overflow hidden
+	img
+		width 8em
 
 .item
 	display inline-block
@@ -119,26 +119,19 @@ a
 .cel
 	color gris
 
-@media screen and (min-width:480px)
-	header
-		height 20em
-
 @media screen and (min-width:600px)
-
-	header
-		height 20em
 
 	h1
 		font-size 2.5em
 		padding 0.8em
 	h2
 		font-size 1.5em
-
+	.logo
+		margin-top 2.2em
 
 @media screen and (min-width:1000px)
 	header
 		height 30em
-		text-align center
 
 	h1
 		font-size 3em
@@ -147,18 +140,14 @@ a
 	h2
 		font-size 2em
 
-	.menu
-		display none
-
-	.logo
-		display none
-		left 0.1em
-		position absolute
-		top 4em
 
 	.txt-desc
 		top 1em
 		width 50%
-		
+
 	.texto
 		height 25em
+
+	.logo
+		img
+			width 10em
