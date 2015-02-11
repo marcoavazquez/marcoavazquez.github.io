@@ -20,10 +20,9 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.png">
     <link rel="stylesheet" href="css/estilos.css" />
-   <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
   <link href='http://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-    <title>marco antonio</title>
+    <title>marco antonio | Desarrollador Web</title>
+<script type="text/javascript" src="js/js.js"></script>
 <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -47,12 +46,11 @@
         <![endif]-->
 <header>
     <figure class="icono-menu inline">
-        <img src="images/pony.png" title="pony" width="20">
+        <img src="images/poni.png" title="pony" width="30">
     </figure>
     <nav class="menu-nav inline">
-        <ul>
+        <ul class="menu-p">
              <li class="item">marco</li>
-             <li class="item">Portafolio</li>
              <li class="item">Blog</li>
              <li class="item">Contactame</li>
         </ul>
@@ -66,35 +64,50 @@
             <li class="item-social"><img src="images/facebak.png" width="25"></li>
         </ul>
     </aside>
-    <span>marco</span>
 </header>
 <section class="cuerpo">
+    <div>
+        <figure class="myphoto">
+            <img src="https://scontent-b-dfw.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/1381216_10201613232028054_73331591_n.jpg?oh=c2400753c405619d88024b1b78838324&oe=555C0646" alt="Marco Antonio Vazquez Alonso">
+            <h2>Desarrollador Web</h2>
+        </figure>
+    </div>
     <div class="terminal">
         <div class="barra-titulo">
-            <div class="btn-m green"></div>
-            <div class="btn-m red"></div>
+            <span class="tit"><h1>Marco Antonio Vazquez Alonso</h1></span>
+            <div class="btn-m btn-red"></div>
+            <div class="btn-m btn-green"></div>
         </div>
         <div class="ventana-terminal">
             <span class="username">marco</span>
             <span class="dir"> ~ $ </span>
             <span class="command">cat marco.va</span>
             <p class="texto">
-                Mi nombre es marco, soy desarrollador web, especializado en los
-                procesos del lado del servidor. Me gusta aprender y aplicar lo
-                aprendido.<br>
-                Actualmente desarrollo mis proyectos con el framework de python
-                llamado Django, aprendo NodeJS y un poco de desarrollo frontend
+                ¡Hola! Mi nombre es Marco, desarrollador especializado en la
+                programación web, sobretodo del lado del servidor, o mejor
+                conocido como <strong>Backend</strong>. Generalmente realizo mis
+                proyectos con el framework de python llamado <strong>Django</strong>,
+                ya sea de la manera tradicional o aplicando arquitectura
+                <strong>REST</strong>.<br>
+                Actualmente soy <strong>co-founder</strong> y programador
+                Backend en <a href="#">Ideátics</a>;
+                profesionales dedicados en darte soluciones en
+                tecnología mediante el desarrollo de <strong>Software</strong>
+                <p class="texto">
+                    Contáctanos y comienza a hacer tu vida más sencilla
+                </p>
+
             </p>
             <span class="username">marco</span>
             <span class="dir"> ~ $ </span>
             <span class="command promp">█</span>
         </div>
     </div>
-
     <div class="contacto">
         <div class="barra-titulo">
-            <div class="btn-m green"></div>
-            <div class="btn-m red"></div>
+        <span class="tit">Contactame.py</span>
+            <div class="btn-m btn-red"></div>
+            <div class="btn-m btn-green"></div>
         </div>
         <div class="ventana-contacto">
             <ul class="numeros subl">
@@ -113,46 +126,89 @@
                 <li class="numero">13</li>
                 <li class="numero">14</li>
                 <li class="numero">15</li>
-
-
-
+                <li class="numero">16</li>
+                <li class="numero">17</li>
+                <li class="numero">18</li>
+                <li class="numero">19</li>
             </ul>
             <ul class="ul-contacto subl">
-                <li>class <span class="clase">Contacto:</span>
-                <li>/</li>
+                <li class="movil"><span class="red">class</span> Contacto:</li>
+                <li class="movil"><br></li>
                     <ul>
-                        <li>def __init__(self):
+                        <li><span class="orange">def</span>
+                            <span class="turquesa">
+                        mensaje</span>(self):
+
                             <ul>
-                                <li>self.nombre = "______________________"</li>
-                                <li>self.correo = "______________________"</li>
-                                <li>self.mensaje = """<br>Mensaje<br>"""</li>
+                            <form method="post">
+                                <li>
+                                <span class="gray">self</span>.nombre&nbsp; =
+                                    <span class="green">
+                                     "<input type="text" class="campo-form">"
+                                    </span>
+                                </li>
+                                <li>
+                                <span class="gray">self</span>.correo&nbsp; =
+                                      <span class="green">
+                                     "<input type="text" class="campo-form">"
+                                    </span>
+                                </li>
+                                <li><br></li>
+                                <li>
+                                <span class="gray">self</span>.mensaje =
+                                    <span class="green">
+                                    """
+                                    <ul>
+                                        <li><span class="secret">
+                                            c-[o]-[o]_,
+                                        </span>
+                                            <textarea rows="5" class="txtarea-form" name="mensaje" id="mensaje" disabled="disabled" onclick="show_modal()">
+                                                Mensaje
+                                            </textarea>"""
+                                        </li>
+                                    </ul>
+                                    </span>
+                                </li>
+                                <li>
+                                    <span class="turquesa">return</span>
+                                    <input type="button" value="Enviar" class="btn-submit" onclick="show_modal()">
+                                </li>
+                            </form>
                             </ul>
-                        </li>
-                        <li> /</li>
-                        <li>def redes(self):
                             <ul>
-                                <li>
-                                self.redes_sociales =
-                                ['Github', 'Twitter', 'CodePen', 'Linkedin', 'Facebook']
-                                </li>
-                                <li>
-                                    self.correo_electrónico =
-                                    "<a href="mailto:mrc_ant_18@hotmail.com">
-                                        mrc_ant_18@hotmail
-                                    </a>"
-                                </li>
-                                <li>
-                                    """<br>
-                                    Xalapa, Veracruz. México 2015 &copy
-                                    <br>"""
-                                </li>
+                            <li>
+                                <br>
+                            </li>
                             </ul>
                         </li>
                     </ul>
                 </li>
+                <li>
+                    correo_electrónico =
+                    <a href="mailto:mrc_ant_18@hotmail.com" class="green">
+                    "mrc_ant_18@hotmail.com"
+                    </a>
+                </li>
+                <li>
+                    <br>
+                </li>
             </ul>
+        </div>
+        <div class="barra-estado">
+            Xalapa, Veracruz. México 2015 - <span class="pie">Con <3 by Me</span>
         </div>
     </div>
 </section>
+<div class="modal" id="modal">
+    <p>
+        <a href="" onclick="close_modal()" class="btn-m btn-red"> </a>
+        <br>
+        Perdone, este formulario por el momento se encuentra deshabilitado, si
+        desea mandarnos un mensaje haga clic en el siguiente <a href="#">
+            enlace</a> o mandenos
+        un correo electrónico a <a href="mailto:mrc_ant_18@hotmail.com">
+            mrc_ant_18@hotmail.com</a> c:
+    </p>
+</div>
 </body>
 </html>

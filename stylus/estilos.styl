@@ -5,8 +5,26 @@ otro_cafe = rgb(20, 43, 75)
 azul_marino = rgb(34, 35, 35)
 letra = #333333
 barra = #dde1e6
-ventana = #333333
+ventana = rgba(30, 30, 30, 0.8)
 user = #55FF55
+
+.modal
+	display none
+
+.modal
+	background rgba(254,250,250,0.9)
+	border 1px solid gris
+	height 10em
+	margin 0px auto
+	position relative
+	padding 0em
+	width 30em
+	z-index 2
+	p
+		margin 1em
+		position absolute
+		a
+			margin 0px
 
 @-webkit-keyframes parpadeo
 
@@ -20,74 +38,94 @@ user = #55FF55
 
 .promp
 	-webkit-animation-name parpadeo
-	-webkit-animation-duration: 1s
+	-webkit-animation-duration: 0.8s
 	-webkit-animation-timing-function linear
 	-webkit-animation-iteration-count infinite
 
-a
-	color white
-	text-decoration none
-
 body
-	//background url('../images/codigo_3.png') //3
-	//background gris
+	background url('http://2.bp.blogspot.com/-z7w4wvIzFw8/UQPEP5DMSBI/AAAAAAAADvU/DkzQtwKBiz0/s1600/wallpaper-huge+head+cookie+monster.png') //3
 	font-size 16px
+	font-family "Share Tech Mono"
 
 header
 	background gris
-	height 2em
+	height 5em
 	margin 0px
 	position fixed
 	top 0px
 	width 100%
 
+h1
+	margin 0px
+	font-size 1.1em
+
 nav ul
 	margin 0px
+	padding 0px
+
+.texto
+	a
+		color orange
+
+.myphoto
+	margin-top 6em
+	text-align center
+	img
+		width 15em
+		border-radius 8em
+.tit
+	color letra
+	display inline-block
+	position relative
+	top 0.5em
+
+.menu-p
+	margin-top 3.5em
 
 .inline
 	display inline-block
 
 .icono-menu
-	margin 0.51em
-	position absolute
-	top 0.5em
+	margin 0em
 
 .item
 	display inline-block
 	cursor pointer
-	font-size 1em
-	padding-top 0.5em
-	padding-right 1em
+	font-size 1.2em
+	padding-right 0.2em
+
 .item a
 	color gris
 
-.item a:hover
-	color white
+.item:hover
+	color black
 
 .social
 	list-style none
 	margin 0
-	float right
+	position absolute
+	right 1em
+	top 0.5em
 
 .item-social
 	display inline-block
+	padding-right 0.3em
 
 .terminal
-	height 20em
-	margin-left 2em
-	margin-top 12em
-	width 45em
+	height 28em
+	margin-top 2em
+	width 100%
 
 .barra-titulo
 	background barra
 	height 2em
+	text-align center
 	width 100%
 
 .ventana-terminal
 	background ventana
-	font-family "source code pro"
 	padding 0.5em
-	width 44em
+	width 95%
 
 .btn-m
 	border-radius 0.6em
@@ -97,11 +135,15 @@ nav ul
 	margin-top 0.5em
 	margin-right 0.5em
 	width 1em
+	&:hover
+		background url('../images/smile.png')
+	&:active
+		background url('../images/smile2.png')
 
-.red
+.btn-red
 	background red
 
-.green
+.btn-green
 	background green
 
 .username
@@ -120,32 +162,215 @@ nav ul
 
 .contacto
 	height 30em
-	width 60em
-	float right
-	margin-right 10em
+	width 100%
 
 .ventana-contacto
 	color white
 	background azul
-	font-family "monaco"
-	width 60em
+	width 100%
 
-.numeros
-	color gray
-	list-style none
-	margin 0px
-	padding 0.2em
-	width 1.2em
+.movil
+	display none
 
 .ul-contacto
 	list-style none
 	margin 0px
 	padding 0px
-	width 90%
+	width 100%
 	ul
 		list-style none
+		padding 0px
+
+.numeros
+	display none
+
+.red
+	color red
+
+.orange
+	color orange
+
+.gray
+	color gray
+
+.green
+	color user
+
+.turquesa
+	color #5DC1B9
+
+.campo-form
+	background azul
+	border 0px
+	border-bottom 1px solid user
+	height 2em
+	width 95%
+
+.txtarea-form
+	background azul
+	border 1px solid user
+	width 95%
+.secret
+	color azul
+
+.btn-submit
+	background azul
+	border 1px solid gray
+	height 2em
+
+.pestana
+	background ventana
+	margin 1em 0em
+
+.barra-estado
+	background azul_marino
+	color gray
+	font-size 0.8em
+	padding 0.2em
+	text-align center
+
+@media screen and (min-width:508px)
+	header
+		height 2.5em
+		margin 0px
+
+	.menu-p
+		margin-top 0em
+		position absolute
+		top 0.6em
+
+	.item
+		font-size 1.2em
+		padding-right 1em
+
+	.icono-menu
+		margin 0.51em
+		top 0.5em
 
 
-.subl
-	display inline-block
-//@media screen and (min-width:1000px)
+	.contacto
+		height 30em
+		width 100%
+
+	.ventana-contacto
+		width 100%
+
+	.ul-contacto
+		list-style none
+		margin 0px
+		padding 0px
+		width 90%
+		ul
+			list-style none
+
+	.subl
+		display inline-block
+
+	.numeros
+		display none
+
+	.terminal
+		height 20em
+
+	.ventana-terminal
+		background ventana
+		padding 0.5em
+		width 100%
+
+@media screen and (min-width:620px)
+	.ul-contacto
+		ul
+			list-style none
+			padding-left 2em
+
+@media screen and (min-width:800px)
+	header
+		height 2.5em
+		margin 0px
+
+	.movil
+		display block
+
+	.menu-p
+		margin-top 0em
+		position absolute
+		top 0.6em
+
+	.item
+		display inline-block
+		cursor pointer
+		font-size 1.2em
+		padding-right 1em
+
+	.icono-menu
+		margin 0.51em
+		top 0.5em
+
+	.contacto
+		height 30em
+		width 80%
+		float right
+
+	.ventana-contacto
+		color white
+		background azul
+
+	.numeros
+		color gray
+		list-style none
+		margin 0px
+		padding 0.2em
+		width 1.2em
+
+	.ul-contacto
+		list-style none
+		margin 0px
+		padding 0px
+		width 90%
+		ul
+			list-style none
+
+	.subl
+		display inline-block
+
+	.terminal
+		height 18em
+		margin-top 2em
+		width 50em
+
+	.barra-titulo
+		background barra
+		height 2em
+		width 100%
+
+	.ventana-terminal
+		background ventana
+		padding 0.5em
+		width 49em
+
+	.campo-form
+		width 20em
+
+	.txtarea-form
+		width 20em
+
+@media screen and (min-width:1200px)
+	.cuerpo
+		margin 0px auto
+		width 74em
+
+	.myphoto
+		margin-top 0em
+		float right
+		img
+			width 15em
+			border-radius 8em
+
+	.campo-form
+		width 30em
+
+	.txtarea-form
+		width 30em
+
+	.terminal
+		margin-top 4em
