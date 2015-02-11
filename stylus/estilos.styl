@@ -26,9 +26,35 @@ user = #55FF55
 		a
 			margin 0px
 
+keyframes parpadeo
+	0%
+		opacity 1.0
+	50%
+		opacity 0.0
+	100%
+		opacity 1.0
+
+
+
+@-o-keyframes parpadeo
+	0%
+		opacity 1.0
+	50%
+		opacity 0.0
+	100%
+		opacity 1.0
+
+
+@-moz-keyframes parpadeo
+	0%
+		opacity 1.0
+	50%
+		opacity 0.0
+	100%
+		opacity 1.0
+
+
 @-webkit-keyframes parpadeo
-
-
 	0%
 		opacity 1.0
 	50%
@@ -41,6 +67,18 @@ user = #55FF55
 	-webkit-animation-duration: 0.8s
 	-webkit-animation-timing-function linear
 	-webkit-animation-iteration-count infinite
+	-moz-animation-name parpadeo
+	-moz-animation-duration: 0.8s
+	-moz-animation-timing-function linear
+	-moz-animation-iteration-count infinite
+	-o-animation-name parpadeo
+	-o-animation-duration: 0.8s
+	-o-animation-timing-function linear
+	-o-animation-iteration-count infinite
+	animation-name parpadeo
+	animation-duration: 0.8s
+	animation-timing-function linear
+	animation-iteration-count infinite
 
 body
 	background url('http://2.bp.blogspot.com/-z7w4wvIzFw8/UQPEP5DMSBI/AAAAAAAADvU/DkzQtwKBiz0/s1600/wallpaper-huge+head+cookie+monster.png') //3
@@ -70,9 +108,18 @@ nav ul
 .myphoto
 	margin-top 6em
 	text-align center
-	img
-		width 15em
+	.photo
 		border-radius 8em
+		height 15em
+		width 15em
+		background url('https://scontent-b-dfw.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/1381216_10201613232028054_73331591_n.jpg?oh=c2400753c405619d88024b1b78838324&oe=555C0646')
+		background-size 15em
+		border 0.3em solid black
+		&:hover
+			background url('http://fc05.deviantart.net/fs71/f/2012/238/d/d/poker_face_by_paper_bob_omb-d5cj64c.jpg')
+			background-size 15em
+
+
 .tit
 	color letra
 	display inline-block
@@ -95,10 +142,11 @@ nav ul
 	padding-right 0.2em
 
 .item a
-	color gris
+	color black
+	text-decoration none
 
 .item:hover
-	color black
+	color azul_marino
 
 .social
 	list-style none
