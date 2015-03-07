@@ -1,15 +1,16 @@
-function get_element(e){
-    var elem = document.getElementById(e);
-    return elem
-}
+ $("#btn-submit").click(function(){
+    $("#btn-submit").attr("disabled", "disabled");
+    var url = "https://agile-falls-8838.herokuapp.com/send"; // El script a dónde se realizará la petición.
+    $.ajax({
+           type: "POST",
+           url: url,
+           data: $("#form-contacto").serialize(), // Adjuntar los campos del formulario enviado.
+           success: function(data)
+           {
+                $("#form-contacto").hide();
+                $("#respuesta").html(data); // Mostrar la respuestas del script PHP.
+           }
+         });
 
-function show_modal(){
-    get_element('modal').style.display = "block";
-    get_element('e-modal').style.display = "block";
-}
-
-function close_modal(){
-    get_element('modal').style.display = "none";
-    get_element('e-modal').style.display = 'none'
-}
-
+    return false; // Evitar ejecutar el submit del formulario.
+ });
