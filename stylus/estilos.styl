@@ -1,485 +1,218 @@
 @import "normalize.styl"
-azul = rgb(0, 72, 114)
-gris = #F0F0FF
-otro_cafe = rgb(20, 43, 75)
-azul_marino = rgb(34, 35, 35)
-letra = #333333
-barra = #dde1e6
-ventana = rgba(30, 30, 30, 0.8)
-user = #55FF55
-naranja = #E77C14
-amarillo = #EAB033
-azul_paleta = #2A4266
-verde_paleta = #80C2BE
-user = #55FF55
+@import "cargando.styl"
 
-.none
-	display none
+boton = #2c8484
+cafe_hover = #946f51
+boton_cafe = #dd8c49
+negro = #333
+blanco = #FAFAFA
+naranja_head = #dd8c49
+naranja_id = #f6921e
+verde_fondo_oscuro = #084747
+verder_fondo_claro = #9bd5d5
+cafe = #773d0d
+link_verde = #31595f
+link_cafe = #946f51
 
-.e-modal
-	background rgba(100,100,100,0.5)
-	height 200%
-	margin 0px
-	position absolute
-	top 0px
-	width 100%
-	z-index 1
-
-.modal
-	background rgba(250,250,250,0.9)
-	border 1px solid gris
-	height 10em
-	margin-left 0%
-	position absolute
-	padding 0em
-	width 100%
-	z-index 2
-	p
-		margin 1em
-		position absolute
-		a
-			margin 0px
-
-keyframes parpadeo
-	0%
-		opacity 1.0
-	50%
-		opacity 0.0
-	100%
-		opacity 1.0
-
-
-
-@-o-keyframes parpadeo
-	0%
-		opacity 1.0
-	50%
-		opacity 0.0
-	100%
-		opacity 1.0
-
-
-@-moz-keyframes parpadeo
-	0%
-		opacity 1.0
-	50%
-		opacity 0.0
-	100%
-		opacity 1.0
-
-
-@-webkit-keyframes parpadeo
-	0%
-		opacity 1.0
-	50%
-		opacity 0.0
-	100%
-		opacity 1.0
-
-.promp
-	-webkit-animation-name parpadeo
-	-webkit-animation-duration: 0.8s
-	-webkit-animation-timing-function linear
-	-webkit-animation-iteration-count infinite
-	-moz-animation-name parpadeo
-	-moz-animation-duration: 0.8s
-	-moz-animation-timing-function linear
-	-moz-animation-iteration-count infinite
-	-o-animation-name parpadeo
-	-o-animation-duration: 0.8s
-	-o-animation-timing-function linear
-	-o-animation-iteration-count infinite
-	animation-name parpadeo
-	animation-duration: 0.8s
-	animation-timing-function linear
-	animation-iteration-count infinite
+h1,h2
+	font-weight normal
 
 body
-	background url('http://fc05.deviantart.net/fs70/f/2015/030/6/f/_minflat__dark_material_design_wallpaper__4k__by_dakoder-d8fjqzu.jpg') center top
-	//background url('http://phandroid.s3.amazonaws.com/wp-content/uploads/2014/06/forest-patrol.jpg') center top
-	//background url('http://media.indiedb.com/images/articles/1/135/134940/auto/morninglonelytree.png')
-	background-size 450%
-	font-size 16px
-	font-family "consolas","monaco", "Share Tech Mono"
-	line-height 1.6em
+	background-image url('http://static1.businessinsider.com/image/5405ff6069bedd7a0fd7988d/tumblr_n7826boume1r2geqjo1_500.gif')
+	background-attachment: fixed;
+	background-size cover
+	font-family 'Raleway', 'sans serif'
 
-header
-	background rgba(20,20,20,0.4)
-	border-bottom 0.2em solid rgba(10,10,10,0.4)
-	height 6em
-	margin 0px
-	top 0px
-	width 100%
-
-h1
-	margin 0px
-	font-size 1.1em
-
-nav ul
-	margin 0px
-	padding 0px
-
-.texto
-	a
-		color orange
-
-.myphoto
-	margin-top 6em
-	text-align center
-	.photo
-		border-radius 8em
-		height 15em
-		margin 0px auto
-		width 15em
-		background url('https://scontent-b-dfw.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/1381216_10201613232028054_73331591_n.jpg?oh=c2400753c405619d88024b1b78838324&oe=555C0646')
-		background-size 15em
-		border 0.5em solid azul_marino
-		&:hover
-			background url('https://pbs.twimg.com/profile_images/566708499946545152/V0WvNmeK.jpeg') no-repeat
-			background-size 15em
-
-
-.tit
-	color letra
-	display inline-block
-	position relative
-	top 0.5em
-
-.menu-p
-	margin-top 3.5em
-
-.inline
-	display inline-block
-
-.logo-id
-	img
-		vertical-align top
-		margin 0px
-		margin-left 1em
-		width 1.2em
-
-.item
-	color white
-	display inline-block
-	cursor pointer
-	font-size 1.2em
-	padding-right 0.2em
-
-.item a
-	color white
+a
 	text-decoration none
 
-.item:hover
-	color azul_marino
+header
+	background-color rgba(0,0,0,.9)
+	color white
+	position relative
+	text-align center
+	height 100%
+	padding-bottom 2em
 
 .social
-	list-style none
-	margin 0
-	position absolute
-	right 1em
-	top 0.5em
-
-.item-social
-	display inline-block
-	padding-right 0.3em
-
-.terminal
-	margin-top 2em
-	width 100%
-
-.barra-titulo
-	background barra
-	height 2em
-	text-align center
-	width 100%
-
-.ventana-terminal
-	background ventana
-	text-align justify
-	padding 0px
-	padding-top 0.5em
-	padding-bottom 1em
-	width 100%
-	p
-		margin 0.5em
-
-
-.btn-m
-	border-radius 0.6em
-	display inline-block
-	height 1em
-	float right
-	margin-top 0.5em
-	margin-right 0.5em
-	width 1em
-	&:hover
-		background url('../images/smile.png')
-	&:active
-		background url('../images/smile2.png')
-
-.btn-red
-	background red
-
-.btn-green
-	background green
-
-.username
-	color user
-	font-weight bold
-
-.dir
-	color red
-
-.command
-	color white
-	font-weight bold
-
-.texto
-	color white
-
-.contacto
-	height 30em
-	width 100%
-
-.ventana-contacto
-	color white
-	background azul
-	width 100%
-
-.movil
-	display none
-
-.ul-contacto
-	list-style none
-	margin 0px
-	padding 0px
-	width 100%
-	ul
+	margin 0 auto
+	padding 0
+	padding-top 1em
+	position relative
+	z-indez 10
+	width 90%
+	li
 		list-style none
-		padding 0px
-
-.numeros
-	display none
-
-.red
-	color red
-
-.orange
-	color orange
-
-.gray
-	color gray
-
-.green
-	color user
-
-.turquesa
-	color #5DC1B9
-
-.campo-form
-	background azul
-	border 0px
-	border-bottom 1px solid user
-	height 2em
-	width 95%
-
-.txtarea-form
-	background azul
-	border 1px solid user
-	width 95%
-.secret
-	color azul
-
-.btn-submit
-	background azul
-	border 1px solid gray
-	height 2em
-
-.pestana
-	background ventana
-	margin 1em 0em
-
-.barra-estado
-	background azul_marino
-	color gray
-	font-size 0.8em
-	padding 0.2em
-	text-align center
-
-@media screen and (min-width:508px)
-	body
-		background-size 300%
-	header
-		height 2.5em
-		margin 0px
-
-	.e-modal
-		height 170%
-
-	.menu-p
-		margin-top 0em
-		position absolute
-		top 0.6em
-
-	.item
-		font-size 1.2em
-		padding-right 1em
-
-	.icono-menu
-		margin 0.51em
-		top 0.5em
-
-
-	.contacto
-		height 30em
-		width 100%
-
-	.ventana-contacto
-		width 100%
-
-	.ul-contacto
-		list-style none
-		margin 0px
-		padding 0px
-		padding-top 1em
-		width 90%
-		ul
-			list-style none
-
-	.subl
-		display inline-block
-
-	.numeros
-		display none
-
-
-	.ventana-terminal
-		background ventana
-		width 100%
-
-
-	.portafolio
-		width 40em
-		height 20em
-
-@media screen and (min-width:620px)
-	body
-		background-size 250%
-	.modal
-		margin-left 20%
-		width 30em
-
-	.ul-contacto
-		ul
-			list-style none
-			padding-left 2em
-
-@media screen and (min-width:800px)
-	body
-		background-size 150%
-	header
-		height 2.5em
-		margin 0px
-
-	.e-modal
-		height 165%
-
-	.modal
-		margin-left 25%
-
-	.movil
-		display block
-
-	.menu-p
-		margin-top 0em
-		position absolute
-		top 0.6em
-
-	.item
-		display inline-block
-		cursor pointer
-		font-size 1.2em
-		padding-right 1em
-
-	.icono-menu
-		margin 0.51em
-		top 0.5em
-
-	.contacto
-		height 30em
-		margin 0px auto
-		margin-top 4em
-		width 50em
-
-	.ventana-contacto
-		color white
-		background azul
-
-	.numeros
-		color gray
-		list-style none
-		margin 0px
-		padding 0.2em
-		width 1.2em
-
-	.ul-contacto
-		list-style none
-		margin 0px
-		padding 0px
-		width 90%
-		ul
-			list-style none
-
-	.subl
-		display inline-block
-
-	.terminal
-		height 18em
-		margin 0px auto
-		margin-top 2em
-		width 50em
-
-	.barra-titulo
-		background barra
-		height 2em
-		width 100%
-
-	.ventana-terminal
-		background ventana
-
-	.campo-form
-		width 20em
-
-	.txtarea-form
-		width 20em
-
-@media screen and (min-width:1200px)
-	body
-		background-size 100%
-	.e-modal
-		height 900px
-
-
-	.cuerpo
-		margin 0px auto
-		width 74em
-
-	.myphoto
-		margin-top 0em
-		margin-bottom 1em
-		float right
+		box-sizing border-box
+		float left
+		width 20%
 		img
-			width 15em
-			border-radius 8em
+			border-radius 50%
+			box-shadow 1px 1px 2px gray
+			margin 0px auto
+			width 3em
+			&:hover
+				box-shadow 1px 1px 2px white
 
-	.campo-form
-		width 30em
+		a
+			display block
+			width 100%
+			height 100%
 
-	.txtarea-form
-		width 30em
 
-	.terminal
-		margin-top 4em
-		margin-left 1em
-	.contacto
-		margin-left 1em
+//menu
+.menu
+	width 100%
+	margin 0
+	padding 0
+	li
+		border-radius 50%;
+		height 3em
+		list-style none
+		float left
+		width 50%
+		a
+			background-color orange
+			border-radius 50%
+			display block
+			color white
+			margin 0px auto
+			padding 2em 0em
+			width 5em
+			&:hover
+				background-color naranja_id
+
+
+///######### Foto mia #################//
+.marco
+	margin 0 auto
+
+	img
+		margin-top 2em
+		border-radius 50%
+		width 16em
+
+.mensaje
+	p
+		font-size 1.2em
+		padding 2em
+
+.boton-contactar
+	background-color boton
+	border-radius 3px
+	border 1px solid verde_fondo_oscuro
+	display block
+	padding 1em
+	margin 0px auto
+	width 80%
+	&:hover
+		background-color verde_fondo_oscuro
+
+.servicios
+	color negro
+	background-color verder_fondo_claro
+	font-size 1.2em
+	padding 3em 1em
+	article
+		margin-bottom 2em
+.herramientas
+	margin 0
+	img
+		float left
+		width 33.33%
+
+p
+	margin 0
+
+/////////////////////portdolio /////////////
+.portfolio
+	color negro
+	background-color rgba(250,250,250,.95)
+	padding 1em
+	padding-top 2em
+	p
+		padding 1em 0em
+
+.cont-load
+	margin 0px auto
+	margin-top 2em
+	margin-bottom 2em
+	width 15em
+
+////////////// mas ///////////////////
+.contacto
+	background-color verde_fondo_oscuro
+	color blanco
+	font-size 1.2em
+	text-align center
+	padding 1em
+	padding-top 2em
+
+.boton-cv
+	background-color boton_cafe
+	border-radius 3px
+	display block
+	font-size 1.2em
+	margin 0px auto
+	margin-top 2em
+	margin-bottom 2em
+	padding 1em
+	text-align center
+	width 80%
+	&:hover
+		background-color orange
+
+/////////////////////yo///////////////////////
+.aboutme
+	background-color rgba(33,33,33,0.5)
+	color white
+	text-align center
+	padding 3em 1em
+	p
+		padding 1em 0em
+
+.marco-2
+	margin 0
+	padding 0
+	img
+		border-radius 50%
+		width 10em
+//////////footer///////////////
+footer
+	font-size 0.8em
+	color white
+	background-color cafe
+	padding 1em
+	p
+		display inline-block
+		&:nth-child(2)
+			float right
+
+@media screen and (min-width 960px)
+
+	.boton-contactar
+		font-size 1.4em
+		width 15em
+
+
+	.social
+		float right
+		width 25%
+		li
+			img
+				width 2em
+
+	//menu
+	.menu
+		width 25%
+		padding 1em
+
+	///######### Foto mia #################//
+	.marco
+		img
+			margin-top 2em
+			border-radius 50%
+			width 20%
+
+	.boton-cv
+		width 15em
