@@ -1,6 +1,7 @@
 @import "nib"
 @import "normalize.styl"
 @import "cargando.styl"
+@import "fonts.styl"
 
 boton = #2c8484
 cafe_hover = #946f51
@@ -49,18 +50,16 @@ header
 		box-sizing border-box
 		float left
 		width 20%
-		img
-			border-radius 50%
-			box-shadow 1px 1px 2px gray
-			margin 0px auto
-			width 3em
-			&:hover
-				box-shadow 1px 1px 2px white
-
 		a
+			color white
 			display block
+			font-size 2em
 			width 100%
 			height 100%
+			img
+				width 50%
+			&:hover
+				color orange
 
 
 //menu
