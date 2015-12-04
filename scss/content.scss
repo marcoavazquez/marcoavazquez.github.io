@@ -1,0 +1,66 @@
+.cont-web, .cont-android, .cont-contacto {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.web {
+    background-color: $beige;
+    color: $gris_oscuro;
+    min-height: 100vh;
+}
+
+.cont-web {
+    div {
+        text-align: center;
+        padding: 1em;
+    }
+    .img-web {
+        display: flex;
+        justify-content: space-around;
+        font-size: 4em;
+    }
+}
+
+.android {
+    background-color: $verde_medio;
+    color: white;
+    min-height: 100vh;
+}
+
+.cont-android {
+    align-items: center;
+    .img-android {
+        font-size: 4em;
+    }
+
+    .texto-android {
+        p {
+            text-align: center;
+        }
+    }
+}
+
+.contacto {
+    background-color: $verde_azul;
+    color: white;
+    min-height: 100vh;
+}
+.cont-contacto {
+    align-items: center;
+    div {
+        display: flex;
+        //min-height: 50vh;
+        align-items: center;
+
+        a {
+            font-size: 4em;
+            text-decoration: none;
+            color: $rojo;
+        }
+    }
+    h3 {
+        margin: 0;
+        padding-top: 1em;
+    }
+}
