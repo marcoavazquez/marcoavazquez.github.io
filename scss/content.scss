@@ -1,66 +1,82 @@
-.cont-web, .cont-android, .cont-contacto {
-    display: flex;
-    height: 100%;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.web {
-    background-color: $beige;
-    color: $gris_oscuro;
-    min-height: 100vh;
-}
-
-.cont-web {
-    div {
+.card {
+    padding: 1em;
+    border-radius: 0.3em;
+    color: $turquesa;
+    background: $verde_azul;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.3);
+    header {
         text-align: center;
-        padding: 1em;
-    }
-    .img-web {
-        display: flex;
-        justify-content: space-around;
-        font-size: 4em;
-    }
-}
+        h1, h2 {
 
-.android {
-    background-color: $verde_medio;
-    color: white;
-    min-height: 100vh;
-}
-
-.cont-android {
-    align-items: center;
-    .img-android {
-        font-size: 4em;
-    }
-
-    .texto-android {
-        p {
-            text-align: center;
+            font-weight: 500;
         }
     }
+    @media screen and (min-width: 920px) {
+        height: 80vh;
+    }
 }
 
-.contacto {
-    background-color: $verde_azul;
-    color: white;
-    min-height: 100vh;
+.yo {
+    padding-top: 1em;
+    img {
+        display: block;
+        margin: 0 auto;
+        width: 8em;
+        border-radius: 5em;
+        border: 0.6em solid #DADADD;
+        box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
+    }
 }
-.cont-contacto {
-    align-items: center;
-    div {
-        display: flex;
-        //min-height: 50vh;
-        align-items: center;
 
+aside {
+    width: 100%;
+    .social {
+        .social-link {
+            display: inline-block;
+            padding: 1em 3em;
+        }
         a {
-            font-size: 4em;
-            text-decoration: none;
-            color: $rojo;
+            font-size: 1.5em;
+            color: $gris_oscuro;
         }
+        text-align: center;
     }
-    h3 {
-        margin: 0;
-        padding-top: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.tech span.iconos {
+
+    font-size: 4em;
+}
+.techs {
+    color: $verde_oscuro;
+    display: flex;
+    padding: 1em 0em;
+    flex-flow: row wrap;
+    @media screen and (min-width: 920px) {
+        flex-flow: nowrap;
+    }
+}
+.cont-tech {
+    padding:1em;
+    width: 100%;
+}
+.tech {
+    padding: 1em;
+    background: #DADADD;
+    border-radius: 0.2em;
+    box-shadow: 0 0.1em 0.2em rgba(0,0,0,0.3);
+    display: flex;
+    height: 100;
+    p {
+        padding: 0 1em;
+        line-height: 1.4em;
     }
 }

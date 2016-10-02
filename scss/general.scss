@@ -1,8 +1,26 @@
 body {
-    background: $beige;
+    background: linear-gradient(45deg,
+        rgba(75, 78, 85, 0.9) 33.3%,  rgba(231, 60, 78,0.5) 33.3%,
+        rgba(231, 60, 78, 0.5) 66.6%,
+        rgba(75, 78, 85, 0.9) 66.6%),
+        linear-gradient(135deg,
+            rgba(75, 78, 85, 0.9) 33.3%,  rgba(231, 60, 78,0.5) 33.3%,
+            rgba(231, 60, 78, 0.5) 66.6%,
+            rgba(75, 78, 85, 0.9) 66.6%);
+
+    background-size: 50% 50vh;
     font-family: "ubuntu";
+    animation: fondo 30s infinite linear ;
 }
 
-.content {
-    font-size: 1.5em;
+@keyframes fondo {
+    0% {
+        background-position: bottom;
+    }
+    50% {
+        background-position: center;
+    }
+    100% {
+        background-position: top;
+    }
 }
