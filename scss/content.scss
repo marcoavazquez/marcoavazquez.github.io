@@ -1,8 +1,8 @@
 .card {
     padding: 1em;
     border-radius: 0.3em;
-    color: $gris_oscuro;
-    background: rgba($verde_azul, 0.6);
+    color: $turquesa;
+    background: rgba($verde_azul, 0.95);
     width: 80%;
     margin: 0 auto;
     margin-bottom: 2em;
@@ -29,6 +29,7 @@
         border-radius: 5em;
         border: 0.6em solid #DADADD;
         box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
+        position: relative;
     }
 }
 

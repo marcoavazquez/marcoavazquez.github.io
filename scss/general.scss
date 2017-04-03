@@ -10,17 +10,22 @@ body {
 
     background-size: 50% 50vh;
     font-family: "ubuntu";
-    animation: fondo 30s infinite linear ;
+    animation: fondo 10s infinite ease-out;
 }
 
 @keyframes fondo {
     0% {
         background-position: bottom;
+        background-size: 50% 50vh;
     }
+
     50% {
         background-position: center;
+        background-size: 20% 60vh;
     }
+
     100% {
         background-position: top;
+        background-size: 50% 50vh;
     }
 }
