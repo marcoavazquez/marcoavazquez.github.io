@@ -436,12 +436,14 @@ body {
   padding: 1em;
   border-radius: 0.3em;
   color: #00e1e8;
-  background: rgba(0, 184, 186, 0.95);
+  background: rgba(0, 184, 186, 0.75);
   width: 80%;
   margin: 0 auto;
   margin-bottom: 2em;
   margin-top: 2em;
   box-shadow: 0 0.1em 0.5em rgba(0, 0, 0, 0.3);
+  -webkit-animation: blur 1s;
+          animation: blur 1s;
 }
 
 .card header {
@@ -538,4 +540,26 @@ a {
 .tech p {
   padding: 0 1em;
   line-height: 1.4em;
+}
+
+@-webkit-keyframes blur {
+  from {
+    -webkit-filter: blur(250px);
+            filter: blur(250px);
+  }
+  to {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
+}
+
+@keyframes blur {
+  from {
+    -webkit-filter: blur(250px);
+            filter: blur(250px);
+  }
+  to {
+    -webkit-filter: blur(0);
+            filter: blur(0);
+  }
 }
