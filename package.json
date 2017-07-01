@@ -9,7 +9,7 @@
     "build:css": "npm run css && npm run autoprefixer",
     "dev": "parallelshell \"npm run watch:css\" \"npm run serve\"",
     "css": "node-sass -o dist/css src/scss --output-style compressed --source-map-embed",
-    "serve": "browser-sync start --server . --files dist",
+    "serve": "browser-sync start --server . --files .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:css": "onchange src/scss/*.scss -- npm run build:css",
     "watch:js": "onchange src/js/*.js -- npm run js"

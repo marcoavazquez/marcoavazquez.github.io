@@ -1,3 +1,115 @@
+.cont-presentation {
+    padding: 4em 1em;
+}
 .presentation {
-    background: red;
+    background: $main_card_bg;
+    color: $main_text_color;
+
+    border-radius: 0.2em;
+    box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.3),
+                0 0 14em rgba(0,0,0,0.6) inset;
+
+    max-width: 64em;
+    margin: 0 auto;
+}
+
+.avatar {
+    display: block;
+    padding: 6em 3em;
+    border-right: 1px solid rgba($footer_card_bg, 0.1);
+    box-shadow: 0 0 1em rgba(0,0,0,0.3) inset;
+    &-img {
+        margin: 0 auto;
+        border-radius: 50%;
+        border: 0.5em solid $main_text_color;
+        display: block;
+        height: auto;
+    }
+}
+
+.presentation-text {
+    padding: 6em;
+}
+
+.cont-name {
+    font-size: 2em;
+}
+
+.contact {
+    background: rgba($footer_card_bg, 0.3);
+    text-align: center;
+    line-height: 3em;
+}
+
+.cont-skills {
+    padding: 2em 1em 4em 1em;
+}
+
+.skills {
+    max-width: 64em;
+    margin: 0 auto;
+}
+
+.cont-skill {
+    padding: 2em 2em;
+}
+
+.cont-title {
+    text-align: center;
+    padding: 4em 0 2em 0;
+    h2 {
+        font-size: 2em;
+    }
+}
+.skill {
+    border-radius: 0.2em;
+    background: $card_skills_bg;
+    box-shadow: 0 0.2em 0.5em rgba(0,0,0,0.3),
+                0 0 14em rgba(120,120,120,0.2) inset;
+    padding: 2em;
+    height: 18em;
+}
+
+
+.cont-portfolio {
+    background: linear-gradient(180deg, #515052 24em,  $section2_bg  24em);
+    padding: 2em 1em;
+}
+
+.portfolio-header {
+    color: white;
+    padding: 4em 0;
+}
+
+.portfolio {
+    margin: 0 auto;
+    max-width: 64em;
+
+    &-cont-item {
+        padding: 0em 1em;
+    }
+    &-item {
+        background: $card_projects_bg;
+        padding: 1.5em;
+        box-shadow: 0 -0.5em 1em rgba(0,0,0,0.2);
+    }
+
+    &-cont-img {
+        overflow: hidden;
+    }
+
+    &-img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.title-project {
+    font-weight: 600;
+}
+
+.body-project {
+    padding-top: 1.2em;
+    line-height: 1.6em;
 }
