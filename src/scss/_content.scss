@@ -7,7 +7,7 @@
 
     border-radius: 0.2em;
     box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.3),
-                0 0 14em rgba(0,0,0,0.6) inset;
+                0 0 18em rgba(0,0,0,0.2) inset;
 
     max-width: 64em;
     margin: 0 auto;
@@ -15,9 +15,7 @@
 
 .avatar {
     display: block;
-    padding: 6em 3em;
-    border-right: 1px solid rgba($footer_card_bg, 0.1);
-    box-shadow: 0 0 1em rgba(0,0,0,0.3) inset;
+    padding: 4em 4em;
     &-img {
         margin: 0 auto;
         border-radius: 50%;
@@ -25,14 +23,38 @@
         display: block;
         height: auto;
     }
+
+    @media screen and (min-width:480px) {
+        padding: 4em 0;
+        &-img {
+            width: 18em;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        padding: 4em 3em;
+        &-img {
+            width: 100%;
+        }
+    }
 }
 
 .presentation-text {
-    padding: 6em;
+    padding: 0 2em 2em 2em;
+    text-align: center;
+
+    @media screen and (min-width: 768px) {
+        padding: 4em 4em 4em 0;
+        text-align: justify;
+    }
 }
 
 .cont-name {
     font-size: 2em;
+}
+
+.cont-desc {
+    padding-top: 2em;
 }
 
 .contact {
@@ -59,6 +81,7 @@
     padding: 4em 0 2em 0;
     h2 {
         font-size: 2em;
+        color: $main_card_bg;
     }
 }
 .skill {
@@ -72,12 +95,12 @@
 
 
 .cont-portfolio {
-    background: linear-gradient(180deg, #515052 24em,  $section2_bg  24em);
+    //background: linear-gradient(180deg, #515052 24em,  $section2_bg  24em);
     padding: 2em 1em;
 }
 
 .portfolio-header {
-    color: white;
+    color: $main_card_bg;
     padding: 4em 0;
 }
 
