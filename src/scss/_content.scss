@@ -72,11 +72,19 @@
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .cont-skill {
-    padding: 0;
-    width:22.5%;
+    padding: 1em 0;
+    
+    @media screen and (min-width: 520px) {
+        width: 48.5%;
+    }
+    
+    @media screen and (min-width:768px) {
+        width:22.5%;
+    }
 }
 
 .cont-title {
@@ -88,12 +96,17 @@
     }
 }
 .skill {
+
     border-radius: 0.2em;
-    background: rgba($card_skills_bg, 0.7);
+    background: rgba($card_skills_bg, 0.8);
     box-shadow: 0 0.2em 0.5em rgba(0,0,0,0.3),
                 0 0 14em rgba(120,120,120,0.1) inset;
     padding: 2em;
     height: 18em;
+
+    position: relative;
+    z-index: 0;
+
 }
 
 
