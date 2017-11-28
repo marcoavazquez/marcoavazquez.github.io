@@ -2,14 +2,14 @@
     padding: 4em 1em;
 }
 .presentation {
-    background: $main_card_bg;
+    background: rgba($main_card_bg, 1);
     color: $main_text_color;
 
     border-radius: 0.2em;
     box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.3),
                 0 0 18em rgba(0,0,0,0.2) inset;
 
-    max-width: 64em;
+    max-width: 75em;
     margin: 0 auto;
 }
 
@@ -68,12 +68,15 @@
 }
 
 .skills {
-    max-width: 64em;
+    max-width: 75em;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 .cont-skill {
-    padding: 2em 2em;
+    padding: 0;
+    width:22.5%;
 }
 
 .cont-title {
@@ -86,9 +89,9 @@
 }
 .skill {
     border-radius: 0.2em;
-    background: $card_skills_bg;
+    background: rgba($card_skills_bg, 0.7);
     box-shadow: 0 0.2em 0.5em rgba(0,0,0,0.3),
-                0 0 14em rgba(120,120,120,0.2) inset;
+                0 0 14em rgba(120,120,120,0.1) inset;
     padding: 2em;
     height: 18em;
 }
