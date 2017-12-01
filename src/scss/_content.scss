@@ -19,7 +19,7 @@
     &-img {
         margin: 0 auto;
         border-radius: 50%;
-        border: 0.5em solid $main_text_color;
+        border: 0.25em solid $main_text_color;
         display: block;
         height: auto;
     }
@@ -34,7 +34,7 @@
     @media screen and (min-width: 768px) {
         padding: 4em 3em;
         &-img {
-            width: 100%;
+            width: 68%;
         }
     }
 }
@@ -49,9 +49,7 @@
     }
 }
 
-.cont-name {
-    font-size: 2em;
-}
+
 
 .cont-desc {
     padding-top: 2em;
@@ -88,7 +86,6 @@
 }
 
 .cont-title {
-    text-align: center;
     padding: 4em 0 2em 0;
     h2 {
         font-size: 2em;
@@ -96,17 +93,36 @@
     }
 }
 .skill {
+    color: $card_skill_text_color;
+    font-weight: 200;
 
     border-radius: 0.2em;
-    background: rgba($card_skills_bg, 0.8);
+    background: linear-gradient(160deg, rgba($card_skills_bg, 0.6) 50%, $card_skills_bg);
     box-shadow: 0 0.2em 0.5em rgba(0,0,0,0.3),
-                0 0 14em rgba(120,120,120,0.1) inset;
-    padding: 2em;
+    0 0 14em rgba(120,120,120,0.1) inset;
+    
     height: 18em;
 
-    position: relative;
-    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
+    overflow: hidden;
+
+    &--ico {
+        padding: 1em;
+        text-align: center;
+    }
+    &-title {
+        text-align: center;
+        padding: 1em;
+    }
+    &-desc {
+        height: 33.3%;
+        font-weight: bold;
+        font-size: 0.9em;
+        padding: 1em;
+    }
 }
 
 

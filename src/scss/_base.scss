@@ -1,7 +1,6 @@
 body {
     background: linear-gradient(91deg, $header_bg,  $section1_bg);
-    //background: url($background_img);
-    //background-attachment: fixed;
+    font-size: 16px;
     
     font-family: 'ubuntu';
 }
@@ -11,6 +10,18 @@ h1, h2, img {
     padding: 0;
 }
 
+h1 {
+    font-size: 2.4em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
 h3 {
     font-weight: 600;
+}
+
+a.link-dark {
+    color: white;
 }
