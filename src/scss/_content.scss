@@ -75,6 +75,7 @@
 
 .cont-skill {
     padding: 1em 0;
+    width: 100%;
     
     @media screen and (min-width: 520px) {
         width: 48.5%;
@@ -97,9 +98,9 @@
     font-weight: 200;
 
     border-radius: 0.2em;
-    background: linear-gradient(160deg, rgba($card_skills_bg, 0.6) 50%, $card_skills_bg);
+    background: linear-gradient(160deg, rgba($card_skills_bg, 0.8) 33%, $card_skills_bg);
     box-shadow: 0 0.2em 0.5em rgba(0,0,0,0.3),
-    0 0 14em rgba(120,120,120,0.1) inset;
+    0 0 14em rgba(120,120,120,0.2) inset;
     
     height: 18em;
 
