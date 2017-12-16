@@ -1,168 +1,149 @@
-.cont-presentation {
-    padding: 4em 1em;
-}
-.presentation {
-    background: rgba($main_card_bg, 1);
-    color: $main_text_color;
-
-    border-radius: 0.2em;
-    box-shadow: 0 0.5em 1.5em rgba(0, 0, 0, 0.3),
-                0 0 18em rgba(0,0,0,0.2) inset;
+.wrapper {
+    margin: 0 auto;
 
     max-width: 64em;
-    margin: 0 auto;
-}
 
-.avatar {
-    display: block;
-    padding: 4em 4em;
-    &-img {
-        margin: 0 auto;
-        border-radius: 50%;
-        border: 0.25em solid $main_text_color;
-        display: block;
-        height: auto;
-    }
-
-    @media screen and (min-width:480px) {
-        padding: 4em 0;
-        &-img {
-            width: 18em;
-        }
-    }
-
-    @media screen and (min-width: 768px) {
-        padding: 4em 3em;
-        &-img {
-            width: 68%;
-        }
-    }
-}
-
-.presentation-text {
-    padding: 0 2em 2em 2em;
-    text-align: center;
-
-    @media screen and (min-width: 768px) {
-        padding: 4em 4em 4em 0;
-        text-align: justify;
-    }
-}
-
-
-
-.cont-desc {
-    padding-top: 2em;
-}
-
-.contact {
-    background: rgba($footer_card_bg, 0.3);
-    text-align: center;
-    line-height: 3em;
-}
-
-.cont-skills {
-    padding: 2em 1em 4em 1em;
-}
-
-.skills {
-    max-width: 64em;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.cont-skill {
-    padding: 1em 0;
-    width: 100%;
-    
-    
-    @media screen and (min-width:768px) {
-        width:30%;
-    }
-}
-
-.cont-title {
-    padding: 4em 0 2em 0;
-    h2 {
-        font-size: 2em;
-        color: $main_card_bg;
-    }
-}
-.skill {
-    color: $card_skill_text_color;
-    font-weight: 200;
-
-    border-radius: 0.2em;
-    background: linear-gradient(160deg, rgba($card_skills_bg, 0.8) 33%, $card_skills_bg);
-    box-shadow: 0 0.2em 0.5em rgba(0,0,0,0.3),
-    0 0 14em rgba(120,120,120,0.2) inset;
-    
-    height: 18em;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    border-radius: 0.1em;
+    box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.3);
 
     overflow: hidden;
+}
 
-    &--ico {
-        padding: 1em;
-        text-align: center;
+.content {
+    @media screen and (min-width: 640px) {
+        display: flex;
     }
+    background: $content_bg;
+}
+
+.knowledges {
+    background: $know_bg;
+    color: $light_color;
+    box-shadow: 0.1em 0 0.1em rgba(0,0,0,0.3);
+    @media screen and (min-width: 640px) {
+        width: 33.3%;
+    }
+}
+
+.knowledge {
+    border-bottom: 1px solid darken($know_bg, 5);
+    padding: 2em;
+    line-height: 1.5em;
+
     &-title {
-        text-align: center;
-        padding: 1em;
+        display: flex;
+        padding: 1em 0;
     }
+    
     &-desc {
-        height: 33.3%;
-        font-weight: bold;
-        font-size: 0.9em;
-        padding: 1em;
+        @media screen and (min-width:920px) {
+            padding: 0 0 0 3em;
+        }
+    }
+
+    .icon-title {
+        display: inline-block;
+        font-size: 1.5em;
+        width: 3rem;
+    }
+}
+
+.skill {
+    padding-bottom: 1em;
+    &-desc {
+        padding-bottom: 0.5em;
+    }
+    &-value {
+        background:  darken($know_bg, 10);
+        height: 0.5em;
+        border-radius: 3px;
+
+        &:after {
+            content: '';
+            display: block;
+            position: relative;
+            top: 0;
+            left:0;
+            background: $light_color;
+            border-radius: 3px;
+            height: 100%;
+        }
+
+        &-10:after { width: 10%; }
+        &-25:after { width: 25%; }
+        &-50:after { width: 50%; }
+        &-75:after { width: 75%; }
     }
 }
 
 
-.cont-portfolio {
-    //background: linear-gradient(180deg, #515052 24em,  $section2_bg  24em);
-    padding: 2em 1em;
-}
-
-.portfolio-header {
-    color: $main_card_bg;
-    padding: 4em 0;
-}
-
-.portfolio {
-    margin: 0 auto;
-    max-width: 64em;
-
-    &-cont-item {
-        padding: 0em 1em;
+.resume {
+    color: $dark_color;
+    padding: 1em 2em;
+    @media screen and (min-width: 640px) {
+        width: 66.6%;
     }
+
     &-item {
-        background: $card_projects_bg;
-        padding: 1.5em;
-        box-shadow: 0 -0.5em 1em rgba(0,0,0,0.2);
+        padding: 1em 0;
+        border-bottom: 1px solid darken($content_bg, 20);
     }
 
-    &-cont-img {
-        overflow: hidden;
+    &-item-title, .xp {
+        @media screen and (min-width:920px) {
+            display: flex;
+            
+        }
+        padding: 1em 0;
     }
-
-    &-img {
-        display: block;
+    &-item-title {
+        font-size: 1.2em;
+    }
+ 
+    .xp-place {
+        padding-right: 1em;
+        @media screen and (min-width:920px) {
+            
+            width: 33.3%;
+        }
+        &-desc {
+            font-weight: 600;
+        }
+        &-date {
+            padding: 1em 0;
+            font-size: 0.8em;
+            color: lighten($dark_color, 20)
+        }
+    }
+    
+    .xp-cont {
         width: 100%;
-        height: auto;
+    }
+
+    .xp-desc {
+        padding-left: 1em;
+        line-height: 1.5em;
+        li {
+            padding-bottom: 0.5em;
+        }
     }
 }
 
-.title-project {
-    font-weight: 600;
-}
+.project {
 
-.body-project {
-    padding-top: 1.2em;
-    line-height: 1.6em;
+    border-bottom: 1px solid $dark_color;
+
+    &-media {
+        padding: 1em 0;
+        display: flex;
+        justify-content: space-between;
+        height: 8em;
+        img {
+            display: block;
+            cursor: pointer;
+            width: auto;
+            max-width: 33.3%;
+            height: 100%;
+        }
+    }
 }

@@ -1,0 +1,45 @@
+header {
+    background: $header_bg;
+    color: $light_color;
+    box-shadow: 0 0.1em 0.1em rgba(0,0,0,0.3);
+    text-align: center;
+    
+    .avatar {
+        display: block;
+        img {
+            display: block;
+            margin: 0 auto;
+            width: 12em;
+        }
+    }
+    @media screen and (min-width:640px) {
+        display: flex;
+        text-align: left;
+        .avatar {     
+            width: 33.3%;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .header-desc {
+            width: 66.6%;
+        }
+    }
+    
+    @media screen and (min-width:820px) {
+        height: 16em;
+    }
+
+
+    .header{
+        &-desc {
+            padding: 2em 2em 0 2em;
+            line-height: 2.5em;
+        }
+        &-contact {
+            line-height: 2em;
+            padding:1.5em 0;
+        }
+    }
+}

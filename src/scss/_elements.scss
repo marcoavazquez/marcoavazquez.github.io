@@ -1,0 +1,21 @@
+.icon {
+    display: inline-block;
+    padding: 0 0.5em 0 0;
+}
+
+.card {
+    background: $card_bg;
+    color: $dark_color;
+    border-radius: 0.2em;
+    box-shadow: 0 0.1em 0.1em rgba(0,0,0,0.3);
+
+    padding: 2em;
+
+    &-title {
+
+        font-weight: 600;
+        text-transform: uppercase;
+        padding-bottom: 1em;
+    }
+
+}
