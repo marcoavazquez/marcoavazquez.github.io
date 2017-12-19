@@ -6,6 +6,8 @@ header {
     
     .avatar {
         display: block;
+        overflow: hidden;
+        opacity: 0.9;
         img {
             display: block;
             margin: 0 auto;
