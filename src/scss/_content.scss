@@ -1,12 +1,21 @@
 .wrapper {
     margin: 0 auto;
     //opacity: 0.1;
-    max-width: 64em;
-
+    
     border-radius: 0.1em;
     box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.3);
-
+    
     overflow: hidden;
+
+    max-width: 90%;
+
+    @media screen and (min-width: 1024px) {
+        max-width: 64em;
+    }
+
+    @media screen and (min-width: 1360px) {
+        max-width: 75em;
+    }
 }
 
 .content {
@@ -131,7 +140,7 @@
 
 .project {
 
-    border-bottom: 1px solid $dark_color;
+    padding: 1em 0;
 
     &-media {
         padding: 1em 0;
