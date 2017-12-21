@@ -1,32 +1,50 @@
+@media print {
+    .page-break {
+        page-break-after: always;
+    }
+}
+
 .wrapper {
     margin: 0 auto;
     //opacity: 0.1;
     
     border-radius: 0.1em;
-    box-shadow: 0 0.1em 0.5em rgba(0,0,0,0.3);
+    box-shadow: 0 0.1em 1em rgba(0,0,0,0.3);
     
     overflow: hidden;
 
-    max-width: 90%;
-
     @media screen and (min-width: 1100px) {
-        max-width: 64em;
+        max-width: 75em;
+    }
+    @media print {
+        box-shadow: none;
     }
 }
 
 .content {
+    background: $content_bg;
     @media screen and (min-width: 640px) {
         display: flex;
     }
-    background: $content_bg;
+    @media print {
+        display: flex;
+        flex-direction: row-reverse;
+        flex-wrap: wrap-reverse;
+        background: white;
+    }
 }
 
 .knowledges {
-    background: $know_bg;
-    color: $light_color;
-    box-shadow: 0.1em 0 0.1em rgba(0,0,0,0.1);
+    //background: $know_bg;
+    color: $dark_color;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.2),
+                0 0 10em rgba(0,0,0,0.1) inset;
     @media screen and (min-width: 640px) {
         width: 33.3%;
+    }
+    @media print {
+        width: 100%;
+        box-shadow: none;
     }
 }
 
@@ -45,16 +63,23 @@
             padding: 0 0 0 3em;
         }
     }
+}
 
-    .icon-title {
-        display: inline-block;
-        font-size: 1.5em;
-        width: 3rem;
+.skills {
+    @media print {
+        display: flex;
+        flex-wrap: wrap;
     }
 }
 
 .skill {
     padding-bottom: 1em;
+
+    @media print {
+        width: 33.3%;
+        padding: 1em;
+    }
+
     &-desc {
         padding-bottom: 0.5em;
     }
@@ -69,24 +94,29 @@
             position: relative;
             top: 0;
             left:0;
-            background: $light_color;
+            background: $dark_color;
             border-radius: 3px;
             height: 100%;
         }
 
         &-10:after { width: 10%; }
         &-25:after { width: 25%; }
+        &-33:after { width: 33%; }
         &-50:after { width: 50%; }
+        &-66:after { width: 66%; }
         &-75:after { width: 75%; }
+        &-80:after { width: 80%; }
     }
 }
-
 
 .resume {
     color: $dark_color;
     padding: 1em 2em;
     @media screen and (min-width: 640px) {
         width: 66.6%;
+    }
+    @media print {
+        width: 100%;
     }
 
     &-item {
@@ -95,20 +125,30 @@
     }
 
     &-item-title, .xp {
+        padding: 1em 0;
         @media screen and (min-width:920px) {
             display: flex;
             
         }
-        padding: 1em 0;
     }
-    &-item-title {
-        font-size: 1.2em;
+    //&-item-title {
+        //font-size: 1.2em;
+    //}
+
+    .xp {
+        @media print {
+            display: flex;
+        }
     }
  
     .xp-place {
         padding-right: 1em;
-        @media screen and (min-width:920px) {
-            
+        @media screen and (min-width:920px) {   
+            width: 33.3%;
+            text-align: right;
+        }
+        @media print {
+            text-align: right;            
             width: 33.3%;
         }
         &-desc {
@@ -123,6 +163,11 @@
     
     .xp-cont {
         width: 100%;
+        @media print {
+            widows: 66.6%;
+            
+            padding: 0 1em;
+        }
     }
 
     .xp-desc {
@@ -150,5 +195,11 @@
             max-width: 33.3%;
             height: 100%;
         }
+    }
+}
+
+.portfolio {
+    @media print {
+        display: none;
     }
 }

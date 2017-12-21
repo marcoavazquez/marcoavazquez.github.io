@@ -1,7 +1,9 @@
 header {
     background: $header_bg;
+    animation: bg 120s infinite alternate linear;
     color: $light_color;
-    box-shadow: 0 0.1em 0.1em rgba(0,0,0,0.3);
+    box-shadow: 0 0.1em 0.1em rgba(0,0,0,0.3),
+                0 1em 15em rgba(0,0,0,0.1) inset;
     text-align: center;
     
     .avatar {
@@ -29,8 +31,23 @@ header {
         }
     }
     
-    @media screen and (min-width:820px) {
-        height: 16em;
+    @media print {
+        display: flex;
+        background: white;
+        box-shadow: none;
+        animation: none;
+        color: #666;
+        text-align: left;
+        .avatar {     
+            width: 30%;
+            img {
+                width: 100%;
+                height: auto;
+            }
+        }
+        .header-desc {
+            width: 70%;
+        }
     }
 
 
@@ -44,4 +61,21 @@ header {
             padding:1.5em 0;
         }
     }
+
+    a {
+        color: $light_color;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+
+        @media print {
+            color: #666;
+        }
+    }
+}
+
+@keyframes bg {
+    from { background-color: $header_bg; }
+    to { background-color: $dark_color; }
 }

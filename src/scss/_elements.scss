@@ -1,13 +1,27 @@
-.icon {
+.icon, .icon-title {
     display: inline-block;
     padding: 0 0.5em 0 0;
+    line-height: 1em;
+
+    &:before {
+        position: relative;
+        top: 0.2em;
+    }
+}
+
+.icon-title {
+    width: 3rem;
+    @media print {
+        width: auto;
+        padding: 2em 0.5em 1em 0;
+    }
 }
 
 .card {
     background: $card_bg;
     color: $dark_color;
     border-radius: 0.2em;
-    box-shadow: 0 0.1em 0.1em rgba(0,0,0,0.3);
+    box-shadow: 0 0.05em 0.1em rgba($dark_color,0.6);
 
     padding: 2em;
 
@@ -17,5 +31,8 @@
         text-transform: uppercase;
         padding-bottom: 1em;
     }
-
+    @media print {
+        box-shadow: none;
+        border-left: 1px solid #999;
+    }
 }
