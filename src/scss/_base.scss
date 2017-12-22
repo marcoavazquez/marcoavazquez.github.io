@@ -5,14 +5,19 @@
     transition: all 1s;
 }
 
+*::selection{
+    background: #555;
+    color: #F0F0F0;
+}
+
 body {
     background: $body_bg;
     //background-image: url('http://2014.beglika.org/wp-content/uploads/2014/06/rainbow-nebula.jpg');
     background-size: 100% 100vh;
     background-attachment: fixed;
     font-size: 16px;
-    font-family: ubuntu;
-    font-weight: 300;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 
     padding: 1em;
 
@@ -27,13 +32,13 @@ body {
 }
 
 h1 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 2.4em;
 }
 
 h2 {
     font-size: 1.6em;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 h3 {
