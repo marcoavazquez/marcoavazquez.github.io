@@ -9,8 +9,9 @@ header {
     .avatar {
         display: block;
         overflow: hidden;
-        opacity: 0.6;
+        opacity: 0.9;
         img {
+            box-shadow: 0 0 0.5em rgba(0,0,0,0.3);
             display: block;
             margin: 0 auto;
             width: 12em;
@@ -20,8 +21,11 @@ header {
         display: flex;
         text-align: left;
         .avatar {     
+            background: $light_color;
             width: 33.3%;
+            display: flex;
             img {
+                align-self: center;
                 width: 100%;
                 height: auto;
             }
