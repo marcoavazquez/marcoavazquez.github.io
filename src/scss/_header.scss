@@ -1,9 +1,8 @@
 header {
     background: $header_bg;
     background-size: 100% 100%;
-    animation: bg 120s infinite alternate linear;
-    color: $light_color;
-    box-shadow: -5em -5em 15em rgba(0,0,0,0.1) inset;
+    color: $dark_color;
+    //box-shadow: 0 0 15em rgba(0,0,0,0.1) inset;
     text-align: center;
     
     .avatar {
@@ -69,7 +68,7 @@ header {
     }
 
     a {
-        color: $light_color;
+        color: $dark_color;
         text-decoration: none;
         &:hover {
             text-decoration: underline;
@@ -79,9 +78,4 @@ header {
             color: #666;
         }
     }
-}
-
-@keyframes bg {
-    from { background-color: $header_bg; }
-    to { background-color: $dark_color; }
 }

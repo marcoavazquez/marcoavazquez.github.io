@@ -1,15 +1,14 @@
-$body_bg : linear-gradient(135deg, rgba(#00B0FF, 0.2), rgba(#FF3D00, 0.1) ),
-           linear-gradient(0deg,  rgba(#00B0FF, 0.2) , rgba(#FF3D00, 0.1) ) ;
+$body_bg : #eff4f5;/*linear-gradient(0deg, rgba(#4F8699, 0.1) 50%, rgba(#1BB0CE, 0.1) ),
+linear-gradient(90deg, rgba(#6A5E72, 0.5) , rgba(#563444, 0.5)),
+rgba(0,0,0,1);*/
 
-$header_bg: #00B0FF;
+$header_bg: transparent;
 
-$content_bg: #F0F0F0;
+$content_bg: transparent;
 
 $know_bg: #DADADA;
 
-$title_color: #00A0B0;
+$card_bg: transparent;
 
-$card_bg: white;
-
-$dark_color: #666;
-$light_color: #FAFAFA;
+$dark_color: #345;
+$light_color: #ccc;
