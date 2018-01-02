@@ -7,9 +7,9 @@
 .wrapper {
     margin: 0 auto;
     //opacity: 0.1;
-    
+    background: #FFFFFF;
     border-radius: 0.1em;
-    //box-shadow: 0 0.1em 1em rgba(0,0,0,0.6);
+    box-shadow: 0 0.1em 1em rgba(0,0,0,0.6);
     
     overflow: hidden;
 
@@ -122,7 +122,7 @@
 
     &-item {
         padding: 1em 0;
-        border-bottom: 1px solid darken($content_bg, 20);
+        border-bottom: 3px double $dark_color;
     }
 
     &-item-title, .xp {
