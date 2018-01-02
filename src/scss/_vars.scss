@@ -1,6 +1,8 @@
-$body_bg : #eff4f5;/*linear-gradient(0deg, rgba(#4F8699, 0.1) 50%, rgba(#1BB0CE, 0.1) ),
+$body_bg : /*#eff4f5;*//*linear-gradient(0deg, rgba(#4F8699, 0.1) 50%, rgba(#1BB0CE, 0.1) ),
 linear-gradient(90deg, rgba(#6A5E72, 0.5) , rgba(#563444, 0.5)),
-rgba(0,0,0,1);*/
+rgba(0,0,0,1)*/
+linear-gradient(45deg, rgb(75, 78, 85) 50%, rgb(231, 60, 78) 50%)
+;
 
 $header_bg: transparent;
 
