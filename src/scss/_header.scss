@@ -1,25 +1,28 @@
-header {
+.header__content {
     background: $header_bg;
     background-size: 100% 100%;
     color: $dark_color;
-    //box-shadow: 0 0 15em rgba(0,0,0,0.1) inset;
+    border-bottom: 1px solid #ccc;
     text-align: center;
     
     .avatar {
         display: block;
         overflow: hidden;
-        opacity: 0.9;
+        padding: 2em 0 0 0;
         img {
             box-shadow: 0 0 0.5em rgba(0,0,0,0.3);
             display: block;
             margin: 0 auto;
             width: 12em;
+            border-radius: 50%;
+            border: 0.3em solid white;
         }
     }
-    @media screen and (min-width:640px) {
+    @media screen and (min-width:920px) {
         display: flex;
         text-align: left;
         .avatar {     
+            padding: 2em;
             //background: $light_color;
             width: 33.3%;
             display: flex;
@@ -58,12 +61,17 @@ header {
 
     .header{
         &-desc {
-            padding: 2em 2em 0 2em;
+            padding: 2em;
             line-height: 2.5em;
         }
         &-contact {
             line-height: 2em;
-            padding:1.5em 0;
+            padding-top:1.5em;
+        }
+        &-title {
+            h1 {
+                padding-bottom: 1rem;
+            }
         }
     }
 

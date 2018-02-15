@@ -1,8 +1,7 @@
-$body_bg : /*#eff4f5;*//*linear-gradient(0deg, rgba(#4F8699, 0.1) 50%, rgba(#1BB0CE, 0.1) ),
-linear-gradient(90deg, rgba(#6A5E72, 0.5) , rgba(#563444, 0.5)),
-rgba(0,0,0,1)*/
-linear-gradient(45deg, rgb(75, 78, 85) 50%, rgb(231, 60, 78) 50%)
-;
+$body_bg : linear-gradient(180deg, transparent 50vh,#EfEfEf 50vh  ),
+linear-gradient(45deg, rgba(#FF5722, 0.9), rgba(orange, 0.9)),
+//url('https://wallpapercave.com/wp/vueGjUL.jpg');
+url('https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/26409383129_e3cd90c941_o.jpg');
 
 $header_bg: transparent;
 
@@ -10,7 +9,7 @@ $content_bg: transparent;
 
 $know_bg: #DADADA;
 
-$card_bg: transparent;
+$card_bg: white;
 
 $dark_color: #345;
 $light_color: #ccc;
