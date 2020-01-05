@@ -27,11 +27,11 @@
   },
   "homepage": "https://github.com/marcoavazquez/marcoavazquez.github.io#readme",
   "devDependencies": {
-    "autoprefixer": "^7.1.1",
-    "browser-sync": "^2.18.12",
-    "node-sass": "^4.7.2",
-    "onchange": "^3.2.1",
-    "parallelshell": "^3.0.1",
-    "postcss-cli": "^4.1.0"
+    "autoprefixer": "^9.7.3",
+    "browser-sync": "^2.26.7",
+    "node-sass": "^4.13.0",
+    "onchange": "^6.1.0",
+    "parallelshell": "^3.0.2",
+    "postcss-cli": "^6.1.3"
   }
 }
