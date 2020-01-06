@@ -12,17 +12,18 @@
 
 body {
     background: $body_bg;
-    //background-image: url('http://2014.beglika.org/wp-content/uploads/2014/06/rainbow-nebula.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    padding: 25vh 1em;
+    padding: 1em;
+    padding-top: calc(25vh - 6em);
 
     @media screen and (min-width:1056px) {
-        padding: 25vh 0;
+        padding-left: 0;
+        padding-right: 0;
     }   
 
     @media print {
@@ -50,4 +51,9 @@ h3 {
     h1 { font-size: 1.8em; }
     h2 { font-size: 1.4em; }
     h3 { font-size: 1.2em; }
+}
+
+a {
+    color: $link_color;
+    text-decoration: none;
 }
