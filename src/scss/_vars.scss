@@ -1,3 +1,18 @@
+:root {
+  --color_primary: #334455;
+  --color_secondary: orange;
+  --color_accent: blue;
+  --dark: #333;
+  --light: #fafafa;
+}
+
+$color_primary: #334455;
+$color_secondary: orange;
+$color_accent: blue;
+$dark: #333;
+$light: #fafafa;
+
+
 $body_bg : linear-gradient(0deg, #FAFAFA 50vh, #334455 50vh);
 $header_bg: transparent;
 
