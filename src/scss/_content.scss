@@ -8,15 +8,20 @@
 .wrapper {
     margin: 0 auto;
     //opacity: 0.1;
-    background: white;
+    background: #FDFDFD;
     border-radius: 0.1em;
-    box-shadow: 0 0.1em 0.25em rgba(0,0,0,0.6);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(white, 0.9);
+    box-shadow: -2em 2em 6em rgba(0,0,0,0.5),
+        -5em 0 15em rgba(0,0,0,0.1) inset;
     
     overflow: hidden;
     max-width: 64em;
 
     @media print {
         box-shadow: none;
+        border: none;
     }
 }
 
@@ -113,6 +118,7 @@
     @media print {
         width: 100%;
         padding-top: 0;
+        color: #111;
     }
 
     &-item {
