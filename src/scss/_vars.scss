@@ -1,28 +1,9 @@
 :root {
-  --color_primary: #334455;
-  --color_secondary: orange;
+  --color_primary: #EF7A00;
+
+  --color_secondary: #334455;
   --color_accent: blue;
-  --dark: #333;
+  --dark: #2F2C2B;
+  --gray: #dadada;
   --light: #fafafa;
 }
-
-$color_primary: #334455;
-$color_secondary: orange;
-$color_accent: blue;
-$dark: #333;
-$light: #fafafa;
-
-
-// $body_bg : linear-gradient(0deg, #FAFAFA 50vh, #334455 50vh);
-$body_bg: linear-gradient(240deg, rgba(#eb6841, 0.7), #eb6841);
-$header_bg: transparent;
-
-$content_bg: #FEFEFE;
-
-$know_bg: #DADADA;
-
-$card_bg: white;
-
-$dark_color: #345;
-$light_color: #ccc;
-$link_color: #104b8f;

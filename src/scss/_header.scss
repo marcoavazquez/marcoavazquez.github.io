@@ -1,15 +1,11 @@
-.header__content {
-    background: $header_bg;
-    background-size: 100% 100%;
-    color: $dark_color;
-    border-bottom: 1px solid #ddd;
-    text-align: center;
+.wrapper > header {
+    border-bottom: 1px solid var(--gray);
     
     .avatar {
         display: block;
         overflow: hidden;
         padding: 2em 0 0 0;
-        opacity: 0.3;
+        opacity: 0.5;
         img {
             box-shadow: 0 0 0.2em rgba(0,0,0,0.3);
             display: block;
@@ -27,7 +23,6 @@
         text-align: left;
         .avatar {     
             padding: 2em;
-            //background: $light_color;
             width: 33.3%;
             display: flex;
             img {
@@ -38,6 +33,8 @@
         }
         .header-desc {
             width: 66.6%;
+            display: flex;
+            align-items: center;
         }
     }
     
@@ -46,7 +43,6 @@
         background: white;
         box-shadow: none;
         animation: none;
-        color: #333;
         text-align: left;
         .avatar {     
             width: 30%;
@@ -80,14 +76,13 @@
     }
 
     a {
-        color: $dark_color;
         text-decoration: none;
         &:hover {
             text-decoration: underline;
         }
 
         @media print {
-            color: #666;
+            color: black;
         }
     }
 }
