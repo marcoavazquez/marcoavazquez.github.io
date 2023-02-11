@@ -7,16 +7,16 @@
 
 .wrapper {
     margin: 0 auto;
-    //opacity: 0.1;
-    background: #FDFDFD;
+    background: var(--light);
     border-radius: 0.1em;
     border-width: 1px;
     border-style: solid;
-    border-color: rgba(white, 0.9);
-    box-shadow: -2em 2em 6em rgba(0,0,0,0.5),
-        -5em 0 15em rgba(0,0,0,0.1) inset;
-    
-    overflow: hidden;
+    border-color: var(--gray);
+    box-shadow: 0 0 3em rgba(0,0,0,0.3),
+        -5em 0 15em rgba(0,0,0,0.1) inset,
+        -2em 5em 5em rgba(0,0,0,0.9);
+        
+    overflow: hidden;   
     max-width: 64em;
 
     @media print {
@@ -26,7 +26,6 @@
 }
 
 .content {
-    background: $content_bg;
     @media screen and (min-width: 920px) {
         display: flex;
     }
@@ -34,15 +33,11 @@
         display: flex;
         flex-direction: row-reverse;
         flex-wrap: wrap-reverse;
-        background: white;
     }
 }
 
 .knowledges {
-    //background: $know_bg;
-    color: $dark_color;
-    border-right: 1px solid darken($know_bg, 1);
-    /*box-shadow: 0 0 15em rgba(90,90,90,0.1) inset*/;
+    border-right: 1px solid var(--gray);
     @media screen and (min-width: 920px) {
         width: 25%;
     }
@@ -54,8 +49,8 @@
 }
 
 .knowledge {
-    border-bottom: 1px solid darken($know_bg, 5);
-    padding: 1em;
+    border-bottom: 1px solid var(--gray);
+    padding: 1em 1.5em;
     line-height: 1.8em;
 
     &-title {
@@ -72,7 +67,7 @@
 }
 
 .skill {
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 
     @media print {
         width: 33.3%;
@@ -83,7 +78,7 @@
         padding-bottom: 0.5em;
     }
     &-value {
-        background:  darken($know_bg, 10);
+        background:  var(--gray);
         height: 0.5em;
         border-radius: 3px;
 
@@ -93,7 +88,7 @@
             position: relative;
             top: 0;
             left:0;
-            background: $dark_color;
+            background: black;
             border-radius: 3px;
             height: 100%;
         }
@@ -110,7 +105,6 @@
 }
 
 .resume {
-    color: $dark_color;
     padding: 0 1em;
     @media screen and (min-width: 920px) {
         width: 75%;
@@ -118,12 +112,11 @@
     @media print {
         width: 100%;
         padding-top: 0;
-        color: #111;
     }
 
     &-item {
         padding: 1em 0;
-        border-bottom: 3px double $dark_color;
+        border-bottom: 3px double var(--gray);
     }
 
     &-item-title, .xp {
@@ -163,7 +156,6 @@
         &-date {
             padding: 1em 0;
             font-size: 0.8em;
-            color: lighten($dark_color, 20)
         }
     }
     

@@ -1,37 +1,22 @@
 {
-  "name": "marcoavazquez.github.io",
-  "version": "1.0.0",
-  "description": "Marco Antonio Vazquez Alonso",
+  "name": "marco",
+  "version": "1.2",
+  "description": "The site of Marco",
   "main": "index.js",
+  "author": "Marco Antonio <mmarco.antvaz@gmail.com>",
+  "license": "MIT",
   "scripts": {
-    "autoprefixer": "postcss -u autoprefixer --autoprefixer.browsers '> 5%, ie 9' -r dist/css/*",
-    "build:css": "npm run css && npm run autoprefixer",
-    "dev": "parallelshell \"npm run watch:css\" \"npm run serve\"",
-    "css": "node-sass -o dist/css src/scss --output-style compressed --source-map-embed",
-    "serve": "browser-sync start --server . --files .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch:css": "onchange src/scss/*.scss -- npm run build:css"
+    "css": "sass src/scss/main.scss dist/css/main.css -s compressed -w",
+    "dev": "concurrently \"yarn start\" \"yarn watch:js\" \"yarn css\"",
+    "start": "browser-sync start --server . -f .",
+    "minify": "minify src/js/*.js > dist/js/index.min.js",
+    "watch:js": "onchange src/js -- yarn minify"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/marcoavazquez/marcoavazquez.github.io.git"
-  },
-  "keywords": [
-    "My",
-    "portfolio"
-  ],
-  "author": "Marco Antonio",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/marcoavazquez/marcoavazquez.github.io/issues"
-  },
-  "homepage": "https://github.com/marcoavazquez/marcoavazquez.github.io#readme",
   "devDependencies": {
-    "autoprefixer": "^9.7.3",
-    "browser-sync": "^2.26.7",
-    "node-sass": "^4.13.0",
-    "onchange": "^6.1.0",
-    "parallelshell": "^3.0.2",
-    "postcss-cli": "^6.1.3"
+    "browser-sync": "^2.27.10",
+    "concurrently": "^7.2.0",
+    "minify": "^8.0.4",
+    "onchange": "^7.1.0",
+    "sass": "^1.52.1"
   }
 }

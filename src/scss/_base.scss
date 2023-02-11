@@ -5,19 +5,14 @@
     transition: all 0.2s;
 }
 
-*::selection{
-    background: #334455;
-    color: #F0F0F0;
-}
-
 body {
-    background: $body_bg;
+    background: linear-gradient(200deg, #6C6E6A, #1A1109);
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    font-size: 14px;
+    color: var(--dark);
+    font-size: 16px;
     font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
     padding: 1em;
     // padding-top: calc(50vh - 21.35em);
     padding-top: 8em;
@@ -56,6 +51,10 @@ h3 {
 }
 
 a {
-    color: $link_color;
     text-decoration: none;
+    color: var(--dark);
+    opacity: 0.9;
+    &:hover {
+        text-decoration: underline;
+    }
 }
