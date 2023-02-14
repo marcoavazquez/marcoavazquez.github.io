@@ -67,6 +67,14 @@
         &-contact {
             line-height: 2em;
             padding-top:1.5em;
+
+            img {
+                width: 16px;
+            }
+
+            @media print {
+                display: none;
+            }
         }
         &-title {
             h1 {
