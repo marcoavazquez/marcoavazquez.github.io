@@ -69,7 +69,7 @@
             padding-top:1.5em;
 
             img {
-                width: 16px;
+                width: 32px;
             }
 
             @media print {
@@ -79,6 +79,15 @@
         &-title {
             h1 {
                 padding-bottom: 1rem;
+            }
+
+            .location {
+                display: flex;
+                align-items: center;
+                img {
+                    width: 1rem;
+                    margin-right: 0.25rem;
+                }
             }
         }
     }
