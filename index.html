@@ -27,14 +27,14 @@
   <body>
     <section class="wrapper">
       <header class="header">
-        <picture class="avatar">
+        <!-- <picture class="avatar">
           <img srcset="https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=840 3x,
                       https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=700 2.5x,
                       https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=560 2x,
                         https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=420 1.5x"
                 src="https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=280" 
                 alt="Marco Antonio Vazquez Alonso" title="Marco Antonio Vazquez Alonso"> 
-        </picture> 
+        </picture>  -->
         <div class="header-desc">
           <div>
             <div class="header-title">
@@ -42,19 +42,22 @@
               <h2>Fullstack Developer</h2>
               <span class="location">
                 <img src="dist/imgs/icons/location-svgrepo-com.svg" alt="location">
-                Xalapa, Ver. México
+                Xalapa, México
               </span>
             </div>
             <div class="header-contact">
               <a href="https://www.linkedin.com/in/marco-antonio-vazquez-alonso" target="_blank" title="Marco's Linkedin">
                 <img src="dist/imgs/icons/linkedin-svgrepo-com.svg" alt="linkedin" />
               </a>
+              <button title="Marco's CV" id="btn-cv">
+                <img src="dist/imgs/icons/document-svgrepo-com.svg" alt="CV" />
+              </button>
             </div>
           </div>
         </div>
       </header>
 
-      <article class="content">
+      <article class="content cv hide" id="cv">
         <div class="knowledges">
 
           <div class="knowledge">
@@ -332,7 +335,7 @@
                   </div>
                 </div>
 
-                <div class="xp page-break">
+                <div class="xp page-break-">
                     <div class="xp-place">
                       <div class="xp-place-desc">
                           Construcción Proyectos y Topografía ICB 
@@ -529,5 +532,8 @@
       </article>
       
     </section>
+    <script src="dist/js/index.min.js">
+
+    </script>
   </body>
 </html>

@@ -1,9 +1,15 @@
 :root {
-  --color_primary: #EF7A00;
+  --color_primary: #EB6841;
 
-  --color_secondary: #334455;
-  --color_accent: blue;
-  --dark: #2F2C2B;
+  --color_secondary: #00A0B0;
+  --dark: #3A4450;
   --gray: #dadada;
   --light: #fafafa;
 }
+
+$color_primary: var(--color_primary);
+$color_secondary: var(--color_secondary);
+$color_accent: var(--color_accent);
+
+$color_dark: var(--dark);
+$color_light: vat(--light);
