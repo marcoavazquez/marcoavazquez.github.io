@@ -23,8 +23,3 @@ carpeta _dist_
 
 Se utiliza `onchange` para escuchar los cambios de archivos *js* y ejecutar el
 comando de _minify_
-
-
-__Repositorio__:
-
-https://gitlab.com/marcoavazquez/icb-site-2022
