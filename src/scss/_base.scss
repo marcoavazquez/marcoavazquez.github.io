@@ -8,10 +8,10 @@
 body {
     // background: linear-gradient(200deg, #6C6E6A, #1A1109);
     // background: linear-gradient(180deg, $color_primary, );
-    background-color: #123;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #000;
+    // background-size: 100% 100%;
+    // background-repeat: no-repeat;
+    // background-attachment: fixed;
     color: var(--dark);
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
@@ -19,7 +19,7 @@ body {
     min-height: 100vh;
     display: grid;
     place-items: center;
-    animation: float 1s alternate;
+    // animation: float 1s alternate;
     // padding-top: calc(50vh - 21.35em);
     // padding-top: 25vh;
 
@@ -41,14 +41,14 @@ body {
     }
 }
 
-@keyframes float {
-    from {
-        background-position: left center;
-    }
-    to {
-        background-position: center right;
-    }
-}
+// @keyframes float {
+//     from {
+//         background-position: left center;
+//     }
+//     to {
+//         background-position: center right;
+//     }
+// }
 
 h1 {
     font-weight: 600;
