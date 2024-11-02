@@ -1,61 +1,15 @@
 .wrapper > header {
-    border-bottom: 1px solid var(--gray);
-    padding: 0 1rem;
     
-    .avatar {
-        display: block;
-        overflow: hidden;
-        padding: 2em 0 0 0;
-        img {
-            opacity: 0.1;
-            box-shadow: 0 0 0.2em rgba(0,0,0,0.3);
-            display: block;
-            margin: 0 auto;
-            width: 12em;
-            border-radius: 50%;
-            border: 0.3em solid white;
-        }
-        @media print {
-            display: none;
-        }
-    }
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2rem;
+
     @media screen and (min-width:920px) {
-        // background-color: rgba($color_dark, 0.4);
         text-align: center;
-        .avatar {     
-            padding: 2em;
-            width: 33.3%;
-            display: flex;
-            img {
-                align-self: center;
-                width: 100%;
-                height: auto;
-            }
-        }
-        .header-desc {
-            width: 100%;
-        }
     }
     
     @media print {
-        display: flex;
-        background: white;
-        box-shadow: none;
-        animation: none;
         text-align: left;
-        padding: 0;
-        .avatar {     
-            width: 30%;
-            padding: 2em;
-            img {
-                width: 100%;
-                height: auto;
-                border-radius: 50%;
-            }
-        }
-        .header-desc {
-            width: 70%;
-        }
+        border-bottom: none;
 
         .header-contact {
             button {
@@ -65,45 +19,37 @@
     }
 
 
-    .header{
-        &-desc {
-            padding: 2em;
-            line-height: 2.5em;
+    
+    .header-contact {
+        padding-top:1.5em;
+
+        button {
+            border: none;
+            background: none;
+            opacity: 0.8;
+            transform: scale(0.9);
         }
-        &-contact {
-            line-height: 2em;
-            padding-top:1.5em;
 
-            button {
-                border: none;
-                background: none;
-                opacity: 0.8;
-                transform: scale(0.9);
-            }
-
-            img {
-                width: 32px;
-                margin-right: 1rem;
-            }
-
-            @media print {
-                display: none;
-            }
+        img {
+            width: 32px;
+            margin-right: 1rem;
         }
-        &-title {
-            h1 {
-                padding-bottom: 1rem;
-            }
 
-            .location {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                img {
-                    width: 1rem;
-                    margin-right: 0.25rem;
-                }
-            }
+        @media print {
+            display: none;
+        }
+    }
+
+    .location {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        img {
+            width: 1rem;
+            margin-right: 0.25rem;
+        }
+        @media print {
+            justify-content: start;
         }
     }
 

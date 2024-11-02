@@ -1,6 +1,5 @@
 window.addEventListener('load', function () {
-  const body = document.querySelector('body')
-  const cvContainer = document.querySelector('#cv')
+  const cvContainer = document.querySelector('main')
   const cvButton = document.querySelector('#btn-cv')
 
   cvButton.addEventListener('click', function () {

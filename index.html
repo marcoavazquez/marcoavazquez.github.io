@@ -25,542 +25,382 @@
     </script>
   </head>
   <body>
-    <section class="wrapper">
+    <div class="wrapper">
       <header class="header">
-        <!-- <picture class="avatar">
-          <img srcset="https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=840 3x,
-                      https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=700 2.5x,
-                      https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=560 2x,
-                        https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=420 1.5x"
-                src="https://s.gravatar.com/avatar/4eed3034d780b5e7db27e3ec221fee20?s=280" 
-                alt="Marco Antonio Vazquez Alonso" title="Marco Antonio Vazquez Alonso"> 
-        </picture>  -->
-        <div class="header-desc">
-          <div>
-            <div class="header-title">
-              <h1>Marco Antonio Vazquez Alonso</h1>
-              <h2>Fullstack Developer</h2>
-              <span class="location">
-                <img src="dist/imgs/icons/location-svgrepo-com.svg" alt="location">
-                Xalapa, México
-              </span>
-            </div>
-            <div class="header-contact">
-              <a href="https://www.linkedin.com/in/marco-antonio-vazquez-alonso" target="_blank" title="Marco's Linkedin">
-                <img src="dist/imgs/icons/linkedin-svgrepo-com.svg" alt="linkedin" />
-              </a>
-              <button title="Marco's CV" id="btn-cv">
-                <img src="dist/imgs/icons/document-svgrepo-com.svg" alt="CV" />
-              </button>
-            </div>
-          </div>
+        <h1>Marco Antonio Vazquez Alonso</h1>
+        <h2>Fullstack Developer</h2>
+        <span class="location">
+          <img src="dist/imgs/icons/location-svgrepo-com.svg" alt="location">
+          Xalapa, México
+        </span>
+        <div class="header-contact">
+          <a href="https://www.linkedin.com/in/marco-antonio-vazquez-alonso" target="_blank" title="Linkedin">
+            <img src="dist/imgs/icons/linkedin-svgrepo-com.svg" alt="linkedin" />
+          </a>
+          <button title="Marco's CV" id="btn-cv">
+            <img src="dist/imgs/icons/document-svgrepo-com.svg" alt="CV" />
+          </button>
         </div>
       </header>
+      <main class="hide-">
+        <section class="summary">
+          <header>
+            <h3>Professional Summary</h3>
+          </header>
+          <article>
+            <p>
+              Full-Stack Developer with expertise in <strong>Laravel</strong> and <strong>React</strong>.
+              I have been working as a developer for the past 9 years,
+              both as a freelancer and a full-time employee.
+              <br/>I have also worked with other technologies including
+              Vue, Node, React Native, WordPress, .Net, among others.
+            </p>
+          </article>
+        </section>
 
-      <article class="content cv hide" id="cv">
-        <div class="knowledges">
+        <section class="resume">
+          <header>
+            <h3>Professional Experience</h3>
+          </header>
+          <article>
 
-          <div class="knowledge">
-            <div class="knowledge-title">
-                <h3>Skills</h3>
-            </div>
-            <div class="knowledge-desc">
-              <div class="skills ">
-                
-                <div class="skill">
-                  <div class="skill-desc">PHP</div>
-                  <!-- <div class="skill-value skill-value-75"></div> -->
-                </div>
-
-                <div class="skill">
-                  <div class="skill-desc">Laravel</div>
-                  <!-- <div class="skill-value skill-value-75"></div> -->
-                </div>
-
-                <div class="skill">
-                  <div class="skill-desc">Javascript</div>
-                  <!-- <div class="skill-value skill-value-66"></div> -->
-                </div>
-
-                <div class="skill">
-                  <div class="skill-desc">React / React Native</div>
-                  <!-- <div class="skill-value skill-value-66"></div> -->
-                </div>
-
-                <div class="skill">
-                  <div class="skill-desc">Vue 2</div>
-                  <!-- <div class="skill-value skill-value-50"></div> -->
-                </div>
-
-                <div class="skill">
-                  <div class="skill-desc">CSS / SASS</div>
-                  <!-- <div class="skill-value skill-value-66"></div> -->
-                </div>
-
-                <div class="skill">
-                  <div class="skill-desc">Relational Databases</div>
-                  <!-- <div class="skill-value skill-value-66"></div> -->
-                </div>
-
-                <div class="skill">
-                  <div class="skill-desc">Git</div>
-                  <!-- <div class="skill-value skill-value-66"></div> -->
-                </div>
-
-                <div class="skill">
-                  <div class="skill-desc">October CMS</div>
-                  <!-- <div class="skill-value skill-value-66"></div> -->
-                </div>
+            <div class="xp">
+              <div class="xp-place">
+                <div class="xp-title">Fullstack Developer</div>
+                <div class="xp-name">Freelancer</div>
+                <small class="xp-date">Apr 2023 - Today</small>
+              </div>
+              <div class="xp-details">
+                <ul>
+                  <li>
+                    Developed a web application using Laravel 10, React 18, Material UI and ChartJS
+                    for managing income and expenses of medium-sized companies
+                  </li>
+                  <li>
+                    Added more modules to the application such as customers,
+                    employees, providers, contracts and payroll management to the application
+                  </li>
+                  <li>
+                    Added a module to manage the company requisitions to
+                    streamline the process of purchasing materials, tools and office supplies
+                  </li>
+                  <li>
+                    Added some tests to the application with Cypress
+                  </li>
+                  <li>
+                    Created the website for a building company
+                  </li>
+                  <li>Created the administrative panel of the website in Laravel 11, React 18, and React Router</li>
+                </ul>
               </div>
             </div>
-          </div>
-          <div class="knowledge aboutme">
-            <div class="knowledge-title">
-                <h3>
-                  Languages
-                </h3>
-            </div>
-            <div class="knowledge-desc">
-              <div class="skills">
-                
-                <div class="skill">
-                  <div class="skill-desc">Spanish (Native) </div>
-                </div>
 
-                <div class="skill">   
-                  <div class="skill-desc">English A2</div>
-                </div>
+            <div class="xp">
+              <div class="xp-place">
+                <div class="xp-title">Fullstack Programmer</div>
+                <div class="xp-name">Lemonscale</div>
+                <small class="xp-date">Mar 2020 - Feb 2023</small>
+
+              </div>
+              <div class="xp-details">
+                <ul>
+                  <li>
+                    Extended a web application using Vue 2, Typescript, Nuxt,
+                    Tailwind, Storybook, Cypress and Graphql to manage contract documentation, its creation and modification of the documents
+                    I worked on frontend development
+                  </li>
+                  <li>
+                    Created and extended two websites with October CMS version 2 and 3 of two big companies
+                  </li>
+                  <li>
+                    Created a plugin to manage newsletters on an October CMS version 2 project.
+                  </li>
+                  <li>
+                    Delevoped a website of a company and a web application to manage
+                    events between sellers and buyers that the company organizes, using Laravel 8, React, Tailwind and Inertia,
+                  </li>
+                  <li>
+                    Developed a web application using React, Azure Chat, Redux, and GO.js to manage sales processes.
+                  </li>
+                  <li>
+                    Extended web applications using React, Next and Redux Saga.
+                  </li>
+                  <li>
+                    Extended mobile applications using react native and styled components.
+                  </li>
+                </ul>
               </div>
             </div>
-          </div>
-        </div>
-        <div class="resume">
-        
-          <div class="resume-item">
-            <div class="resume-item-title">
-                
-              <h3></span>Professional Experience</h3>
+
+            <div class="xp">
+              <div class="xp-place">
+                <div class="xp-title">Fullstack Developer</div>
+                <div class="xp-name">Freelancer</div>
+                <small class="xp-date">Dec 2019 - Aug 2020</small>
+              </div>
+              <div class="xp-details">
+                <ul>
+                  <li>
+                    Created a web application with an API built in Laravel 6
+                    and a Vue and Vuetify fronted to manage civil works progress and documentation of this, create
+                    sketches and organize photos.
+                  </li>
+                  <li>
+                    Created an Android app with React Native and Realm to keep
+                    track of the works and photographic record which connected to the API
+                    created with Laravel 6 to populate the database and documentation.
+                  </li>
+                  <li>
+                    These applications reduced considerably the time of the creation and modification of the documentation of the works
+                    that is given to the client, in this case, the State institution.
+                  </li>
+                </ul>
+              </div>
             </div>
-            <div class="resume-cont">
 
-              <div class="xp">
-                <div class="xp-place">
-                  <div class="xp-place-desc">
-                    Freelancer
-                  </div>
-                  <div class="xp-place-date">
-                    March 2023 - Today
-                  </div>
-                </div>
-                <div class="xp-cont card">
-                  <div class="xp-title card-title">
-                    Fullstack Developer
-                  </div>
-                  <div class="xp-desc">
-                    <p>
-                      <ul>
-                        <li>
-                          Made a web application using laravel 10 and react 18
-                          for managing income and expenses of medium-sized
-                          companies
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
+            <div class="xp">
+              <div class="xp-place">
+                <div class="xp-title">Fullstack Developer</div>
+                <div class="xp-name">HabitatWeb</div>
+                <small class="xp-date">Mar 2018 - Mar 2020</small>
               </div>
-
-              <div class="xp">
-                <div class="xp-place">
-                  <div class="xp-place-desc">
-                    Lemonscale
-                  </div>
-                  <div class="xp-place-date">
-                    March 2020 - Freb 2023
-                  </div>
-
-                </div>
-                <div class="xp-cont card">
-                  <div class="xp-title card-title">Fullstack Developer</div>
-                  <div class="xp-desc">
-                    <p>
-                      <ul>
-                        <li>
-                          Extended a webapp using Vue 2, Typescript, Nuxt,
-                          Tailwind, Storybook, Cypress and Graphql. I was programming
-                          the frontend
-                        </li>
-                        <li>
-                          Made and extended websites with October CMS version 2 and 3.
-                        </li>
-                        <li>
-                          Made web apps using Laravel 8 and React with Inertia.
-                        </li>
-                        <li>
-                          Made web apps using React, Azure Chat, Redux and GO.js.
-                        </li>
-                        <li>
-                          Extended webapp using React, Next and Redux Saga.
-                        </li>
-                        <li>
-                          Extended mobile apps using react native and styled components.
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
+              <div class="xp-details">
+                <ul>
+                  <li>
+                    Provided support and updates to several projects using
+                    Laravel version 5.3 and 5.4, JQuery, Dio and React. Deployed on Elastic Beanstalk instances.
+                    Also some of these projects are using <a href="https://aws.amazon.com/rekognition" target="_blank">AWS Rekognition</a>
+                    and <a href="https://aws.amazon.com/translate/" target="_blank">AWS Translate</a>.
+                    <br/>
+                    These projects belong to a company who offers tools and material to elementary schools and kindergartens.
+                    Two of these projects manages the resources to be used in the classroom.
+                  </li>
+                  <li>
+                    Created a chatbot to practice multiplication tables for children using Botpress.
+                  </li>
+                  <li>
+                    Developed others chatbots using NodeJS, and <a href="https://dialogflow.com/" target="_blank">Dialogflow</a>
+                  </li>
+                  <li>
+                    Created and updated websites using WordPress and Bootstrap for medium and big companies.
+                  </li>
+                  <li>
+                    Created this
+                    <a href="https://github.com/roccons/hw-dialogflow-json-editor" target="_blank">
+                      Dialogflow JSON Editor 
+                    </a>
+                    to edit easily JSON files
+                  </li>
+                </ul>
               </div>
+            </div>
 
-              <div class="xp">
-                <div class="xp-place">
-                  <div class="xp-place-desc">
-                    Freelancer
-                  </div>
-                  <div class="xp-place-date">
-                    December 2019 - August 2020
-                  </div>
-
-                </div>
-                <div class="xp-cont card">
-                  <div class="xp-title card-title">Fullstack Developer</div>
-                  <div class="xp-desc">
-                    <p>
-                      <ul>
-                        <li>
-                          Made a web application with an api build in Laravel 6
-                          and a frontend with Vue and Vuetify for management of
-                          civil works advance and documentation of this, create
-                          sketches and organize photos.
-                        </li>
-                        <li>
-                          Made an android app with react native and realm to keep
-                          track of the works and photographic record.
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
+            <div class="xp">
+              <div class="xp-place">
+                <div class="xp-title">Fullstack Developer</div>
+                <div class="xp-title card-title">Freelancer</div>
+                <small class="xp-date">Jul 2017 - May 2019</small>
               </div>
-
-              <div class="xp">
-                <div class="xp-place">
-                  <div class="xp-place-desc">
-                    HabitatWeb
-                  </div>
-                  <div class="xp-place-date">
-                    March 2018 - March 2020
-                  </div>
-
-                </div>
-                <div class="xp-cont card">
-                  <div class="xp-title card-title">Fullstack Developer</div>
-                  <div class="xp-desc">
-                    <p>
-                      <ul>
-                        <li>
-                          Support and updates to several projects for
-                          <a href="https://www.knotion.com/" target="_blank">Knotion</a>
-                          on Laravel 5.3|5.4, JQuery, Dio and React. Deployed on
-                          <a href="https://aws.amazon.com/elasticbeanstalk/" target="_blank">
-                            Elastic Beanstalk
-                          </a> Instances.
-                          Also some of these projects are using
-                          <a href="https://aws.amazon.com/rekognition" target="_blank">AWS Rekognition</a>
-                          and
-                          <a href="https://aws.amazon.com/translate/" target="_blank">AWS Translate</a>.
-                        </li>
-                        <li>
-                          Made chatbots using NodeJS, Botpress and
-                          <a href="https://dialogflow.com/" target="_blank">Dialogflow</a>
-                        </li>
-                        <li>
-                          Made and update websites using Wordpress and Bootstrap.
-                        </li>
-                        <li>
-                          Made this
-                          <a href="https://github.com/roccons/hw-dialogflow-json-editor" target="_blank">
-                            Dialogflow JSON Editor 
-                          </a>
-                          to edit easily the json files
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
+              <div class="xp-details">
+                <ul>
+                  <li>
+                    Created a web application for a company that gives trainings.
+                    Tools used: PHP 7.2, Laravel 5.5, VueJs 2, Vuetify, MySQL, Snappy, 
+                    Maatwebsite Excel, Axios, Webpack.
+                  </li>
+                  <li>
+                    Created an internal web application for control of office's personal.
+                    Tools used: Laravel 5.4, MariaDb and VueJs.
+                  </li>
+                  <li>
+                    Created several modules for a web api to create pdf files.                        
+                    Tools used: NodeJS, Laravel 5.5, Snappy, Postgresql, Angular 4.
+                  </li>
+                </ul>
               </div>
+            </div>
 
-              <div class="xp">
-                <div class="xp-place">
-                  <div class="xp-place-desc">
-                    Freelancer
-                  </div>
-                  <div class="xp-place-date">
-                    Jul 2017 - May 2019
-                  </div>
+            <div class="xp">
+              <div class="xp-place">
+                <div class="xp-title">Programmer</div>
+                <div class="xp-name">Axsis Tecnología</div>
+                <small class="xp-date">Jun 2017 - Oct 2017</small>
 
-                </div>
-                <div class="xp-cont card">
-                  <div class="xp-title card-title">Fullstack Developer</div>
-                  <div class="xp-desc">
-                    <p>
-                      <ul>
-                        <li>
-                          Made a web application for a company that gives trainings.
-                          Tools used: PHP 7.2, Laravel 5.5, VueJs 2, Vuetify, MySQL, Snappy, 
-                          Maatwebsite Excel, Axios, Webpack.
-                        </li>
-                        <li>
-                          Made an internal web application for control of office's personal.
-                          Tools used: Laravel 5.4, MariaDb and VueJs.
-                        </li>
-                        <li>
-                          Created several modules for a web api to create pdf files.                        
-                          Tools used: NodeJS, Laravel 5.5, Snappy, Postgresql, Angular 4.
-                        </li>
-                      </ul>
-                    </p>
-                  </div>
-                </div>
               </div>
+              <div class="xp-details">
+                <ul>
+                  <li>
+                    Developed several modules for web applications, like search tools, mailing, etc. 
+                  </li>
+                  <li>
+                    Fixed processes and improved query performance in the database.
+                  </li>
+                  <li>
+                    Created and added modules in windows desktop applications 
+                  </li>
+                  <li>Added small features to windows desktop applications.</li>
+                  <li>Put windows desktop application into production.</li>
+                  <li>
+                    Support to clients. Fixed issues directly with them.
+                  </li>
+                  <li>
+                    Tools used: .Net, C#, Entity Framework, SQL Server, Visual Studio 2015, 
+                    Team Foundation, JQuery, Bootstrap.
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-              <div class="xp">
-                  <div class="xp-place">
-                    <div class="xp-place-desc">
-                      Axsis Tecnología
-                    </div>
-                    <div class="xp-place-date">
-                      Jun 2017 - Oct 2017
-                    </div>
-  
-                  </div>
-                  <div class="xp-cont card">
-                    <div class="xp-title card-title">Programmer</div>
-                    <div class="xp-desc">
-                      <p>
-                        <ul>
-                          <li>
-                            Made several modules for web applications, like searchs tools, mailing, etc. 
-                          </li>
-                          <li>
-                            Fixed proccesses and improved query performance in the database.
-                          </li>
-                          <li>
-                            Made and added modules in windows desktop applications 
-                          </li>
-                          <li>Added small features to windows desktop applications.</li>
-                          <li>Put windows desktop application into production.</li>
-                          <li>
-                            Support to clientes. Fix issues directly with them.
-                          </li>
-                          <li>
-                            Tools used: .Net, C#, Entity Framework, SQL Server, Visual Studio 2015, 
-                            Team Foundation, JQuery, Bootstrap.
-                          </li>
-                        </ul>
-                      </p>
-                    </div>
-                  </div>
-                </div>
+            <div class="xp">
+              <div class="xp-place">
+                <div class="xp-title">Fullstack Developer</div>
+                <div class="xp-name">Construcción Proyectos y Topografía ICB</div>
+                <small class="xp-place-date">May 2015 - Jun 2017</small>
+              </div>
+              <div class="xp-details">
+                <ul>
+                  <li>
+                    Developed a web application to manage information about the business like
+                    companies, employees, clients, providers, bills, inventory, vehicles and work tools.
+                  </li>
+                  <li>
+                    It also manages employee salaries;
+                    requests and expense justifications for money, vehicles, and tools;
+                    amount of construction material bought and used; and many other features.
+                  </li>
+                  <li>
+                    Created a module to locate, on Google Maps, where are the works based on coordinates; 
+                    manage these (show/add/edit/delete) and progress of each. 
+                    Creation of docs (pdf, docx, xlsx) about these.
+                  </li>
+                  <li>
+                    Created modules to estimate costs of works and generate the respective documentation.
+                  </li>
+                  <li>
+                    Developed Android applications to manage and collect data about
+                    field work, take pictures with location information and synchronization
+                    with the server. Message, payment and authorization notifications as well.
+                  </li>
+                  <li>
+                    Designed and built the website of the Company.
+                  </li>
+                  <li>
+                    Modified web application created with CodeIgniter: 
+                    Print of construction plan based on saved measurements; and other small features.
+                  </li>
+                  <li>
+                    Developed an Android application to submit information, 
+                    take pictures, and adjust their color and quality.
+                  </li>
+                  <li>
+                    Tools used: Laravel 5.2, MySQL, VueJs 2+, JQuery, CSS3, Java, Android Studio, Git. 
+                  </li>
+                </ul>
+              </div>
+            </div>
 
-                <div class="xp page-break-">
-                    <div class="xp-place">
-                      <div class="xp-place-desc">
-                          Construcción Proyectos y Topografía ICB 
-                      </div>
-                      <div class="xp-place-date">
-                          May 2015 - Jun 2017
-                      </div>
-    
-                    </div>
-                    <div class="xp-cont card">
-                      <div class="xp-title card-title">Fullstack Developer</div>
-                      <div class="xp-desc">
-                        <p>
-                          <ul>
-                            
-                            <li>
-                              Developed a web application for manage information about the business like
-                              companies, employees, clients, providers, bills, inventory, vehicles and work tools.
-                            </li>
-                            <li>
-                              Also it manages employees' salary, temporal employees' salary; 
-                              money, vehicles and work tools requests and justification of expenses by employees;
-                              amount of construction material bought and used; and many others features.
-                            </li>
-                            <li>
-                              Created a module for locate, on Google Maps, where are the works based on coordinates; 
-                              manage these (show/add/edit/delete) and progress of each. 
-                              Creation of docs (pdf, docx, xlsx) about these.
-                            </li>
-                            <li>
-                              Created modules for estimate cost of works and creation of its respective documentation.
-                            </li>
-                            <li>
-                                Developed Android applications for manage and accumulate data about
-                                field work, take pictures with location information and synchronization
-                                with the server. Message, payment and authorization notifications as well.
-                            </li>
-                            <li>
-                              Designed databases structure using normalization.
-                            </li>
-                            <li>
-                              Designed all applications.
-                            </li>
-                            <li>
-                              Designed and built the website of the Company.
-                            </li>
-                            <li>
-                              Modified web application made with CodeIgniter: 
-                              Print of construction plan based on saved measurements; and other small features.
-                            </li>
-                            <li>
-                              Developed an Android application for submit information, 
-                              take pictures and manipulate their color and quality.
-                            </li>
-                            <li>
-                              Tools used: Laravel 5.2, MySQL, VueJs 2+, JQuery, CSS3, Java, Android Studio, Git. 
-                            </li>
-                          </ul>
-                        </p>
-                      </div>
-                    </div>
-                  </div>
+            <div class="xp">
+              <div class="xp-place">
+                <div class="xp-title">Technical Support</div>
+                <div class="xp-name">CPA del Golfo</div>
+                <small class="xp-place-date">Nov 2012 - Aug 2014</small>
 
-                  <div class="xp">
-                      <div class="xp-place">
-                        <div class="xp-place-desc">
-                            CPA del Golfo
-                        </div>
-                        <div class="xp-place-date">
-                          Nov 2012 - Aug 2014
-                        </div>
+              </div>
+              <div class="xp-details">
+                <ul>
+                  <li>
+                    Fixed issues in Windows desktop applications
+                  </li>
+                  <li>
+                    Built small web application.
+                  </li>
+                  <li>
+                    Built a desktop app to manage billing files.  
+                  </li>
+                  <li>
+                    Maintained computers and the company's network.
+                  </li>
+                  <li>
+                    Tools used: Visual Basic .Net, SQL Server, PHP, JQuery.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="xp">
+              <div class="xp-place">
+                <div class="xp-title">Web Developer</div>
+                <div class="xp-name">S.E.V.</div>
+                <small class="xp-date">Aug 2011 - Aug 2012</small>
+              </div>
+              <div class="xp-details">
+                <ul>
+                  <li>
+                    Developed a web application to manage staff and payments for state schools.
+                  </li>
+                  <li>
+                    Built a small web application for internal use.
+                  </li>
+                  <li>
+                    Tools used: PHP, MySQL, JavaScript, CSS.
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+          </article>
+        </section>
+
+        <section class="skills">
+          <header>
+            <h3>Technical Skills</h3>
+          </header>
+          <article>
+            <ul>
+              <li>PHP</li>
+              <li>Laravel</li>
+              <li>JavaScript</li>
+              <li>ReactJs</li>
+              <li>React Native</li>
+              <li>MySQL</li>
+              <li>VueJs 2</li>
+              <li>NodeJs</li>
+              <li>WordPress</li>
+              <li>Cypress</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="Languages">
+          <header>
+            <h3>Languages</h3>
+          </header>
+          <article>
+            <ul>
+              <li>Spanish (Native)</li>
+              <li>English B1</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="education">
+          <header>
+            <h3>Education</h3>
+          </header>
+          <article>
+            <ul>
+              <li>
+                <strong>Computer Systems Engineering</strong>
+                <div>Instituto Tecnológico Superior de Xalapa</div>
+                <small>Aug 2007 - Jul 2012</small>
+              </li>
+            </ul>
+          </article>
+        </section>
+
+      </main>
       
-                      </div>
-                      <div class="xp-cont card">
-                        <div class="xp-title card-title">Technical Support</div>
-                        <div class="xp-desc">
-                          <p>
-                            <ul>
-                              <li>
-                                Fixed issues of windows desktop application
-                              </li>
-                              <li>
-                                Built small web application.
-                              </li>
-                              <li>
-                                Built desktop app for manage files of bills.  
-                              </li>
-                              <li>
-                                  Maintaining computers and network of the company.
-                              </li>
-                              <li>
-                                Tools used: Visual Basic .Net, SQL Server, PHP, JQuery, Python, QT2.
-                              </li>
-                            </ul>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="xp">
-                        <div class="xp-place">
-                          <div class="xp-place-desc">
-                            S.E.V.
-                          </div>
-                          <div class="xp-place-date">
-                            Aug 2011 - Aug 2012
-                          </div>
-        
-                        </div>
-                        <div class="xp-cont card">
-                          <div class="xp-title card-title">Web Developer</div>
-                          <div class="xp-desc">
-                            <p>
-                              <ul>
-                                <li>
-                                  Developed a web application to manage staff and payments of State's schools.
-                                </li>
-                                <li>
-                                  Built small web application for internal use.
-                                </li>
-                                <li>
-                                  Tools used: PHP, MySQL, JavaScript, CSS.
-                                </li>
-                              </ul>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-
-            </div>
-          </div>
-
-          <div class="resume-item">
-              <div class="resume-item-title"> 
-                <h3>Education</h3>
-              </div>
-              <div class="resume-cont">
-                <div class="education">
-                  <div class="education-item card">
-                    <div class="education-item-title card-title">
-                      <strong>Instituto Tecnológico Superior de Xalapa</strong>
-                    </div>
-                    <div class="education-item-desc">
-                      2007 - 2012 Ingeniería en Sistemas Computacionales
-                    </div>
-                  </div>
-                </div>
-            </div>
-          </div>
-
-          <!-- <div class="resume-item portfolio">
-              <div class="resume-item-title">  
-                <h3><span class="icon-browser-streamline-window icon-title"></span>Some Projects</h3>
-              </div>
-              <div class="resume-cont">
-                <div class="projects">
-
-                  <div class="project">
-                    <div class="card project-item">
-                      <div class="project-text">
-                        <div class="project-title card-title">
-                          ICB web site
-                        </div>
-                        <div class="project-description">
-                          <a href="http:www.topografia-icb.com" target="_blank">icb</a> 
-                        </div>
-                      </div>
-                      <div class="project-image">
-                        <img src="http://www.frontlineplus.com.au/sitecollectionimages/kitten.png" alt="Marco Antonio">
-                      </div>
-                    </div>
-                  </div>
-
-                    <div class="project">
-                        <div class="card project-item">
-                          <div class="project-text">
-                            <div class="project-title card-title">
-                              
-                            </div>
-                            <div class="project-description">
-                              ---
-                            </div>
-                          </div>
-                          <div class="project-image">
-                            <img src="http://www.frontlineplus.com.au/sitecollectionimages/kitten.png" alt="Marco Antonio">
-                          </div>
-                        </div>
-                      </div>
-  
-                </div>
-            </div>
-          </div> -->
-        </div>
-      </article>
-      
-    </section>
-    <script src="dist/js/index.min.js">
-
-    </script>
+    </div>
+    <script src="dist/js/index.min.js"></script>
   </body>
 </html>
