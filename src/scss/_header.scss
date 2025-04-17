@@ -1,7 +1,6 @@
 .wrapper > header {
     
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 
     @media screen and (min-width:920px) {
         text-align: center;
@@ -9,7 +8,7 @@
     
     @media print {
         text-align: left;
-        border-bottom: none;
+        // padding-bottom: 0;
 
         .header-contact {
             button {
