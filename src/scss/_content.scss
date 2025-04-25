@@ -4,7 +4,6 @@
     }
 }
 
-
 .wrapper {
     padding: 0.5rem 1rem;
     margin-top: 2rem;
@@ -28,11 +27,9 @@
 
 .xp {
     padding-bottom: 1rem;
-    display: flex;
-    flex-wrap: wrap;
-    .xp-place {
-        flex: 1;
-    }
+    // .xp-place {
+        // flex: 1;
+    // }
     .xp-title {
         font-weight: 600;
     }
@@ -40,7 +37,6 @@
         padding: 0.5rem 0;
     }
     .xp-details {
-        flex: 4;
         ul {
             margin-top: 0;
         }
@@ -48,25 +44,42 @@
 }
 
 ul {
+    margin: 0;
+    padding-left: 1.5rem;
     li {
         padding-bottom: 0.5rem;
     }
 }
 
-main.hide {
-    display: none;
-    @media print {
-        display: block;
+main {
+    display: flex;
+    gap: 2rem;
+    > div {
+        &:first-child {
+            flex: 3;
+        }
+        &:last-child {
+            flex: 1;
+        }
+    }
+
+    &.hide {
+        display: none;
+        @media print {
+            display: block;
+        }
     }
 }
+
 
 section.skills {
     ul {
         display: flex;
         // flex-direction: column;
         flex-wrap: wrap;
-        gap: 0 2rem;
+        gap: 0 4rem;
         li {
+            flex: 1;
             min-width: 20%;
         }
     }
