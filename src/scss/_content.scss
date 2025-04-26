@@ -7,7 +7,7 @@
 .wrapper {
     padding: 0.5rem 1rem;
     margin-top: 2rem;
-    background: rgba(white, 0.9);
+    background: rgba(white, 0.99);
     border-radius: 0.25em;
     border: 1px solid white;
     max-width: 64em;
@@ -53,10 +53,12 @@ ul {
 
 main {
     display: flex;
+    flex-wrap: wrap;
     gap: 2rem;
     > div {
         &:first-child {
             flex: 3;
+            min-width: 24rem;
         }
         &:last-child {
             flex: 1;
