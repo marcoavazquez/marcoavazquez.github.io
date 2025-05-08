@@ -11,7 +11,7 @@
     border-radius: 0.25em;
     border: 1px solid white;
     max-width: 64em;
-    box-shadow: 0 0 8rem rgb(0 0 0 / 0.1) inset;
+    box-shadow: 0 0 12rem rgb(0 0 0 / 0.1) inset;
 
     @media screen and (min-width:512px) {
         padding: 1rem 4rem;
@@ -68,7 +68,7 @@ main {
     &.hide {
         display: none;
         @media print {
-            display: block;
+            display: flex;
         }
     }
 }
