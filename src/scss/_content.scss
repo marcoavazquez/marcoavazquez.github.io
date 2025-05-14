@@ -86,3 +86,9 @@ section.skills {
         }
     }
 }
+
+span.mail {
+    &::after {
+        content: '@gmail.com';
+    }
+}
