@@ -1,4 +1,5 @@
 const langs = ['en', 'es']
+let index = 0
 
 window.addEventListener('load', function () {
   const cvContainer = document.querySelector('main')
@@ -24,9 +25,12 @@ window.addEventListener('load', function () {
   const educationContent  = document.querySelector('#education-content')
 
   const lang = new URLSearchParams(window.location.search).get('lang') || 'en'
+  index = langs.indexOf(lang)
+  if (index === -1) {
+    index = 0
+  }
 
   if (data) {
-    const index = langs.indexOf(lang)
     cvTitle.innerText = data.title[index]
     summaryTitle.innerHTML = data.summary.title[index]
     summaryContent.innerHTML = data.summary.content[index]
@@ -65,7 +69,6 @@ window.addEventListener('load', function () {
 })
 
 const createResumeItem = function (item, lang) {
-  const index = langs.indexOf(lang)
   const container = document.createElement('div')
   const placeContainer = document.createElement('div')
   const title = document.createElement('div')
