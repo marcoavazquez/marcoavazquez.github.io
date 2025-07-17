@@ -65,6 +65,8 @@ window.addEventListener('load', function () {
       li.appendChild(date)
       educationContent.appendChild(li)
     })
+
+    this.document.title += lang === 'en' ? '' : ' ' + lang.toUpperCase()
   }
 })
 

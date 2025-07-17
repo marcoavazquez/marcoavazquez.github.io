@@ -7,9 +7,9 @@ const data = {
     title: ["Professional Summary", "Resumen Profesional"],
     content: [
       // English
-      "Dynamic Full-Stack Developer with 10 years of experience delivering web and mobile solutions that enhance operational efficiency. Proficient in Laravel and React, leveraging a skill set that includes MySQL and CSS, as well as expertise in React Native, PostgresSQL, Vue 2+, among other technologies.",
+      "Full-Stack Developer with 10 years of experience delivering web and mobile solutions. Proficient in Laravel and React, with a comprehensive skill set that includes CSS, SQL Databases, Node, and Vue 2+, among other technologies.",
       // Spanish
-      "Desarrollador Full-Stack con 10 años de experiencia principalmente en Laravel, React y MySQL. También he trabajado con tecnologías como React Native, PostgresSQL, Node, Vue 2+, entre otras."
+      "Desarrollador Full-Stack con 10 años de experiencia principalmente en Laravel y React. También he trabajado con tecnologías como React Native, Base de datos SQL, Node, Vue 2+, entre otras."
     ]
   },
   skills: {
