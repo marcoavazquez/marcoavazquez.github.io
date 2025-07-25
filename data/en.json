@@ -1,0 +1,216 @@
+{
+  "title": "Fullstack Developer",
+  "summary": {
+    "title": "Professional Summary",
+    "content": "Full-Stack Developer with 10 years of experience delivering web and mobile solutions. Proficient in Laravel and React, with a comprehensive skill set that includes CSS, SQL Databases, Node, and Vue 2+, among other technologies."
+  },
+  "skills": {
+    "title": "Technical Skills"
+  },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      "Spanish (Native)",
+      "English (Intermediate B1+)"
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "items": [
+      {
+        "degree": "Computer Systems Engineering",
+        "school": "Instituto Tecnológico Superior de Xalapa",
+        "date": [
+          "2007-08",
+          "2012-07"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact"
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "title": "Fullstack Developer",
+        "company": "Freelancer",
+        "date": [
+          "2023-04",
+          "today"
+        ],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Created a web app for managing income, expenses, customers, contracts, payroll, and a board that streamlined the process of purchasing materials, tools, and office supplies of medium-sized companies using <b>Laravel 10</b>, <b>React 18</b>, and ChartJS, and added some automated tests using <b>Cypress</b>."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Developed a website for a building company and its administrative panel using <b>Laravel 11</b> and <b>React 18</b>."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Created a web app to manage employees and generate documents that they request using <b>Laravel 11</b> and <b>React 19</b>."
+          }
+        ]
+      },
+      {
+        "title": "Fullstack Programmer",
+        "company": "Lemonscale",
+        "date": [
+          "2020-03",
+          "2023-02"
+        ],
+        "details": [
+          {
+            "role": "Frontend",
+            "description": "Added some processes to a web application on the frontend for managing documentation, including creation, modification, review, and navigation of documents changes using <b>Vue 2</b>, <b>Apollo</b>, <b>TypeScript</b>, Nuxt, and <b>Graphql</b>, <b>Storybook</b> and <b>Cypress</b>."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Created and extended websites adding some pages, search and navigation features built with <b>October CMS</b> version 2 and 3."
+          },
+          {
+            "role": "Backend",
+            "description": "Developed an <b>October CMS</b> plugin to manage newsletters for one website."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Updated a website and a web application to manage events between sellers and buyers that a company organizes, allowing seller registration and notifications, using <b>Laravel 8</b>, <b>React</b>, Tailwind and Inertia."
+          },
+          {
+            "role": "Frontend",
+            "description": "Developed a web application to manage sales processes, visualized on a board and a chat for the communication of the players using <b>React</b>, Azure Chat, <b>Redux</b>, and GO.js deployed on <b>Azure</b>."
+          },
+          {
+            "role": "Frontend",
+            "description": "Added features to an e-learning platform using <b>React</b>, <b>Next</b> and <b>Redux Saga</b>."
+          },
+          {
+            "role": "Frontend",
+            "description": "Added views to mobile apps using <b>React Native</b> and <b>Styled Components</b>."
+          }
+        ]
+      },
+      {
+        "title": "Fullstack Developer",
+        "company": "Freelancer (part-time)",
+        "date": [
+          "2019-12",
+          "2020-08"
+        ],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Created a web application to manage civil works progress and documentation, including sketch creation and photo organization using <b>Laravel 6</b>, <b>Vue 2</b> and Vuetify."
+          },
+          {
+            "role": "Frontend",
+            "description": "Created an Android app to track work progress and maintain photographic record, integrated into documentation generation using <b>React Native</b>."
+          }
+        ]
+      },
+      {
+        "title": "Fullstack Developer",
+        "company": "HabittatWeb",
+        "date": [
+          "2018-03",
+          "2020-03"
+        ],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Provided support and updates to several projects that belonged to a company that offers tools and material to schools using <b>Laravel</b> version 5.3 and 5.4, JQuery, Dio, and <b>React</b>, deployed on <b>Elastic Beanstalk instances</b>."
+          },
+          {
+            "role": "Backend",
+            "description": "Added features to recognize objects in images and videos using <b>AWS Rekognition</b> and translate them to other languages using <b>AWS Translate</b>."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Created a chatbot to practice multiplication tables using Botpress, additional chatbots were created using <b>NodeJS</b> and <b>Dialogflow</b>"
+          },
+          {
+            "role": "Frontend",
+            "description": "Created and updated websites using <b>WordPress</b>, CSS, and Bootstrap for medium and big companies."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Added some features to several web applications created in mainly <b>Laravel</b> and other frameworks and languages."
+          }
+        ]
+      },
+      {
+        "title": "Fullstack Developer",
+        "company": "Freelancer",
+        "date": [
+          "2017-12",
+          "2018-03"
+        ],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Created a web application for training company to manage customers, trainers, courses, payments, and reports; using <b>Laravel 5.5</b>, <b>VueJs 2</b>, Vuetify, Snappy PDF, and Maatwebsite Excel."
+          }
+        ]
+      },
+      {
+        "title": "Programmer",
+        "company": "Axsis Tecnología",
+        "date": [
+          "2017-06",
+          "2017-10"
+        ],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Developed search tools, mailing modules, and other features for web applications built with <b>.Net</b>, C#."
+          },
+          {
+            "role": "Backend",
+            "description": "Optimized several queries in <b>SQL Server</b> to enhance performance"
+          },
+          {
+            "role": "Fullstack",
+            "description": "Added billing modules and other features in a Windows Desktop application for a company that sells beauty products with several branches, and put it into production."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Provided client support and resolved issues with the application."
+          }
+        ]
+      },
+      {
+        "title": "Fullstack Developer",
+        "company": "Construcción Proyectos y Topografía ICB",
+        "date": [
+          "2015-05",
+          "2017-06"
+        ],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Developed a web application to manage business information, including CRUDs of employees, clients, providers, and inventory; also modules for managing salaries and loans, requests for vehicles and tools, expense justifications; works location on Google Maps and monitoring; using <b>Laravel 5.2</b> and <b>VueJS 2+</b>."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Created a web app to estimate costs of works and generate the respective documentation."
+          },
+          {
+            "role": "Frontend",
+            "description": "Developed an Android application to manage and collect data about field work, take pictures with location information, and synchronization with the server, payments, and authorization notifications of purchases using <b>Java</b> and <b>Android Studio</b>."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Built the company's website using PHP and Sass."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Modified a web application created with CodeIgniter that was used to print construction plans based on saved measurements."
+          }
+        ]
+      }
+    ]
+  }
+}
