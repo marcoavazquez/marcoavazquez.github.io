@@ -1,0 +1,170 @@
+{
+  "title": "Fullstack Developer",
+  "name": "Marco Antonio Vazquez Alonso",
+  "summary": {
+    "title": "Professional Summary",
+    "content": "Desarrollador Fullstack con 9 años de experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en Laravel y React, con conocimientos adicionales en Vue 2+, Node.js y bases de datos relacionales como MySQL y PostgreSQL. Enfocado en escribir código eficiente y mantenible, participando tanto en el frontend como en el backend de diversos proyectos."
+  },
+  "experience": {
+    "title": "Professional Experience",
+    "items": [
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "Freelancer",
+        "date": ["2023-04", "today"],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de una aplicación web para gestionar ingresos, egresos, clientes, contratos, nómina y un panel para optimizar la compra de materiales, herramientas y suministros de oficina para empresas medianas, utilizando Laravel 10, React 18 y ChartJS, con pruebas automatizadas usando Cypress."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de un sitio web para una empresa constructora y su panel administrativo utilizando Laravel 11 y React 18."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de una aplicación web para gestionar empleados y generar reportes y documentos solicitados, utilizando Laravel 11 y React 19."
+          }
+        ]
+      },
+      {
+        "title": "Programador Fullstack",
+        "company": "Lemonscale",
+        "date": ["2020-03", "2023-02"],
+        "details": [
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de funcionalidades frontend para una aplicación web de gestión documental: creación, edición, revisión y navegación de cambios de documentos, usando Vue 2, Apollo, TypeScript, Nuxt, GraphQL, Storybook y Cypress."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Creación y actualización de sitios web, añadiendo páginas, búsquedas y funciones de navegación, usando October CMS versiones 2 y 3."
+          },
+          {
+            "role": "Backend",
+            "description": "Desarrollo de un plugin para October CMS para la gestión de boletines informativos."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Actualización de un sitio web y una aplicación web para gestionar eventos entre vendedores y compradores, incluyendo registro de vendedores y notificaciones automatizadas, utilizando Laravel 8, React, Tailwind e Inertia."
+          },
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de una aplicación web para gestionar procesos de venta visualizados en un panel, con un chat para la comunicación entre participantes, usando React, Redux, GO.js y Azure Chat; también se creó un proxy con NodeJS para conectar con servicios externos. Todo fue desplegado en Azure."
+          },
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de funcionalidades para una plataforma de aprendizaje en línea utilizando React, Next y Redux Saga."
+          },
+          {
+            "role": "Frontend",
+            "description": "Creación de vistas en aplicaciones móviles utilizando React Native y Styled Components."
+          }
+        ]
+      },
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "Freelancer (medio tiempo)",
+        "date": ["2019-12", "2020-08"],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de una aplicación web para gestionar el avance y documentación de obras civiles, incluyendo la creación de planos y organización de fotografías, utilizando Laravel 6, Vue 2 y Vuetify."
+          },
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de una aplicación Android para rastrear el progreso del trabajo y mantener un registro fotográfico integrado a la generación de documentación, reduciendo significativamente el tiempo necesario para completarla, usando React Native."
+          }
+        ]
+      },
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "HabitatWeb",
+        "date": ["2018-03", "2020-03"],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Soporte y actualizaciones para varios proyectos de una empresa dedicada a la venta de materiales escolares, desarrollados con Laravel 5.3 y 5.4, JQuery, Dio y React, desplegados en instancias de Elastic Beanstalk."
+          },
+          {
+            "role": "Backend",
+            "description": "Desarrollo de funciones para reconocer objetos en imágenes y videos con AWS Rekognition y traducirlos a otros idiomas usando AWS Translate."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de un chatbot para practicar tablas de multiplicar usando Botpress, y otros bots adicionales con NodeJS y Dialogflow."
+          },
+          {
+            "role": "Frontend",
+            "description": "Creación y actualización de sitios web usando WordPress, CSS y Bootstrap para empresas medianas y grandes."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de funciones para distintas aplicaciones web, principalmente en Laravel, junto con otros lenguajes y frameworks."
+          }
+        ]
+      },
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "Freelancer",
+        "date": ["2017-12", "2018-03"],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de una aplicación web para una empresa de capacitación, para gestionar clientes, instructores, cursos, pagos e informes, utilizando Laravel 5.5, VueJs 2, Vuetify, Snappy PDF y Maatwebsite Excel."
+          }
+        ]
+      },
+      {
+        "title": "Programador",
+        "company": "Axsis Tecnología",
+        "date": ["2017-06", "2017-10"],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con .NET y C#."
+          },
+          {
+            "role": "Backend",
+            "description": "Optimización de consultas en SQL Server para mejorar el rendimiento."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de módulos de facturación y otras funciones en una aplicación de escritorio para una empresa de productos de belleza con varias sucursales; también se llevó a producción."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Soporte al cliente y resolución de problemas con el software."
+          }
+        ]
+      },
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "Construcción Proyectos y Topografía ICB",
+        "date": ["2015-05", "2017-06"],
+        "details": [
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de una aplicación web para gestionar información empresarial: CRUDs de empleados, clientes, proveedores e inventario; módulos para gestión de salarios, préstamos, solicitudes de vehículos y herramientas, justificación de gastos, localización de obras en Google Maps y monitoreo, usando Laravel 5.2 y VueJS 2+."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración."
+          },
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de una aplicación Android para recolectar datos de campo, capturar fotos con geolocalización y sincronización con el servidor, gestión de pagos y notificaciones de autorización de compras, usando Java y Android Studio."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Desarrollo del sitio web de la empresa usando PHP y Sass."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Modificación de una aplicación web creada con CodeIgniter para imprimir planos de construcción a partir de mediciones guardadas."
+          }
+        ]
+      }
+    ]
+  }
+}

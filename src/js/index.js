@@ -1,5 +1,8 @@
+const langs = ['en', 'es']
+
 window.addEventListener('DOMContentLoaded',async function () {
   
+  const name              = document.querySelector('#name')
   const cvTitle           = document.querySelector('#title')
   const summaryTitle      = document.querySelector('#summary-title')
   const summaryContent    = document.querySelector('#summary-content')
@@ -12,18 +15,20 @@ window.addEventListener('DOMContentLoaded',async function () {
   const educationTitle    = document.querySelector('#education-title')
   const educationContent  = document.querySelector('#education-content')
 
-  const lang = new URLSearchParams(window.location.search).get('lang') || 'en'
+  const paramsLang = new URLSearchParams(window.location.search).get('lang')
+  const lang = langs.includes(paramsLang) ? paramsLang : 'en'
 
   const data = await getData(lang)
 
-  cvTitle.innerText = data.title
-  summaryTitle.innerHTML = data.summary.title
-  summaryContent.innerHTML = data.summary.content
-  skillsTitle.innerHTML = data.skills.title
-  contactTitle.innerHTML = data.contact.title
-  languagesTitle.innerHTML = data.languages.title
-  educationTitle.innerHTML = data.education.title
-  resumeTitle.innerHTML = data.experience.title
+  name.innerHTML            = data.name
+  cvTitle.innerText         = data.title
+  summaryTitle.innerHTML    = data.summary.title
+  summaryContent.innerHTML  = data.summary.content
+  skillsTitle.innerHTML     = data.skills.title
+  contactTitle.innerHTML    = data.contact.title
+  languagesTitle.innerHTML  = data.languages.title
+  educationTitle.innerHTML  = data.education.title
+  resumeTitle.innerHTML     = data.experience.title
 
   data.languages.items.forEach(function (langItem) {
     const item = createLangItem(langItem)
