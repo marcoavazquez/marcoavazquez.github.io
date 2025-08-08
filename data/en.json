@@ -1,6 +1,7 @@
 {
   "title": "Fullstack Developer",
   "name": "Marco Antonio Vazquez Alonso",
+  "email": "marcoa.vazqueza",
   "summary": {
     "title": "Professional Summary",
     "content": "Full-Stack Developer with 9 years of experience building and maintaining web and mobile applications. Skilled in developing with Laravel and React, with additional experience using Vue 2+, Node.js, and relational databases such as MySQL and PostgreSQL. Focused on delivering maintainable, efficient code and contributing to both frontend and backend components across diverse projects."
@@ -82,7 +83,7 @@
           },
           {
             "role": "Frontend",
-            "description": "Developed a web application to manage sales processes, visualized on a board and a chat for the communication of the players using <b>React</b>, <b>Redux</b>, GO.js, and Azure Chat, also created a proxy that connected with other company web service to get the data for the board using <b>NodeJS</b>, and deployed on <b>Azure</b>."
+            "description": "Developed a web application to manage sales processes, visualized on a board and a chat for the communication of the players using <b>React</b>, <b>Redux</b>, GO.js, and Azure Chat, also created a proxy that connected with other company web service to get the data for the board using <b>NodeJS</b> and <b>Express</b>, configured and deployed on <b>Azure</b>."
           },
           {
             "role": "Frontend",

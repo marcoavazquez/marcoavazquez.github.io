@@ -1,54 +1,10 @@
 .wrapper > header {
     
-    padding-bottom: 1rem;
-
-    @media screen and (min-width:920px) {
-        text-align: center;
-    }
-    
     @media print {
-        text-align: left;
-        padding-bottom: 0;
-
         .header-contact {
             button {
                 display: none;
             }
-        }
-    }
-
-
-    
-    .header-contact {
-        padding-top:1.5em;
-
-        button {
-            border: none;
-            background: none;
-            opacity: 0.8;
-            transform: scale(0.9);
-        }
-
-        img {
-            width: 32px;
-            margin-right: 1rem;
-        }
-
-        @media print {
-            display: none;
-        }
-    }
-
-    .location {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        img {
-            width: 1rem;
-            margin-right: 0.25rem;
-        }
-        @media print {
-            justify-content: start;
         }
     }
 
