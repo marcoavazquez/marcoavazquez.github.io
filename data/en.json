@@ -49,7 +49,7 @@
           },
           {
             "role": "Fullstack",
-            "description": "Built a website for a building company and its administrative panel using <b>Laravel 11</b> and <b>React 18</b>."
+            "description": "Built a website and its administrative panel for a building company using <b>Laravel 11</b> and <b>React 18</b>."
           },
           {
             "role": "Fullstack",
@@ -167,7 +167,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Developed search tools, email modules, and other features for web applications built with <b>.Net</b>, C#."
+            "description": "Developed search tools, email modules, and other features for web applications built with <b>.Net</b>, C#, and JQuery."
           },
           {
             "role": "Backend",

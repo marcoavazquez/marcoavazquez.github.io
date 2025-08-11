@@ -1,12 +1,39 @@
 {
-  "title": "Fullstack Developer",
+  "title": "Desarrollador Fullstack",
   "name": "Marco Antonio Vazquez Alonso",
+  "email": "marcoa.vazqueza",
   "summary": {
-    "title": "Professional Summary",
+    "title": "Resumen Profesional",
     "content": "Desarrollador Fullstack con 9 años de experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en Laravel y React, con conocimientos adicionales en Vue 2+, Node.js y bases de datos relacionales como MySQL y PostgreSQL. Enfocado en escribir código eficiente y mantenible, participando tanto en el frontend como en el backend de diversos proyectos."
   },
+  "skills": {
+    "title": "Habilidades Técninas"
+  },
+  "languages": {
+    "title": "Idiomas",
+    "items": [
+      "Español (Nativo)",
+      "Inglés (Intermedio B1+)"
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "items": [
+      {
+        "degree": "Ingeniería en Sistemas Computacionales",
+        "school": "Instituto Tecnológico Superior de Xalapa",
+        "date": [
+          "2007-08",
+          "2012-07"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto"
+  },
   "experience": {
-    "title": "Professional Experience",
+    "title": "Experiencia Profesional",
     "items": [
       {
         "title": "Desarrollador Fullstack",
@@ -19,7 +46,7 @@
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de un sitio web para una empresa constructora y su panel administrativo utilizando Laravel 11 y React 18."
+            "description": "Creación de un sitio web y su panel administrativo para una constructora utilizando Laravel 11 y React 18."
           },
           {
             "role": "Fullstack",
@@ -42,7 +69,7 @@
           },
           {
             "role": "Backend",
-            "description": "Desarrollo de un plugin para October CMS para la gestión de boletines informativos."
+            "description": "Desarrollo de un plugin para October CMS para la gestión del newsletters."
           },
           {
             "role": "Fullstack",
@@ -50,7 +77,7 @@
           },
           {
             "role": "Frontend",
-            "description": "Desarrollo de una aplicación web para gestionar procesos de venta visualizados en un panel, con un chat para la comunicación entre participantes, usando React, Redux, GO.js y Azure Chat; también se creó un proxy con NodeJS para conectar con servicios externos. Todo fue desplegado en Azure."
+            "description": "Desarrollo de una aplicación web para gestionar procesos de venta visualizados en un panel, con un chat para la comunicación entre participantes, usando React, Redux, GO.js y Azure Chat; también se creó un proxy con NodeJS y Express para conectar con servicios externos. Configurado y desplegado en Azure."
           },
           {
             "role": "Frontend",
@@ -73,7 +100,7 @@
           },
           {
             "role": "Frontend",
-            "description": "Desarrollo de una aplicación Android para rastrear el progreso del trabajo y mantener un registro fotográfico integrado a la generación de documentación, reduciendo significativamente el tiempo necesario para completarla, usando React Native."
+            "description": "Desarrollo de una aplicación Android para rastrear el progreso del trabajo y mantener un registro fotográfico integrado a la generación de documentación, reduciendo significativamente el tiempo necesario para su creación, usando React Native."
           }
         ]
       },
@@ -122,7 +149,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con .NET y C#."
+            "description": "Desarrollo de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con .NET, C# y JQuery"
           },
           {
             "role": "Backend",
@@ -130,7 +157,7 @@
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de módulos de facturación y otras funciones en una aplicación de escritorio para una empresa de productos de belleza con varias sucursales; también se llevó a producción."
+            "description": "Desarrollo de módulos de facturación y otras funciones en una aplicación de escritorio para una empresa de productos de belleza con varias sucursales; puesta a producción."
           },
           {
             "role": "Fullstack",
@@ -149,7 +176,7 @@
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración."
+            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración usando Laravel 5.2 y  VueJS 2+."
           },
           {
             "role": "Frontend",
