@@ -4,10 +4,10 @@
   "email": "marcoa.vazqueza",
   "summary": {
     "title": "Resumen Profesional",
-    "content": "Desarrollador Fullstack con 9 años de experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en Laravel y React, con conocimientos adicionales en Vue 2+, Node.js y bases de datos relacionales como MySQL y PostgreSQL. Enfocado en escribir código eficiente y mantenible, participando tanto en el frontend como en el backend de diversos proyectos."
+    "content": "Desarrollador Fullstack con 9 años de experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en <b>Laravel</b> y <b>React</b>, con conocimientos adicionales en <b>Vue 2+</b>, Node.js y bases de datos relacionales como <b>MySQL</b> y PostgreSQL. Enfocado en escribir código eficiente y mantenible, participando tanto en el frontend como en el backend de diversos proyectos."
   },
   "skills": {
-    "title": "Habilidades Técninas"
+    "title": "Habilidades Técnicas"
   },
   "languages": {
     "title": "Idiomas",
@@ -42,15 +42,15 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para gestionar ingresos, egresos, clientes, contratos, nómina y un panel para optimizar la compra de materiales, herramientas y suministros de oficina para empresas medianas, utilizando Laravel 10, React 18 y ChartJS, con pruebas automatizadas usando Cypress."
+            "description": "Desarrollo de una aplicación web para gestionar ingresos, egresos, clientes, contratos, nómina y un panel para optimizar el proceso de compra de materiales, herramientas y suministros de oficina para empresas medianas, utilizando <b>Laravel</b> 10, <b>React</b> 18 y ChartJS, con pruebas automatizadas usando <b>Cypress</b>."
           },
           {
             "role": "Fullstack",
-            "description": "Creación de un sitio web y su panel administrativo para una constructora utilizando Laravel 11 y React 18."
+            "description": "Creación de un sitio web y su panel administrativo para una constructora utilizando <b>Laravel</b> 11 y <b>React</b> 18."
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para gestionar empleados y generar reportes y documentos solicitados, utilizando Laravel 11 y React 19."
+            "description": "Desarrollo de una aplicación web para gestionar empleados y generar reportes y documentos solicitados, utilizando <b>Laravel</b> 11 y <b>React</b> 19."
           }
         ]
       },
@@ -61,7 +61,7 @@
         "details": [
           {
             "role": "Frontend",
-            "description": "Desarrollo de funcionalidades frontend para una aplicación web de gestión documental: creación, edición, revisión y navegación de cambios de documentos, usando Vue 2, Apollo, TypeScript, Nuxt, GraphQL, Storybook y Cypress."
+            "description": "Desarrollo de funcionalidades frontend para una aplicación web de gestión documental: creación, edición, revisión y navegación de cambios de documentos, usando <b>Vue 2</b>, <b>Apollo</b>, <b>TypeScript</b>, Nuxt, <b>GraphQL</b>, Storybook y Cypress."
           },
           {
             "role": "Fullstack",
@@ -73,19 +73,19 @@
           },
           {
             "role": "Fullstack",
-            "description": "Actualización de un sitio web y una aplicación web para gestionar eventos entre vendedores y compradores, incluyendo registro de vendedores y notificaciones automatizadas, utilizando Laravel 8, React, Tailwind e Inertia."
+            "description": "Actualización de un sitio web y una aplicación web para gestionar eventos entre vendedores y compradores, incluyendo registro de vendedores y notificaciones automatizadas, utilizando <b>Laravel</b> 8, <b>React</b>, Tailwind e Inertia."
           },
           {
             "role": "Frontend",
-            "description": "Desarrollo de una aplicación web para gestionar procesos de venta visualizados en un panel, con un chat para la comunicación entre participantes, usando React, Redux, GO.js y Azure Chat; también se creó un proxy con NodeJS y Express para conectar con servicios externos. Configurado y desplegado en Azure."
+            "description": "Desarrollo de una aplicación web para gestionar procesos de venta visualizados en un panel, con un chat para la comunicación entre participantes, usando <b>React</b>, <b>Redux</b>, GO.js y Azure Chat; también se creó un proxy con <b>NodeJS</b> y <b>Express</b> para conectar con servicios externos. Configuración y despliegue en <b>Azure</b>."
           },
           {
             "role": "Frontend",
-            "description": "Desarrollo de funcionalidades para una plataforma de aprendizaje en línea utilizando React, Next y Redux Saga."
+            "description": "Desarrollo de funcionalidades para una plataforma de aprendizaje en línea utilizando <b>React</b>, <b>Next</b> y <b>Redux Saga</b>."
           },
           {
             "role": "Frontend",
-            "description": "Creación de vistas en aplicaciones móviles utilizando React Native y Styled Components."
+            "description": "Creación de vistas en aplicaciones móviles utilizando <b>React Native</b> y Styled Components."
           }
         ]
       },
@@ -96,11 +96,11 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para gestionar el avance y documentación de obras civiles, incluyendo la creación de planos y organización de fotografías, utilizando Laravel 6, Vue 2 y Vuetify."
+            "description": "Desarrollo de una aplicación web para gestionar el avance y documentación de obras civiles, incluyendo la creación de planos y organización de fotografías, utilizando <b>Laravel</b> 6, <b>Vue 2<b/> y Vuetify."
           },
           {
             "role": "Frontend",
-            "description": "Desarrollo de una aplicación Android para rastrear el progreso del trabajo y mantener un registro fotográfico integrado a la generación de documentación, reduciendo significativamente el tiempo necesario para su creación, usando React Native."
+            "description": "Desarrollo de una aplicación Android para rastrear el progreso del trabajo y mantener un registro fotográfico integrado a la generación de documentación, reduciendo significativamente el tiempo necesario para su creación, usando <b>React Native<b/>."
           }
         ]
       },
@@ -111,7 +111,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Soporte y actualizaciones para varios proyectos de una empresa dedicada a la venta de materiales escolares, desarrollados con Laravel 5.3 y 5.4, JQuery, Dio y React, desplegados en instancias de Elastic Beanstalk."
+            "description": "Soporte y actualizaciones para varios proyectos de una empresa dedicada al desarrollo de materiales escolares, desarrollados con <b>Laravel</b> 5.3 y 5.4, JQuery, Dio y <b>React</b>, desplegados en instancias de <b>Elastic Beanstalk<b/>."
           },
           {
             "role": "Backend",
@@ -119,7 +119,7 @@
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de un chatbot para practicar tablas de multiplicar usando Botpress, y otros bots adicionales con NodeJS y Dialogflow."
+            "description": "Desarrollo de un chatbot para practicar tablas de multiplicar usando Botpress, y otros bots adicionales con <b>NodeJS</b> y Dialogflow."
           },
           {
             "role": "Frontend",
@@ -127,7 +127,7 @@
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de funciones para distintas aplicaciones web, principalmente en Laravel, junto con otros lenguajes y frameworks."
+            "description": "Desarrollo de funciones para distintas aplicaciones web, principalmente en <b>Laravel</b>, junto con otros lenguajes y frameworks."
           }
         ]
       },
@@ -138,7 +138,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para una empresa de capacitación, para gestionar clientes, instructores, cursos, pagos e informes, utilizando Laravel 5.5, VueJs 2, Vuetify, Snappy PDF y Maatwebsite Excel."
+            "description": "Desarrollo de una aplicación web para una empresa de capacitación, para gestionar clientes, instructores, cursos, pagos e informes, utilizando <b>Laravel</b> 5.5, <b>VueJs</b> 2, Vuetify, Snappy PDF y Maatwebsite Excel."
           }
         ]
       },
@@ -149,15 +149,15 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con .NET, C# y JQuery"
+            "description": "Desarrollo de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con <b>.NET</b>, <b>C#</b> y JQuery"
           },
           {
             "role": "Backend",
-            "description": "Optimización de consultas en SQL Server para mejorar el rendimiento."
+            "description": "Optimización de consultas en <b>SQL Server</b> para mejorar el rendimiento."
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de módulos de facturación y otras funciones en una aplicación de escritorio para una empresa de productos de belleza con varias sucursales; puesta a producción."
+            "description": "Desarrollo de módulos de facturación y otras funciones en una aplicación de escritorio para una empresa de productos de belleza con varias sucursales; puesta en producción."
           },
           {
             "role": "Fullstack",
@@ -172,19 +172,19 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para gestionar información empresarial: CRUDs de empleados, clientes, proveedores e inventario; módulos para gestión de salarios, préstamos, solicitudes de vehículos y herramientas, justificación de gastos, localización de obras en Google Maps y monitoreo, usando Laravel 5.2 y VueJS 2+."
+            "description": "Desarrollo de una aplicación web para gestionar información empresarial: CRUDs de empleados, clientes, proveedores e inventario; módulos para gestión de salarios, préstamos, solicitudes de vehículos y herramientas, justificación de gastos, localización de obras en Google Maps y monitoreo, usando <b>Laravel</b> 5.2 y <b>VueJS</b> 2+."
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración usando Laravel 5.2 y  VueJS 2+."
+            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración usando <b>Laravel</b> 5.2 y  <b>VueJS</b> 2+."
           },
           {
             "role": "Frontend",
-            "description": "Desarrollo de una aplicación Android para recolectar datos de campo, capturar fotos con geolocalización y sincronización con el servidor, gestión de pagos y notificaciones de autorización de compras, usando Java y Android Studio."
+            "description": "Desarrollo de una aplicación Android para recolectar datos de campo, capturar fotos con geolocalización y sincronización con el servidor, gestión de pagos y notificaciones de autorización de compras, usando <b>Java</b> y Android Studio."
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo del sitio web de la empresa usando PHP y Sass."
+            "description": "Desarrollo del sitio web de la empresa usando <b>PHP</b> y Sass."
           },
           {
             "role": "Fullstack",
