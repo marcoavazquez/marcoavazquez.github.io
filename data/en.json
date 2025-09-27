@@ -4,7 +4,7 @@
   "email": "marcoa.vazqueza",
   "summary": {
     "title": "Professional Summary",
-    "content": "Full-Stack Developer with 9 years of experience building and maintaining web and mobile applications. Skilled in developing with Laravel and React, with additional experience using Vue 2+, Node.js, and relational databases such as MySQL and PostgreSQL. Focused on delivering maintainable, efficient code and contributing to both frontend and backend components across diverse projects."
+    "content": "Full-Stack Developer with 9 years of experience building and maintaining web and mobile applications. Skilled in developing with <b>Laravel</b> and <b>React</b>, with additional experience using Vue 2+, Node.js, and relational databases such as MySQL and PostgreSQL, contributing to both frontend and backend components across diverse projects."
   },
   "skills": {
     "title": "Technical Skills"
