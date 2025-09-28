@@ -1,10 +1,10 @@
 {
-  "title": "FullStack Developer",
+  "title": "Fullstack Developer",
   "name": "Marco Antonio Vazquez Alonso",
   "email": "marcoa.vazqueza",
   "summary": {
     "title": "Professional Summary",
-    "content": "Full-Stack Developer with 9 years of experience building and maintaining web and mobile applications. Skilled in developing with <b>Laravel</b> and <b>React</b>, with additional experience using Vue 2+, Node.js, and relational databases such as MySQL and PostgreSQL, contributing to both frontend and backend components across diverse projects."
+    "content": "Fullstack Developer with 9 years of experience in web and mobile application development. Proficient in Laravel and React, with additional expertise in Vue.js 2+, Node.js, and relational databases such as MySQL and PostgreSQL. Experienced in contributing to both frontend and backend development across diverse projects."
   },
   "skills": {
     "title": "Technical Skills"
@@ -66,18 +66,6 @@
         ],
         "details": [
           {
-            "role": "Frontend",
-            "description": "Developed several frontend features for a web application for managing documentation, including creation, modification, review, and navigation of documents changes using <b>Vue 2</b>, <b>Apollo</b>, <b>TypeScript</b>, Nuxt, <b>Graphql</b>, <b>Storybook</b>, and <b>Cypress</b>."
-          },
-          {
-            "role": "Fullstack",
-            "description": "Built and extended websites adding some pages, search and navigation features created with <b>October CMS</b> version 2 and 3."
-          },
-          {
-            "role": "Backend",
-            "description": "Developed an <b>October CMS</b> plugin to manage newsletters for one website."
-          },
-          {
             "role": "Fullstack",
             "description": "Updated a website and a web application to manage events between sellers and buyers that a company organizes, including seller registration and automated notifications, using <b>Laravel 8</b>, <b>React</b>, Tailwind, and Inertia."
           },
@@ -87,11 +75,23 @@
           },
           {
             "role": "Frontend",
-            "description": "Built pages and features to an e-learning platform using <b>React</b>, <b>Next</b> and <b>Redux Saga</b>."
+            "description": "Built pages and features for an e-learning platform using <b>React</b>, <b>Next</b> and <b>Redux Saga</b>."
           },
           {
             "role": "Frontend",
-            "description": "Built views to mobile apps using <b>React Native</b> and <b>Styled Components</b>."
+            "description": "Built views for mobile apps using <b>React Native</b> and <b>Styled Components</b>."
+          },
+          {
+            "role": "Frontend",
+            "description": "Developed several frontend features for a web application for managing documentation, including creation, modification, review, and navigation of document changes using <b>Vue.js 2+</b>, <b>Graphql</b>, <b>TypeScript</b>, Nuxt, Apollo, Storybook, and <b>Cypress</b>."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Built and extended websites adding some pages, search and navigation features created with October CMS version 2 and 3; and plain CSS."
+          },
+          {
+            "role": "Backend",
+            "description": "Developed an October CMS plugin to manage newsletters for one website."
           }
         ]
       },
@@ -105,7 +105,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Developed a web application to manage civil works progress and documentation, including sketch creation and photo organization using <b>Laravel 6</b>, <b>Vue 2</b> and Vuetify."
+            "description": "Developed a web application to manage civil works progress and documentation, including sketch creation and photo organization using <b>Laravel 6</b>, <b>Vue.js 2</b> and Vuetify."
           },
           {
             "role": "Frontend",
@@ -123,23 +123,23 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Provided support and updates to several projects that belonged to a company that offers tools and material to schools using <b>Laravel</b> version 5.3 and 5.4, JQuery, Dio, and <b>React</b>, deployed on <b>Elastic Beanstalk instances</b>."
+            "description": "Provided support and updates to several projects that belonged to a company that offers tools and material to schools using <b>Laravel</b> version 5.3 and 5.4, JQuery, Dio, and <b>React</b>, deployed on <b>Elastic Beanstalk</b> instances."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Developed some features for several web applications created in mainly <b>Laravel</b> and other frameworks and languages."
           },
           {
             "role": "Backend",
-            "description": "Developed features to recognize objects in images and videos using <b>AWS Rekognition</b> and translate them to other languages using <b>AWS Translate</b>."
+            "description": "Developed features to recognize objects in images and videos using AWS Rekognition and translate them to other languages using AWS Translate and the <b>AWS SDK</b> for PHP."
           },
           {
             "role": "Fullstack",
-            "description": "Created a chatbot to practice multiplication tables using Botpress, and developed additional chatbots using <b>NodeJS</b> and <b>Dialogflow</b>"
+            "description": "Created a chatbot to practice multiplication tables using Botpress, and additional chatbots using <b>NodeJS</b> and Dialogflow"
           },
           {
             "role": "Frontend",
-            "description": "Built and updated websites using <b>WordPress</b>, CSS, and Bootstrap for medium and big companies."
-          },
-          {
-            "role": "Fullstack",
-            "description": "Developed some features to several web applications created in mainly <b>Laravel</b> and other frameworks and languages."
+            "description": "Built and updated websites using WordPress, CSS, and Bootstrap for medium and big companies."
           }
         ]
       },
@@ -153,7 +153,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Developed a web application for a training company to manage customers, trainers, courses, payments, and reports; using <b>Laravel 5.5</b>, <b>VueJs 2</b>, Vuetify, Snappy PDF, and Maatwebsite Excel."
+            "description": "Developed a web application for a training company to manage customers, trainers, courses, payments, and reports; using <b>Laravel 5.5</b>, <b>Vue.js 2</b>, Vuetify, Snappy PDF, and Maatwebsite Excel."
           }
         ]
       },
@@ -175,7 +175,7 @@
           },
           {
             "role": "Fullstack",
-            "description": "Developed billing modules and other features in a Windows Desktop application for a company that sells beauty products with several branches, and put it into production."
+            "description": "Developed billing modules and other features in a Windows Desktop application for a company that sells beauty products with several branches, and deployed it to production."
           },
           {
             "role": "Fullstack",
@@ -193,7 +193,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Developed a web application to manage business information, including CRUDs of employees, clients, providers, and inventory; also modules for managing salaries and loans, requests for vehicles and tools, expense justifications; construction site locations on Google Maps and monitoring; using <b>Laravel 5.2</b> and <b>VueJS 2+</b>."
+            "description": "Developed a web application to manage business information, including CRUDs of employees, clients, providers, and inventory; also modules for managing salaries and loans, requests for vehicles and tools, expense justifications; construction site locations on Google Maps and monitoring; using <b>Laravel 5.2</b> and <b>Vue.js 2+</b>."
           },
           {
             "role": "Fullstack",
@@ -201,11 +201,11 @@
           },
           {
             "role": "Frontend",
-            "description": "Developed an Android application to manage and collect data about field work, captured geotagged photos, and synchronization with the server, payments, and authorization notifications of purchases using <b>Java</b> and <b>Android Studio</b>."
+            "description": "Developed an Android application to manage and collect data about field work, captured geotagged photos, and synchronized with the server, payments, and authorization notifications of purchases using <b>Java</b> and <b>Android Studio</b>."
           },
           {
             "role": "Fullstack",
-            "description": "Built the company's website using PHP and Sass."
+            "description": "Built the company's website using <b>PHP</b> and Sass."
           },
           {
             "role": "Fullstack",

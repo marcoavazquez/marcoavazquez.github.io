@@ -4,7 +4,7 @@
   "email": "marcoa.vazqueza",
   "summary": {
     "title": "Resumen Profesional",
-    "content": "Desarrollador Fullstack con 9 años de experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en <b>Laravel</b> y <b>React</b>, con conocimientos adicionales en <b>Vue 2+</b>, Node.js y bases de datos relacionales como <b>MySQL</b> y PostgreSQL, participando tanto en el frontend como en el backend de diversos proyectos."
+    "content": "Desarrollador Fullstack con 9 años de experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en <b>Laravel</b> y <b>React</b>, con conocimientos adicionales en <b>Vue.js 2+</b>, Node.js y bases de datos relacionales como <b>MySQL</b> y PostgreSQL, participando tanto en el frontend como en el backend de diversos proyectos."
   },
   "skills": {
     "title": "Habilidades Técnicas"
@@ -60,24 +60,17 @@
         "date": ["2020-03", "2023-02"],
         "details": [
           {
-            "role": "Frontend",
-            "description": "Desarrollo de funcionalidades frontend para una aplicación web de gestión documental: creación, edición, revisión y navegación de cambios de documentos, usando <b>Vue 2</b>, <b>Apollo</b>, <b>TypeScript</b>, Nuxt, <b>GraphQL</b>, Storybook y Cypress."
-          },
-          {
-            "role": "Fullstack",
-            "description": "Creación y actualización de sitios web, añadiendo páginas, búsquedas y funciones de navegación, usando October CMS versiones 2 y 3."
-          },
-          {
-            "role": "Backend",
-            "description": "Desarrollo de un plugin para October CMS para la gestión del newsletters."
-          },
-          {
             "role": "Fullstack",
             "description": "Actualización de un sitio web y una aplicación web para gestionar eventos entre vendedores y compradores, incluyendo registro de vendedores y notificaciones automatizadas, utilizando <b>Laravel</b> 8, <b>React</b>, Tailwind e Inertia."
           },
+          
           {
             "role": "Frontend",
             "description": "Desarrollo de una aplicación web para gestionar procesos de venta visualizados en un panel, con un chat para la comunicación entre participantes, usando <b>React</b>, <b>Redux</b>, GO.js y Azure Chat; también se creó un proxy con <b>NodeJS</b> y <b>Express</b> para conectar con servicios externos. Configuración y despliegue en <b>Azure</b>."
+          },
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de funcionalidades frontend para una aplicación web de gestión documental: creación, edición, revisión y navegación de cambios de documentos, usando <b>Vue.js 2</b>, <b>GraphQL</b>, <b>TypeScript</b>, Nuxt, Apollo, Storybook y <b>Cypress</b>."
           },
           {
             "role": "Frontend",
@@ -86,6 +79,14 @@
           {
             "role": "Frontend",
             "description": "Creación de vistas en aplicaciones móviles utilizando <b>React Native</b> y Styled Components."
+          },
+          {
+            "role": "Fullstack",
+            "description": "Creación y actualización de sitios web, añadiendo páginas, búsquedas y funciones de navegación, usando October CMS versiones 2 y 3; y CSS."
+          },
+          {
+            "role": "Backend",
+            "description": "Desarrollo de un plugin para October CMS para la gestión del newsletters."
           }
         ]
       },
@@ -96,7 +97,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para gestionar el avance y documentación de obras civiles, incluyendo la creación de planos y organización de fotografías, utilizando <b>Laravel</b> 6, <b>Vue 2<b/> y Vuetify."
+            "description": "Desarrollo de una aplicación web para gestionar el avance y documentación de obras civiles, incluyendo la creación de planos y organización de fotografías, utilizando <b>Laravel</b> 6, <b>Vue.js 2<b/> y Vuetify."
           },
           {
             "role": "Frontend",
@@ -114,8 +115,12 @@
             "description": "Soporte y actualizaciones para varios proyectos de una empresa dedicada al desarrollo de materiales escolares, desarrollados con <b>Laravel</b> 5.3 y 5.4, JQuery, Dio y <b>React</b>, desplegados en instancias de <b>Elastic Beanstalk<b/>."
           },
           {
+            "role": "Fullstack",
+            "description": "Desarrollo de funciones para distintas aplicaciones web, principalmente en <b>Laravel</b>, junto con otros lenguajes y frameworks."
+          },
+          {
             "role": "Backend",
-            "description": "Desarrollo de funciones para reconocer objetos en imágenes y videos con AWS Rekognition y traducirlos a otros idiomas usando AWS Translate."
+            "description": "Desarrollo de funciones para reconocer objetos en imágenes y videos con AWS Rekognition y traducirlos a otros idiomas usando AWS Translate y el <b>AWS SDK</b> para PHP."
           },
           {
             "role": "Fullstack",
@@ -124,10 +129,6 @@
           {
             "role": "Frontend",
             "description": "Creación y actualización de sitios web usando WordPress, CSS y Bootstrap para empresas medianas y grandes."
-          },
-          {
-            "role": "Fullstack",
-            "description": "Desarrollo de funciones para distintas aplicaciones web, principalmente en <b>Laravel</b>, junto con otros lenguajes y frameworks."
           }
         ]
       },
@@ -138,7 +139,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para una empresa de capacitación, para gestionar clientes, instructores, cursos, pagos e informes, utilizando <b>Laravel</b> 5.5, <b>VueJs</b> 2, Vuetify, Snappy PDF y Maatwebsite Excel."
+            "description": "Desarrollo de una aplicación web para una empresa de capacitación, para gestionar clientes, instructores, cursos, pagos e informes, utilizando <b>Laravel 5.5</b>, <b>Vue.js 2+</b>, Vuetify, Snappy PDF y Maatwebsite Excel."
           }
         ]
       },
@@ -149,7 +150,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con <b>.NET</b>, <b>C#</b> y JQuery"
+            "description": "Desarrollo de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con <b>.NET</b>, C# y JQuery"
           },
           {
             "role": "Backend",
@@ -172,11 +173,11 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para gestionar información empresarial: CRUDs de empleados, clientes, proveedores e inventario; módulos para gestión de salarios, préstamos, solicitudes de vehículos y herramientas, justificación de gastos, localización de obras en Google Maps y monitoreo, usando <b>Laravel</b> 5.2 y <b>VueJS</b> 2+."
+            "description": "Desarrollo de una aplicación web para gestionar información empresarial: CRUDs de empleados, clientes, proveedores e inventario; módulos para gestión de salarios, préstamos, solicitudes de vehículos y herramientas, justificación de gastos, localización de obras en Google Maps y monitoreo, usando <b>Laravel 5.2</b> y <b>Vue.js 2+</b>."
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración usando <b>Laravel</b> 5.2 y  <b>VueJS</b> 2+."
+            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración usando <b>Laravel 5.2</b> y <b>Vue.js 2+</b>."
           },
           {
             "role": "Frontend",
