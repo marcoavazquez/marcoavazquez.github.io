@@ -4,7 +4,7 @@
   "email": "marcoa.vazqueza",
   "summary": {
     "title": "Resumen Profesional",
-    "content": "Desarrollador Fullstack con 9 años de experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en <b>Laravel</b> y <b>React</b>, con conocimientos adicionales en <b>Vue.js 2+</b>, Node.js y bases de datos relacionales como <b>MySQL</b> y PostgreSQL, participando tanto en el frontend como en el backend de diversos proyectos."
+    "content": "Desarrollador Fullstack con 9 años de experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en <b>Laravel</b> y <b>React</b>, con conocimientos adicionales en <b>Vue.js 2</b> y bases de datos relacionales como <b>MySQL</b> y PostgreSQL, además de un poco de Node.js y .Net; participando tanto en el frontend como en el backend de diversos proyectos."
   },
   "skills": {
     "title": "Habilidades Técnicas"
@@ -139,7 +139,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para una empresa de capacitación, para gestionar clientes, instructores, cursos, pagos e informes, utilizando <b>Laravel 5.5</b>, <b>Vue.js 2+</b>, Vuetify, Snappy PDF y Maatwebsite Excel."
+            "description": "Desarrollo de una aplicación web para una empresa de capacitación, para gestionar clientes, instructores, cursos, pagos e informes, utilizando <b>Laravel 5.5</b>, <b>Vue.js 2</b>, Vuetify, Snappy PDF y Maatwebsite Excel."
           }
         ]
       },
@@ -173,11 +173,11 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación web para gestionar información empresarial: CRUDs de empleados, clientes, proveedores e inventario; módulos para gestión de salarios, préstamos, solicitudes de vehículos y herramientas, justificación de gastos, localización de obras en Google Maps y monitoreo, usando <b>Laravel 5.2</b> y <b>Vue.js 2+</b>."
+            "description": "Desarrollo de una aplicación web para gestionar información empresarial: CRUDs de empleados, clientes, proveedores e inventario; módulos para gestión de salarios, préstamos, solicitudes de vehículos y herramientas, justificación de gastos, localización de obras en Google Maps y monitoreo, usando <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
           },
           {
             "role": "Fullstack",
-            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración usando <b>Laravel 5.2</b> y <b>Vue.js 2+</b>."
+            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración usando <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
           },
           {
             "role": "Frontend",

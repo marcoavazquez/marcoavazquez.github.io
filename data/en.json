@@ -4,7 +4,7 @@
   "email": "marcoa.vazqueza",
   "summary": {
     "title": "Professional Summary",
-    "content": "Fullstack Developer with 9 years of experience in web and mobile application development. Proficient in Laravel and React, with additional expertise in Vue.js 2+, Node.js, and relational databases such as MySQL and PostgreSQL. Experienced in contributing to both frontend and backend development across diverse projects."
+    "content": "Fullstack Developer with 9 years of experience in web and mobile application development. Proficient in <b>Laravel</b> and <b>React</b>, with additional expertise in Vue.js 2 and relational databases such as <b>MySQL</b> and PostgreSQL; plus a little experience using Node.js and .Net. Experienced in contributing to both frontend and backend development across diverse projects."
   },
   "skills": {
     "title": "Technical Skills"
@@ -83,7 +83,7 @@
           },
           {
             "role": "Frontend",
-            "description": "Developed several frontend features for a web application for managing documentation, including creation, modification, review, and navigation of document changes using <b>Vue.js 2+</b>, <b>Graphql</b>, <b>TypeScript</b>, Nuxt, Apollo, Storybook, and <b>Cypress</b>."
+            "description": "Developed several frontend features for a web application for managing documentation, including creation, modification, review, and navigation of document changes using <b>Vue.js 2</b>, <b>Graphql</b>, <b>TypeScript</b>, Nuxt, Apollo, Storybook, and <b>Cypress</b>."
           },
           {
             "role": "Fullstack",
@@ -193,7 +193,7 @@
         "details": [
           {
             "role": "Fullstack",
-            "description": "Developed a web application to manage business information, including CRUDs of employees, clients, providers, and inventory; also modules for managing salaries and loans, requests for vehicles and tools, expense justifications; construction site locations on Google Maps and monitoring; using <b>Laravel 5.2</b> and <b>Vue.js 2+</b>."
+            "description": "Developed a web application to manage business information, including CRUDs of employees, clients, providers, and inventory; also modules for managing salaries and loans, requests for vehicles and tools, expense justifications; construction site locations on Google Maps and monitoring; using <b>Laravel 5.2</b> and <b>Vue.js 2</b>."
           },
           {
             "role": "Fullstack",
