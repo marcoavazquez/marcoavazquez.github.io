@@ -44,6 +44,21 @@ window.addEventListener('DOMContentLoaded',async function () {
     const item = createResumeItem(cvItem, lang)
     resumeContent.appendChild(item)
   })
+
+  // Role filter buttons
+  const roleButtons = document.querySelectorAll('nav .role button')
+  roleButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const role = btn.textContent.trim().toLowerCase().replace(/\s+/g, '')
+      // Remove existing filter classes from body
+      document.body.classList.remove('filter-fullstack', 'filter-backend', 'filter-frontend')
+      // Remove active from all buttons
+      roleButtons.forEach(function (b) { b.classList.remove('active') })
+      // Apply new filter
+      document.body.classList.add('filter-' + role)
+      btn.classList.add('active')
+    })
+  })
 })
 
 async function getData(lang) {
@@ -80,6 +95,7 @@ function createResumeItem(cvItem, lang) {
   cvItem.details.forEach(detail => {
     const li = document.createElement('li')
     li.innerHTML = detail.description
+    li.dataset.role = detail.role.toLowerCase()
     ul.appendChild(li)
   })
   return container

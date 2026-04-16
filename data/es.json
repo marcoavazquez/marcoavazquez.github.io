@@ -41,15 +41,15 @@
         "date": ["2023-04", "2025-11"],
         "details": [
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de una aplicación web para gestionar ingresos, egresos, clientes, contratos, nómina y un panel para optimizar el proceso de compra de materiales, herramientas y suministros de oficina para empresas medianas, utilizando <b>Laravel</b> 10, <b>React</b> 18 y ChartJS, con pruebas automatizadas usando <b>Cypress</b>."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Creación de un sitio web y su panel administrativo para una constructora utilizando <b>Laravel</b> 11 y <b>React</b> 18."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de una aplicación web para gestionar empleados y generar reportes y documentos solicitados, utilizando <b>Laravel</b> 11 y <b>React</b> 19."
           }
         ]
@@ -60,7 +60,7 @@
         "date": ["2020-03", "2023-02"],
         "details": [
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Actualización de un sitio web y una aplicación web para gestionar eventos entre vendedores y compradores, incluyendo registro de vendedores y notificaciones automatizadas, utilizando <b>Laravel</b> 8, <b>React</b>, Tailwind e Inertia."
           },
           
@@ -81,7 +81,7 @@
             "description": "Creación de vistas en aplicaciones móviles utilizando <b>React Native</b> y Styled Components."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Creación y actualización de sitios web, añadiendo páginas, búsquedas y funciones de navegación, usando October CMS versiones 2 y 3; y CSS."
           },
           {
@@ -96,7 +96,7 @@
         "date": ["2019-12", "2020-08"],
         "details": [
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de una aplicación web para gestionar el avance y documentación de obras civiles, incluyendo la creación de planos y organización de fotografías, utilizando <b>Laravel</b> 6, <b>Vue.js 2<b/> y Vuetify."
           },
           {
@@ -111,11 +111,11 @@
         "date": ["2018-03", "2020-03"],
         "details": [
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Soporte y actualizaciones para varios proyectos de una empresa dedicada al desarrollo de materiales escolares, desarrollados con <b>Laravel</b> 5.3 y 5.4, JQuery, Dio y <b>React</b>, desplegados en instancias de <b>Elastic Beanstalk<b/>."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de funciones para distintas aplicaciones web, principalmente en <b>Laravel</b>, junto con otros lenguajes y frameworks."
           },
           {
@@ -123,7 +123,7 @@
             "description": "Desarrollo de funciones para reconocer objetos en imágenes y videos con AWS Rekognition y traducirlos a otros idiomas usando AWS Translate y el <b>AWS SDK</b> para PHP."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de un chatbot para practicar tablas de multiplicar usando Botpress, y otros bots adicionales con <b>NodeJS</b> y Dialogflow."
           },
           {
@@ -138,7 +138,7 @@
         "date": ["2017-12", "2018-03"],
         "details": [
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de una aplicación web para una empresa de capacitación, para gestionar clientes, instructores, cursos, pagos e informes, utilizando <b>Laravel 5.5</b>, <b>Vue.js 2</b>, Vuetify, Snappy PDF y Maatwebsite Excel."
           }
         ]
@@ -149,7 +149,7 @@
         "date": ["2017-06", "2017-10"],
         "details": [
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con <b>.NET</b>, C# y JQuery"
           },
           {
@@ -157,11 +157,11 @@
             "description": "Optimización de consultas en <b>SQL Server</b> para mejorar el rendimiento."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de módulos de facturación y otras funciones en una aplicación de escritorio para una empresa de productos de belleza con varias sucursales; puesta en producción."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Soporte al cliente y resolución de problemas con el software."
           }
         ]
@@ -172,11 +172,11 @@
         "date": ["2015-05", "2017-06"],
         "details": [
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de una aplicación web para gestionar información empresarial: CRUDs de empleados, clientes, proveedores e inventario; módulos para gestión de salarios, préstamos, solicitudes de vehículos y herramientas, justificación de gastos, localización de obras en Google Maps y monitoreo, usando <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración usando <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
           },
           {
@@ -184,11 +184,11 @@
             "description": "Desarrollo de una aplicación Android para recolectar datos de campo, capturar fotos con geolocalización y sincronización con el servidor, gestión de pagos y notificaciones de autorización de compras, usando <b>Java</b> y Android Studio."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Desarrollo del sitio web de la empresa usando <b>PHP</b> y Sass."
           },
           {
-            "role": "Fullstack",
+            "role": "Backend Frontend",
             "description": "Modificación de una aplicación web creada con CodeIgniter para imprimir planos de construcción a partir de mediciones guardadas."
           }
         ]
