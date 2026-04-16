@@ -4,12 +4,13 @@
 }
 
 body {
-    background-image: linear-gradient(to bottom, #012, #000);
+    background-image: linear-gradient(-45deg, #013, #210);
+    background-attachment: fixed;
     color: #000;
-    font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
-    line-height: 1.55;
+    font-family: Calibri, Roboto, sans-serif;
+    line-height: 1.5;
     display: grid;
+    font-size: 14px;
     place-items: center;
     min-height: 100vh;
     margin: 0;
@@ -29,17 +30,17 @@ body {
 }
 
 h1 {
-    font-weight: 600;
-    font-size: 2em;
+    font-weight: 500;
+    font-size: 1.6em;
 }
 
 h2 {
-    font-size: 1.5em;
-    font-weight: 600;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 h3 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     font-weight: 600;
 }
 
@@ -53,4 +54,73 @@ a {
     text-decoration: none;
     color: var(--dark);
     opacity: 0.9;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    @media print {
+        display: none;
+    }
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav .role {
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0.1rem 0.1rem 0.25rem rgb(0 0 0),
+        -0.1rem -0.1rem 0.25rem rgb(255 255 255 / 0.3);
+    button {
+        background-color: transparent;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+    }
+}
+
+nav .lang {
+    gap: 1rem;
+    a {
+        color: white;
+        font-size: 12px;
+        &.active {
+            font-weight: 600;
+        }
+    }
+}
+
+.wrapper {
+    padding: 0.5rem 1rem;
+    margin: 3.5rem 0;
+    background: rgba(white, 0.9);
+    border-radius: 0.25em;
+    border: 1px solid white;
+    max-width: 64em;
+    box-shadow: 0 0 12rem rgb(0 0 0 / 0.1) inset,
+        0.1rem 0.1rem 0.1rem rgb(0 0 0 / 1),
+        -0.25rem -0.25rem 0.25rem rgb(255 255 255 / 0.3);
+
+    @media screen and (min-width:512px) {
+        padding: 1rem 4rem;
+    }
+
+    @media print {
+        box-shadow: none;
+        border: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+span.mail {
+    &::after {
+        content: '@gmail.com';
+    }
 }

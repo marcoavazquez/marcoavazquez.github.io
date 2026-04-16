@@ -7,10 +7,13 @@
   "license": "MIT",
   "scripts": {
     "css": "sass src/scss/main.scss dist/css/main.css -s compressed -w",
-    "dev": "concurrently \"yarn start\" \"yarn watch:js\" \"yarn css\"",
+    "css:cover": "sass src/scss/cover-letter.scss dist/css/cover-letter.css -s compressed -w",
+    "dev": "concurrently \"yarn start\" \"yarn watch:js\" \"yarn watch:js:cover\"  \"yarn css\" \"yarn css:cover\"",
     "start": "browser-sync start --server . -f .",
     "minify": "minify src/js/*.js > dist/js/index.min.js",
-    "watch:js": "onchange src/js -- yarn minify"
+    "minify:cover": "minify src/js/cover-letter.js > dist/js/cover-letter.min.js",
+    "watch:js": "onchange src/js -- yarn minify",
+    "watch:js:cover": "onchange src/js/cover-letter.js -- yarn minify:cover"
   },
   "devDependencies": {
     "browser-sync": "^2.27.10",

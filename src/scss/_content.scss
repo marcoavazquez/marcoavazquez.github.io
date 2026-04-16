@@ -4,47 +4,6 @@
     }
 }
 
-.lang {
-    display: flex;
-    gap: 1rem;
-    list-style: none;
-    padding: 1rem 2rem;
-    position: absolute;
-    top: 0;
-    right: 0;
-    @media print {
-        display: none;
-    }
-    a {
-        color: white;
-        font-size: 12px;
-        &.active {
-            font-weight: 600;
-        }
-    }
-}
-
-.wrapper {
-    padding: 0.5rem 1rem;
-    margin-top: 2rem;
-    background: rgba(white, 0.9);
-    border-radius: 0.25em;
-    border: 1px solid white;
-    max-width: 64em;
-    box-shadow: 0 0 12rem rgb(0 0 0 / 0.1) inset;
-
-    @media screen and (min-width:512px) {
-        padding: 1rem 4rem;
-    }
-
-    @media print {
-        box-shadow: none;
-        border: none;
-        padding: 0;
-        margin: 0;
-    }
-}
-
 .xp {
     padding-bottom: 1rem;
     // .xp-place {
@@ -66,9 +25,9 @@
     }
 }
 
-ul {
+main ul {
     margin: 0;
-    padding-left: 1.5rem;
+    padding-left: 1rem;
     li {
         padding-bottom: 0.5rem;
     }
@@ -110,8 +69,22 @@ section.skills {
     }
 }
 
-span.mail {
-    &::after {
-        content: '@gmail.com';
+// Role filter: dim non-matching experience bullets
+.filter-frontend,
+.filter-backend {
+    li[data-role] {
+        opacity: 0.2;
+        transition: opacity 0.3s ease;
     }
+}
+
+.filter-frontend li[data-role~="frontend"],
+.filter-backend li[data-role~="backend"] {
+    opacity: 1;
+}
+
+// Active nav button highlight
+nav .role button.active {
+    background-color: rgba(255, 255, 255, 0.25);
+    font-weight: 600;
 }

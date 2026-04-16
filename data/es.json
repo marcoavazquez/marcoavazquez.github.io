@@ -1,0 +1,198 @@
+{
+  "title": "Desarrollador Fullstack",
+  "name": "Marco Antonio Vazquez Alonso",
+  "email": "marcoa.vazqueza",
+  "summary": {
+    "title": "Resumen Profesional",
+    "content": "Desarrollador Fullstack con 9 años de experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en <b>Laravel</b> y <b>React</b>, con conocimientos adicionales en <b>Vue.js 2</b> y bases de datos relacionales como <b>MySQL</b> y PostgreSQL, además de un poco de Node.js y .Net; participando tanto en el frontend como en el backend de diversos proyectos."
+  },
+  "skills": {
+    "title": "Habilidades Técnicas"
+  },
+  "languages": {
+    "title": "Idiomas",
+    "items": [
+      "Español (Nativo)",
+      "Inglés (Intermedio B2)"
+    ]
+  },
+  "education": {
+    "title": "Educación",
+    "items": [
+      {
+        "degree": "Ingeniería en Sistemas Computacionales",
+        "school": "Instituto Tecnológico Superior de Xalapa",
+        "date": [
+          "2007-08",
+          "2012-07"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contacto"
+  },
+  "experience": {
+    "title": "Experiencia Profesional",
+    "items": [
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "Freelancer",
+        "date": ["2023-04", "2025-11"],
+        "details": [
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de una aplicación web para gestionar ingresos, egresos, clientes, contratos, nómina y un panel para optimizar el proceso de compra de materiales, herramientas y suministros de oficina para empresas medianas, utilizando <b>Laravel</b> 10, <b>React</b> 18 y ChartJS, con pruebas automatizadas usando <b>Cypress</b>."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Creación de un sitio web y su panel administrativo para una constructora utilizando <b>Laravel</b> 11 y <b>React</b> 18."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de una aplicación web para gestionar empleados y generar reportes y documentos solicitados, utilizando <b>Laravel</b> 11 y <b>React</b> 19."
+          }
+        ]
+      },
+      {
+        "title": "Programador Fullstack",
+        "company": "Lemonscale",
+        "date": ["2020-03", "2023-02"],
+        "details": [
+          {
+            "role": "Backend Frontend",
+            "description": "Actualización de un sitio web y una aplicación web para gestionar eventos entre vendedores y compradores, incluyendo registro de vendedores y notificaciones automatizadas, utilizando <b>Laravel</b> 8, <b>React</b>, Tailwind e Inertia."
+          },
+          
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de una aplicación web para gestionar procesos de venta visualizados en un panel, con un chat para la comunicación entre participantes, usando <b>React</b>, <b>Redux</b>, GO.js y Azure Chat; también se creó un proxy con <b>NodeJS</b> y <b>Express</b> para conectar con servicios externos. Configuración y despliegue en <b>Azure</b>."
+          },
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de funcionalidades frontend para una aplicación web de gestión documental: creación, edición, revisión y navegación de cambios de documentos, usando <b>Vue.js 2</b>, <b>GraphQL</b>, <b>TypeScript</b>, Nuxt, Apollo, Storybook y <b>Cypress</b>."
+          },
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de funcionalidades para una plataforma de aprendizaje en línea utilizando <b>React</b>, <b>Next</b> y <b>Redux Saga</b>."
+          },
+          {
+            "role": "Frontend",
+            "description": "Creación de vistas en aplicaciones móviles utilizando <b>React Native</b> y Styled Components."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Creación y actualización de sitios web, añadiendo páginas, búsquedas y funciones de navegación, usando October CMS versiones 2 y 3; y CSS."
+          },
+          {
+            "role": "Backend",
+            "description": "Desarrollo de un plugin para October CMS para la gestión del newsletters."
+          }
+        ]
+      },
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "Freelancer (medio tiempo)",
+        "date": ["2019-12", "2020-08"],
+        "details": [
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de una aplicación web para gestionar el avance y documentación de obras civiles, incluyendo la creación de planos y organización de fotografías, utilizando <b>Laravel</b> 6, <b>Vue.js 2<b/> y Vuetify."
+          },
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de una aplicación Android para rastrear el progreso del trabajo y mantener un registro fotográfico integrado a la generación de documentación, reduciendo significativamente el tiempo necesario para su creación, usando <b>React Native<b/>."
+          }
+        ]
+      },
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "HabitatWeb",
+        "date": ["2018-03", "2020-03"],
+        "details": [
+          {
+            "role": "Backend Frontend",
+            "description": "Soporte y actualizaciones para varios proyectos de una empresa dedicada al desarrollo de materiales escolares, desarrollados con <b>Laravel</b> 5.3 y 5.4, JQuery, Dio y <b>React</b>, desplegados en instancias de <b>Elastic Beanstalk<b/>."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de funciones para distintas aplicaciones web, principalmente en <b>Laravel</b>, junto con otros lenguajes y frameworks."
+          },
+          {
+            "role": "Backend",
+            "description": "Desarrollo de funciones para reconocer objetos en imágenes y videos con AWS Rekognition y traducirlos a otros idiomas usando AWS Translate y el <b>AWS SDK</b> para PHP."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de un chatbot para practicar tablas de multiplicar usando Botpress, y otros bots adicionales con <b>NodeJS</b> y Dialogflow."
+          },
+          {
+            "role": "Frontend",
+            "description": "Creación y actualización de sitios web usando WordPress, CSS y Bootstrap para empresas medianas y grandes."
+          }
+        ]
+      },
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "Freelancer",
+        "date": ["2017-12", "2018-03"],
+        "details": [
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de una aplicación web para una empresa de capacitación, para gestionar clientes, instructores, cursos, pagos e informes, utilizando <b>Laravel 5.5</b>, <b>Vue.js 2</b>, Vuetify, Snappy PDF y Maatwebsite Excel."
+          }
+        ]
+      },
+      {
+        "title": "Programador",
+        "company": "Axsis Tecnología",
+        "date": ["2017-06", "2017-10"],
+        "details": [
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con <b>.NET</b>, C# y JQuery"
+          },
+          {
+            "role": "Backend",
+            "description": "Optimización de consultas en <b>SQL Server</b> para mejorar el rendimiento."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de módulos de facturación y otras funciones en una aplicación de escritorio para una empresa de productos de belleza con varias sucursales; puesta en producción."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Soporte al cliente y resolución de problemas con el software."
+          }
+        ]
+      },
+      {
+        "title": "Desarrollador Fullstack",
+        "company": "Construcción Proyectos y Topografía ICB",
+        "date": ["2015-05", "2017-06"],
+        "details": [
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de una aplicación web para gestionar información empresarial: CRUDs de empleados, clientes, proveedores e inventario; módulos para gestión de salarios, préstamos, solicitudes de vehículos y herramientas, justificación de gastos, localización de obras en Google Maps y monitoreo, usando <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración usando <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
+          },
+          {
+            "role": "Frontend",
+            "description": "Desarrollo de una aplicación Android para recolectar datos de campo, capturar fotos con geolocalización y sincronización con el servidor, gestión de pagos y notificaciones de autorización de compras, usando <b>Java</b> y Android Studio."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Desarrollo del sitio web de la empresa usando <b>PHP</b> y Sass."
+          },
+          {
+            "role": "Backend Frontend",
+            "description": "Modificación de una aplicación web creada con CodeIgniter para imprimir planos de construcción a partir de mediciones guardadas."
+          }
+        ]
+      }
+    ]
+  }
+}

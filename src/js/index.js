@@ -1,17 +1,8 @@
 const langs = ['en', 'es']
-let index = 0
 
-window.addEventListener('load', function () {
-  const cvContainer = document.querySelector('main')
-  const cvButton = document.querySelector('#btn-cv')
-
-  cvButton.addEventListener('click', function () {
-    cvContainer.classList.toggle('hide')
-    document.body.classList.toggle('expanded')
-  })
-
-  // 
-
+window.addEventListener('DOMContentLoaded',async function () {
+  
+  const name              = document.querySelector('#name')
   const cvTitle           = document.querySelector('#title')
   const summaryTitle      = document.querySelector('#summary-title')
   const summaryContent    = document.querySelector('#summary-content')
@@ -24,53 +15,61 @@ window.addEventListener('load', function () {
   const educationTitle    = document.querySelector('#education-title')
   const educationContent  = document.querySelector('#education-content')
 
-  const lang = new URLSearchParams(window.location.search).get('lang') || 'en'
-  index = langs.indexOf(lang)
-  if (index === -1) {
-    index = 0
-  }
+  const paramsLang = new URLSearchParams(window.location.search).get('lang')
+  const lang = langs.includes(paramsLang) ? paramsLang : 'en'
 
-  if (data) {
-    cvTitle.innerText = data.title[index]
-    summaryTitle.innerHTML = data.summary.title[index]
-    summaryContent.innerHTML = data.summary.content[index]
-    skillsTitle.innerHTML = data.skills.title[index]
-    contactTitle.innerHTML = data.contanct[index]
-    languagesTitle.innerHTML = data.languages.title[index]
-    educationTitle.innerHTML = data.education.title[index]
-    
-    resumeTitle.innerHTML = data.experience.title[index]
-    data.experience.items.map(item => {
-      resumeContent.appendChild(createResumeItem(item, lang))
+  const data = await getData(lang)
+
+  name.innerHTML            = data.name
+  cvTitle.innerText         = data.title
+  summaryTitle.innerHTML    = data.summary.title
+  summaryContent.innerHTML  = data.summary.content
+  skillsTitle.innerHTML     = data.skills.title
+  contactTitle.innerHTML    = data.contact.title
+  languagesTitle.innerHTML  = data.languages.title
+  educationTitle.innerHTML  = data.education.title
+  resumeTitle.innerHTML     = data.experience.title
+
+  data.languages.items.forEach(function (langItem) {
+    const item = createLangItem(langItem)
+    languagesContent.appendChild(item)
+  })
+
+  data.education.items.forEach(function (edItem) {
+    const item = createEducationItem(edItem, lang)
+    educationContent.appendChild(item)
+  })
+
+  data.experience.items.forEach(function (cvItem) {
+    const item = createResumeItem(cvItem, lang)
+    resumeContent.appendChild(item)
+  })
+
+  // Role filter buttons
+  const roleButtons = document.querySelectorAll('nav .role button')
+  roleButtons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      const role = btn.textContent.trim().toLowerCase().replace(/\s+/g, '')
+      // Remove existing filter classes from body
+      document.body.classList.remove('filter-fullstack', 'filter-backend', 'filter-frontend')
+      // Remove active from all buttons
+      roleButtons.forEach(function (b) { b.classList.remove('active') })
+      // Apply new filter
+      document.body.classList.add('filter-' + role)
+      btn.classList.add('active')
     })
-
-    data.languages.items.map(langItem => {
-      const li = document.createElement('li')
-      li.innerHTML = langItem[index]
-      languagesContent.appendChild(li)
-    })
-
-    data.education.items.map(item => {
-      const li = document.createElement('li')
-      const degree = document.createElement('strong')
-      const school = document.createElement('div')
-      const date = document.createElement('small')
-
-      degree.innerHTML = item.degree[index]
-      school.innerHTML = item.school
-      date.innerHTML = formatDate(item.date[0], lang) + ' - ' + formatDate(item.date[1], lang)
-
-      li.appendChild(degree)
-      li.appendChild(school)
-      li.appendChild(date)
-      educationContent.appendChild(li)
-    })
-
-    this.document.title += lang === 'en' ? '' : ' ' + lang.toUpperCase()
-  }
+  })
 })
 
-const createResumeItem = function (item, lang) {
+async function getData(lang) {
+  const data = await fetch('/data/' + lang + '.json')
+  if (!data.ok) {
+    throw new Error('Error: ' + data.status)
+  }
+  return data.json()
+}
+
+function createResumeItem(cvItem, lang) {
   const container = document.createElement('div')
   const placeContainer = document.createElement('div')
   const title = document.createElement('div')
@@ -90,19 +89,42 @@ const createResumeItem = function (item, lang) {
   container.appendChild(details)
   details.appendChild(ul)
 
-  title.innerHTML = item.title[index] + ' - ' + item.company
-  date.innerHTML = formatDate(item.date[0], lang) + ' - ' + formatDate(item.date[1], lang)
+  title.innerHTML = cvItem.title + ' - ' + cvItem.company
+  date.innerHTML = formatDate(cvItem.date[0], lang) + ' - ' + formatDate(cvItem.date[1], lang)
 
-  item.description.map(desc => {
+  cvItem.details.forEach(detail => {
     const li = document.createElement('li')
-    li.innerHTML = desc[index]
+    li.innerHTML = detail.description
+    li.dataset.role = detail.role.toLowerCase()
     ul.appendChild(li)
   })
-
   return container
 }
 
-const formatDate = function (date, lang) {
+function createLangItem(langItem) {
+
+  const li = document.createElement('li')
+  li.innerHTML = langItem
+  return li
+}
+
+function createEducationItem(educationItem, lang) {
+  const li = document.createElement('li')
+  const degree = document.createElement('strong')
+  const school = document.createElement('div')
+  const date = document.createElement('small')
+
+  degree.innerHTML = educationItem.degree
+  school.innerHTML = educationItem.school
+  date.innerHTML = formatDate(educationItem.date[0], lang) + ' - ' + formatDate(educationItem.date[1], lang)
+
+  li.appendChild(degree)
+  li.appendChild(school)
+  li.appendChild(date)
+  return li
+}
+
+function formatDate(date, lang) {
   if (date === 'today') {
     return lang === 'es' ? 'Hoy' : 'Today'
   }
