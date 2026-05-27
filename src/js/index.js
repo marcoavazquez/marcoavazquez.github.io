@@ -1,4 +1,4 @@
-const langs = ['en', 'es']
+const langs = ['en', 'es', 'fr']
 
 window.addEventListener('DOMContentLoaded',async function () {
   
