@@ -4,7 +4,7 @@
   "email": "marcoa.vazqueza",
   "summary": {
     "title": "Resumen Profesional",
-    "content": "Desarrollador Fullstack con experiencia en el desarrollo y mantenimiento de aplicaciones web y móviles. Especializado en <b>Laravel</b> y <b>React</b>, con conocimientos adicionales en <b>Vue.js 2</b>, bases de datos relacionales como <b>MySQL</b> y PostgreSQL, además de Node.js y .NET. He participado tanto en frontend como en backend dentro de proyectos diversos."
+    "content": "Desarrollador Fullstack enfocado en crear soluciones web y móviles prácticas con <b>Laravel</b> y <b>React</b>. Experiencia en frontend, backend, bases de datos, integraciones, pruebas y despliegues, con trabajo adicional en <b>Vue.js 2</b>, <b>MySQL</b>, PostgreSQL, Node.js y .NET."
   },
   "skills": {
     "title": "Habilidades Técnicas"
@@ -12,8 +12,8 @@
   "languages": {
     "title": "Idiomas",
     "items": [
-      "Español (Nativo)",
-      "Inglés (Intermedio B2)"
+      "Español: Nativo",
+      "Inglés: B2"
     ]
   },
   "education": {
@@ -42,15 +42,15 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Construcción de una aplicación para administrar ingresos, egresos, clientes, contratos y nómina, además de un panel que optimizó la compra de materiales, herramientas y suministros de oficina. Tecnologías: <b>Laravel</b> 10, <b>React</b> 18, ChartJS y pruebas automatizadas con <b>Cypress</b>."
+            "description": "Construcción de una plataforma de gestión para finanzas, clientes, contratos, nómina e indicadores de compras con <b>Laravel</b> 10, <b>React</b> 18, ChartJS y pruebas con <b>Cypress</b>."
           },
           {
             "role": "Backend Frontend",
-            "description": "Creación de un sitio web y su panel administrativo para una constructora con <b>Laravel</b> 11 y <b>React</b> 18."
+            "description": "Desarrollo de un sitio web y panel administrativo para una constructora con <b>Laravel</b> 11 y <b>React</b> 18."
           },
           {
             "role": "Backend Frontend",
-            "description": "Desarrollo de una aplicación para administrar empleados y generar reportes y documentos internos que redujo el tiempo de busqueda y generación de informes considerablemente, hecho con <b>Laravel</b> 11 y <b>React</b> 19."
+            "description": "Entrega de una aplicación para gestión de empleados y reportes internos que redujo el tiempo de búsqueda y generación de documentos, usando <b>Laravel</b> 11 y <b>React</b> 19."
           }
         ]
       },
@@ -61,28 +61,27 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Mantenimiento y mejora de un sitio web y una aplicación para coordinar eventos entre vendedores y compradores, incluyendo registro de participantes y notificaciones automatizadas. Stack: <b>Laravel</b> 8, <b>React</b>, Tailwind e Inertia."
-          },
-          
-          {
-            "role": "Frontend",
-            "description": "Implementación de una herramienta para gestionar procesos de venta visualizados en un panel, con chat integrado para la comunicación entre participantes. Se usaron <b>React</b>, <b>Redux</b>, GO.js y Azure Chat; también se creó un proxy con <b>NodeJS</b> y <b>Express</b> para conectar servicios externos. Configuración y despliegue en <b>Azure</b>."
+            "description": "Mantenimiento y mejora de una plataforma de coordinación de eventos entre vendedores y compradores, con registros y notificaciones automatizadas usando <b>Laravel</b> 8, <b>React</b>, Tailwind e Inertia."
           },
           {
             "role": "Frontend",
-            "description": "Mejoras de frontend para una aplicación de gestión documental, incluyendo creación, edición, revisión y navegación de cambios. Tecnologías: <b>Vue.js 2</b>, <b>GraphQL</b>, <b>TypeScript</b>, Nuxt, Apollo, Storybook y <b>Cypress</b>."
+            "description": "Implementación de una herramienta tipo tablero para flujos de venta con chat integrado, conexión a servicios externos mediante proxy en <b>NodeJS</b>/<b>Express</b> y despliegue en <b>Azure</b> usando <b>React</b>, <b>Redux</b>, GO.js y Azure Chat."
           },
           {
             "role": "Frontend",
-            "description": "Construcción de funcionalidades para una plataforma de aprendizaje en línea con <b>React</b>, <b>Next</b> y <b>Redux Saga</b>."
+            "description": "Mejoras en el frontend de una aplicación de gestión documental para creación, edición, revisión y navegación de cambios con <b>Vue.js 2</b>, <b>GraphQL</b>, <b>TypeScript</b>, Nuxt, Apollo, Storybook y <b>Cypress</b>."
           },
           {
             "role": "Frontend",
-            "description": "Maquetación e integración de vistas para aplicaciones móviles con <b>React Native</b> y Styled Components."
+            "description": "Construcción de funcionalidades frontend para una plataforma de aprendizaje en línea con <b>React</b>, <b>Next</b> y <b>Redux Saga</b>."
+          },
+          {
+            "role": "Frontend",
+            "description": "Maquetación e integración de vistas móviles con <b>React Native</b> y Styled Components."
           },
           {
             "role": "Backend Frontend",
-            "description": "Mantenimiento de sitios web en October CMS v2 y v3, incorporando páginas, búsquedas, navegación y estilos con CSS."
+            "description": "Mantenimiento de sitios en October CMS v2 y v3, incorporando páginas, búsqueda, mejoras de navegación y ajustes CSS."
           },
           {
             "role": "Backend",
@@ -97,11 +96,11 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Construcción de una aplicación para administrar el avance y la documentación de obras civiles, incluyendo creación de planos y organización de fotografías, reduciendo aproximadamente un 90% la carga de trabajo y generación de documentación, creado con <b>Laravel</b> 6, <b>Vue.js 2</b> y Vuetify."
+            "description": "Construcción de un sistema de documentación de obra civil para avances, planos y fotografías, reduciendo aproximadamente 90% la carga documental con <b>Laravel</b> 6, <b>Vue.js 2</b> y Vuetify."
           },
           {
             "role": "Frontend",
-            "description": "Desarrollo de una aplicación Android para registrar avances de trabajo y evidencia fotográfica integrada a la generación de documentación, reduciendo significativamente el tiempo de recolección de datos, con <b>React Native</b>."
+            "description": "Desarrollo de una app Android en <b>React Native</b> para capturar avances y evidencia fotográfica, reduciendo el tiempo de recolección de datos en campo."
           }
         ]
       },
@@ -112,23 +111,23 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Soporte y mejoras para varios proyectos de una empresa dedicada a materiales escolares, construidos con <b>Laravel</b> 5.3 y 5.4, JQuery, Dio y <b>React</b>, desplegados en instancias de <b>Elastic Beanstalk</b>."
+            "description": "Soporte y mejora de plataformas de materiales escolares construidas con <b>Laravel</b> 5.3/5.4, JQuery, Dio y <b>React</b>, desplegadas en <b>Elastic Beanstalk</b>."
           },
           {
             "role": "Backend Frontend",
-            "description": "Implementación de nuevas funcionalidades y ajustes en distintas aplicaciones web, principalmente con <b>Laravel</b>, además de otros lenguajes y frameworks."
+            "description": "Implementación de funcionalidades y correcciones en múltiples aplicaciones web, principalmente con <b>Laravel</b> y tecnologías frontend relacionadas."
           },
           {
             "role": "Backend",
-            "description": "Integración de reconocimiento de objetos en imágenes y videos con AWS Rekognition, junto con traducción mediante AWS Translate y el <b>AWS SDK</b> para PHP, evitando la necesidad de procesamiento manual."
+            "description": "Automatización de análisis de imágenes y videos con AWS Rekognition, AWS Translate y el <b>AWS SDK</b> para PHP, reduciendo procesamiento manual."
           },
           {
             "role": "Backend Frontend",
-            "description": "Creación de un chatbot para practicar tablas de multiplicar con Botpress, además de otros bots con <b>NodeJS</b> y Dialogflow."
+            "description": "Creación de chatbots educativos y de soporte con Botpress, <b>NodeJS</b> y Dialogflow."
           },
           {
             "role": "Frontend",
-            "description": "Diseño, maquetación y actualización de sitios web con WordPress, CSS y Bootstrap para empresas medianas y grandes."
+            "description": "Diseño, maquetación y actualización de sitios WordPress con CSS y Bootstrap para empresas medianas y grandes."
           }
         ]
       },
@@ -139,7 +138,7 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Construcción de una aplicación web para una empresa de capacitación, enfocada en la gestión de clientes, instructores, cursos, pagos e informes. Tecnologías: <b>Laravel 5.5</b>, <b>Vue.js 2</b>, Vuetify, Snappy PDF y Maatwebsite Excel."
+            "description": "Construcción de una aplicación de capacitación para clientes, instructores, cursos, pagos e informes con <b>Laravel 5.5</b>, <b>Vue.js 2</b>, Vuetify, Snappy PDF y Maatwebsite Excel."
           }
         ]
       },
@@ -150,19 +149,19 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Implementación de herramientas de búsqueda, módulos de correo electrónico y otras funcionalidades en aplicaciones web construidas con <b>.NET</b>, C# y JQuery."
+            "description": "Implementación de herramientas de búsqueda, módulos de correo y funciones web con <b>.NET</b>, C# y JQuery."
           },
           {
             "role": "Backend",
-            "description": "Optimización de consultas en <b>SQL Server</b> mejorando el rendimiento de la base de datos y diversas aplicaciones."
+            "description": "Optimización de consultas en <b>SQL Server</b> para mejorar el rendimiento de bases de datos y aplicaciones."
           },
           {
             "role": "Backend Frontend",
-            "description": "Creación de módulos de facturación y otras funciones en una aplicación de escritorio para una tienda con diversas sucursales además de su puesta en producción."
+            "description": "Creación de módulos de facturación y operación para una aplicación de escritorio multisucursal, incluyendo puesta en producción."
           },
           {
             "role": "Backend Frontend",
-            "description": "Atención a clientes y resolución de incidencias relacionadas con el software."
+            "description": "Atención a clientes y resolución de incidencias en aplicaciones en producción."
           }
         ]
       },
@@ -173,23 +172,23 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Construcción de una aplicación para administrar información de la empresa: empleados, nómina, obras, compras, entre otros, mejorando la eficiencia operativa, especialmente en procesos de gestión de proyectos, hecha con <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
+            "description": "Construcción de una plataforma operativa para empleados, nómina, obras y compras, mejorando la gestión de proyectos con <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
           },
           {
             "role": "Backend Frontend",
-            "description": "Creación de una aplicación para estimar costos de obra y generar la documentación correspondiente, reduciendo tiempo y esfuerzo en su elaboración aproximadamente un 80%, construido con <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
+            "description": "Creación de una aplicación de estimación de costos y documentación de obra que redujo aproximadamente 80% el tiempo de preparación, con <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
           },
           {
             "role": "Frontend",
-            "description": "Implementación de una aplicación Android para recolectar datos de campo, capturar fotos con geolocalización, sincronizar información con el servidor, gestionar pagos y notificar autorizaciones de compras, mejorando la organización de los datos y elimando el proceso manual de recolección de datos, creada <b>Java</b> y Android Studio."
+            "description": "Implementación de una app Android en <b>Java</b> para datos de campo, fotos geolocalizadas, sincronización, pagos y autorizaciones de compra, reemplazando procesos manuales."
           },
           {
             "role": "Backend Frontend",
-            "description": "Desarrollo del sitio web corporativo usando <b>PHP</b> y Sass. Implementación de SEO logrando un aumento significativo en el tráfico orgánico y la visibilidad en línea."
+            "description": "Desarrollo del sitio corporativo con <b>PHP</b> y Sass, agregando mejoras SEO que aumentaron la visibilidad orgánica."
           },
           {
             "role": "Backend Frontend",
-            "description": "Modificación de una aplicación web creada con CodeIgniter para imprimir planos de construcción a partir de mediciones guardadas."
+            "description": "Actualización de una aplicación CodeIgniter para imprimir planos de construcción a partir de mediciones guardadas."
           }
         ]
       }

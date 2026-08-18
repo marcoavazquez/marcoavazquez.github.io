@@ -4,7 +4,7 @@
   "email": "marcoa.vazqueza",
   "summary": {
     "title": "Professional Summary",
-    "content": "Fullstack Developer with experience building and maintaining web and mobile applications. Specialized in <b>Laravel</b> and <b>React</b>, with additional knowledge of <b>Vue.js 2</b>, relational databases such as <b>MySQL</b> and PostgreSQL, plus Node.js and .NET. I have contributed to both frontend and backend work across diverse projects."
+    "content": "Full Stack Engineer with deep Laravel and PHP delivery experience across web apps, admin panels, integrations, testing, and deployments. Highlights should lead with your strongest stack and scope indicators, such as long-term work across Laravel, React/Vue, MySQL, Azure, and production systems"
   },
   "skills": {
     "title": "Technical Skills"
@@ -12,8 +12,8 @@
   "languages": {
     "title": "Languages",
     "items": [
-      "Spanish (Native)",
-      "English (Intermediate B2)"
+      "Spanish: Native",
+      "English: B2"
     ]
   },
   "education": {
@@ -45,15 +45,15 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Built an application to manage income, expenses, customers, contracts, and payroll, plus a dashboard that optimized the purchasing of materials, tools, and office supplies. Technologies: <b>Laravel</b> 10, <b>React</b> 18, ChartJS, and automated tests with <b>Cypress</b>."
+            "description": "Built a business management platform covering finances, customers, contracts, payroll, and purchasing insights using <b>Laravel 10</b>, <b>React 18</b>, ChartJS, and <b>Cypress</b>."
           },
           {
             "role": "Backend Frontend",
-            "description": "Created a website and administrative panel for a construction company with <b>Laravel</b> 11 and <b>React</b> 18."
+            "description": "Developed a construction company website and admin panel with <b>Laravel</b> 11 and <b>React</b> 18."
           },
           {
             "role": "Backend Frontend",
-            "description": "Developed an application to manage employees and generate internal reports and documents, considerably reducing search and report generation time, built with <b>Laravel</b> 11 and <b>React</b> 19."
+            "description": "Delivered an employee management and internal reporting app that reduced document search and report generation time, using <b>Laravel</b> 11 and <b>React</b> 19."
           }
         ]
       },
@@ -67,27 +67,27 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Maintained and improved a website and application used to coordinate events between sellers and buyers, including participant registration and automated notifications. Stack: <b>Laravel</b> 8, <b>React</b>, Tailwind, and Inertia."
+            "description": "Maintained and improved an event coordination platform for sellers and buyers, covering registrations and automated notifications with <b>Laravel 8</b>, <b>React</b>, Tailwind, and Inertia."
           },
           {
             "role": "Frontend",
-            "description": "Implemented a tool to manage sales processes visualized on a board, with integrated chat for participant communication. Used <b>React</b>, <b>Redux</b>, GO.js, and Azure Chat; also created a proxy with <b>NodeJS</b> and <b>Express</b> to connect external services. Configured and deployed the project on <b>Azure</b>."
+            "description": "Implemented a board-based sales workflow tool with integrated chat, external service connectivity through a <b>NodeJS</b>/<b>Express</b> proxy, and deployment on <b>Azure</b> using <b>React</b>, <b>Redux</b>, GO.js, and Azure Chat."
           },
           {
             "role": "Frontend",
-            "description": "Enhanced the frontend of a document management application, including document creation, editing, review, and change navigation. Technologies: <b>Vue.js 2</b>, <b>GraphQL</b>, <b>TypeScript</b>, Nuxt, Apollo, Storybook, and <b>Cypress</b>."
+            "description": "Enhanced a document management frontend for creation, editing, review, and change navigation with <b>Vue.js 2</b>, <b>GraphQL</b>, <b>TypeScript</b>, Nuxt, Apollo, Storybook, and <b>Cypress</b>."
           },
           {
             "role": "Frontend",
-            "description": "Built features for an online learning platform with <b>React</b>, <b>Next</b>, and <b>Redux Saga</b>."
+            "description": "Built frontend features for an online learning platform with <b>React</b>, <b>Next</b>, and <b>Redux Saga</b>."
           },
           {
             "role": "Frontend",
-            "description": "Laid out and integrated views for mobile applications with <b>React Native</b> and Styled Components."
+            "description": "Laid out and integrated mobile app views with <b>React Native</b> and Styled Components."
           },
           {
             "role": "Backend Frontend",
-            "description": "Maintained websites in October CMS versions 2 and 3, adding pages, search, navigation features, and CSS styling."
+            "description": "Maintained October CMS v2 and v3 websites, adding pages, search, navigation improvements, and CSS updates."
           },
           {
             "role": "Backend",
@@ -105,11 +105,11 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Built an application to manage civil works progress and documentation, including plan creation and photo organization, reducing the workload and documentation generation by approximately 90%, created with <b>Laravel</b> 6, <b>Vue.js 2</b>, and Vuetify."
+            "description": "Built a civil works documentation system for progress tracking, plan creation, and photo organization, reducing documentation workload by approximately 90% with <b>Laravel 6</b>, <b>Vue.js 2</b>, and Vuetify."
           },
           {
             "role": "Frontend",
-            "description": "Developed an Android application to record work progress and photographic evidence integrated with documentation generation, significantly reducing data collection time, with <b>React Native</b>."
+            "description": "Developed a <b>React Native</b> Android app to capture work progress and photographic evidence, reducing field data collection time."
           }
         ]
       },
@@ -123,23 +123,23 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Provided support and improvements for several projects for a company dedicated to school materials, built with <b>Laravel</b> 5.3 and 5.4, JQuery, Dio, and <b>React</b>, deployed on <b>Elastic Beanstalk</b> instances."
+            "description": "Supported and improved school materials platforms built with <b>Laravel</b> 5.3/5.4, JQuery, Dio, and <b>React</b>, deployed on <b>Elastic Beanstalk</b>."
           },
           {
             "role": "Backend Frontend",
-            "description": "Implemented new features and adjustments across multiple web applications, mainly with <b>Laravel</b> plus other frameworks and languages."
+            "description": "Implemented features and fixes across multiple web applications, mainly with <b>Laravel</b> and related frontend technologies."
           },
           {
             "role": "Backend",
-            "description": "Integrated object recognition in images and videos with AWS Rekognition, together with translation through AWS Translate and the <b>AWS SDK</b> for PHP, avoiding the need for manual processing."
+            "description": "Automated image and video analysis with AWS Rekognition, AWS Translate, and the <b>AWS SDK</b> for PHP, reducing manual processing."
           },
           {
             "role": "Backend Frontend",
-            "description": "Created a chatbot to practice multiplication tables with Botpress, along with additional bots using <b>NodeJS</b> and Dialogflow."
+            "description": "Created educational and support chatbots with Botpress, <b>NodeJS</b>, and Dialogflow."
           },
           {
             "role": "Frontend",
-            "description": "Designed, styled, and updated websites with WordPress, CSS, and Bootstrap for medium and large companies."
+            "description": "Designed, styled, and updated WordPress websites with CSS and Bootstrap for medium and large companies."
           }
         ]
       },
@@ -153,7 +153,7 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Built a web application for a training company focused on managing customers, trainers, courses, payments, and reports. Technologies: <b>Laravel 5.5</b>, <b>Vue.js 2</b>, Vuetify, Snappy PDF, and Maatwebsite Excel."
+            "description": "Built a training management application for customers, instructors, courses, payments, and reports with <b>Laravel 5.5</b>, <b>Vue.js 2</b>, Vuetify, Snappy PDF, and Maatwebsite Excel."
           }
         ]
       },
@@ -167,19 +167,19 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Implemented search tools, email modules, and other features for web applications built with <b>.NET</b>, C#, and JQuery."
+            "description": "Implemented search tools, email modules, and web features with <b>.NET</b>, C#, and JQuery."
           },
           {
             "role": "Backend",
-            "description": "Optimized queries in <b>SQL Server</b>, improving database and application performance."
+            "description": "Optimized <b>SQL Server</b> queries to improve database and application performance."
           },
           {
             "role": "Backend Frontend",
-            "description": "Created billing modules and other features in a desktop application for a store with multiple branches, in addition to deploying it to production."
+            "description": "Created billing and operational modules for a multi-branch desktop application and deployed them to production."
           },
           {
             "role": "Backend Frontend",
-            "description": "Provided client support and resolved application issues."
+            "description": "Provided client support and resolved production application issues."
           }
         ]
       },
@@ -193,23 +193,23 @@
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Built an application to manage company information: employees, payroll, construction projects, purchases, and more, improving operational efficiency, especially in project management processes, built with <b>Laravel 5.2</b> and <b>Vue.js 2</b>."
+            "description": "Built an operations platform for employees, payroll, construction projects, and purchases, improving project management workflows with <b>Laravel 5.2</b> and <b>Vue.js 2</b>."
           },
           {
             "role": "Backend Frontend",
-            "description": "Created an application to estimate construction costs and generate the corresponding documentation, reducing time and effort by approximately 80%, built with <b>Laravel 5.2</b> and <b>Vue.js 2</b>."
+            "description": "Created a construction cost estimation and documentation app that reduced preparation time by approximately 80%, built with <b>Laravel 5.2</b> and <b>Vue.js 2</b>."
           },
           {
             "role": "Frontend",
-            "description": "Implemented an Android application to collect field data, capture photos with geolocation, synchronize information with the server, manage payments, and notify purchase authorizations, improving data organization and eliminating the manual data collection process, created with <b>Java</b> and Android Studio."
+            "description": "Implemented a <b>Java</b> Android app for field data, geolocated photos, server sync, payments, and purchase approvals, replacing manual collection processes."
           },
           {
             "role": "Backend Frontend",
-            "description": "Developed the corporate website using <b>PHP</b> and Sass. Implemented SEO, achieving a significant increase in organic traffic and online visibility."
+            "description": "Developed the corporate website with <b>PHP</b> and Sass, adding SEO improvements that increased organic visibility."
           },
           {
             "role": "Backend Frontend",
-            "description": "Modified a CodeIgniter web application used to print construction plans based on saved measurements."
+            "description": "Updated a CodeIgniter application used to print construction plans from saved measurements."
           }
         ]
       }
