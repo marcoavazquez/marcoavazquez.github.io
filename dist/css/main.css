@@ -1,4 +1,6 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     transition: all 0.2s;
 }
@@ -8,7 +10,7 @@ body {
     background-attachment: fixed;
     color: #000;
     font-family: Calibri, Roboto, sans-serif;
-    line-height: 1.28;
+    line-height: 1.2;
     display: grid;
     font-size: 14px;
     place-items: center;
@@ -48,9 +50,17 @@ h3 {
 }
 
 @media print {
-    h1 { font-size: 1.8em; }
-    h2 { font-size: 1.4em; }
-    h3 { font-size: 1.2em; }
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.4em;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
 }
 
 a {
@@ -109,7 +119,7 @@ nav .lang a.active {
 
 .wrapper {
     padding: 0.5rem 1rem;
-    margin: 3.5rem 0;
+    margin: 1rem 0;
     background: rgba(255, 255, 255, 0.9);
     border-radius: 0.25em;
     border: 1px solid white;
@@ -121,7 +131,7 @@ nav .lang a.active {
 
 @media screen and (min-width: 512px) {
     .wrapper {
-        padding: 1rem 4rem;
+        padding: 0rem 4rem;
     }
 }
 
@@ -139,21 +149,21 @@ span.mail::after {
 }
 
 @media print {
-    .wrapper > header .header-contact button {
+    .wrapper>header .header-contact button {
         display: none;
     }
 }
 
-.wrapper > header a {
+.wrapper>header a {
     text-decoration: none;
 }
 
-.wrapper > header a:hover {
+.wrapper>header a:hover {
     text-decoration: underline;
 }
 
 @media print {
-    .wrapper > header a {
+    .wrapper>header a {
         color: black;
     }
 }
@@ -199,12 +209,12 @@ main {
     gap: 2rem;
 }
 
-main > div:first-child {
+main>div:first-child {
     flex: 3;
     min-width: 24rem;
 }
 
-main > div:last-child {
+main>div:last-child {
     flex: 1;
 }
 

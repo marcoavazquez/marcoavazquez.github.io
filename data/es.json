@@ -4,7 +4,7 @@
   "email": "marcoa.vazqueza",
   "summary": {
     "title": "Resumen Profesional",
-    "content": "Desarrollador Fullstack enfocado en crear soluciones web y móviles prácticas con <b>Laravel</b> y <b>React</b>. Experiencia en frontend, backend, bases de datos, integraciones, pruebas y despliegues, con trabajo adicional en <b>Vue.js 2</b>, <b>MySQL</b>, PostgreSQL, Node.js y .NET."
+    "content": "Desarrollador Fullstack enfocado en crear soluciones web y móviles prácticas con <b>PHP/Laravel</b> y <b>JavaScript/TypeScript/React</b>. Experiencia en frontend, backend, bases de datos, integraciones, pruebas y despliegues, con trabajo adicional en <b>Vue.js 2</b>, <b>MySQL</b>, PostgreSQL, Node.js y .NET."
   },
   "skills": {
     "title": "Habilidades Técnicas"
@@ -38,34 +38,40 @@
       {
         "title": "Desarrollador Fullstack",
         "company": "Freelancer",
-        "date": ["2023-04", "2025-11"],
+        "date": [
+          "2023-04",
+          "2025-11"
+        ],
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Construcción de una plataforma de gestión para finanzas, clientes, contratos, nómina e indicadores de compras con <b>Laravel</b> 10, <b>React</b> 18, ChartJS y pruebas con <b>Cypress</b>."
+            "description": "Construcción de una plataforma de gestión para finanzas, clientes, contratos, nómina e indicadores de compras con <b>PHP/Laravel</b> 10, <b>JavaScript/TypeScript/React</b> 18, ChartJS y pruebas con <b>Cypress</b>."
           },
           {
             "role": "Backend Frontend",
-            "description": "Desarrollo de un sitio web y panel administrativo para una constructora con <b>Laravel</b> 11 y <b>React</b> 18."
+            "description": "Desarrollo de un sitio web y panel administrativo para una constructora con <b>PHP/Laravel</b> 11 y <b>JavaScript/TypeScript/React</b> 18."
           },
           {
             "role": "Backend Frontend",
-            "description": "Entrega de una aplicación para gestión de empleados y reportes internos que redujo el tiempo de búsqueda y generación de documentos, usando <b>Laravel</b> 11 y <b>React</b> 19."
+            "description": "Entrega de una aplicación para gestión de empleados y reportes internos que redujo el tiempo de búsqueda y generación de documentos, usando <b>PHP/Laravel</b> 11 y <b>JavaScript/TypeScript/React</b> 19."
           }
         ]
       },
       {
         "title": "Programador Fullstack",
         "company": "Lemonscale",
-        "date": ["2020-03", "2023-02"],
+        "date": [
+          "2020-03",
+          "2023-02"
+        ],
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Mantenimiento y mejora de una plataforma de coordinación de eventos entre vendedores y compradores, con registros y notificaciones automatizadas usando <b>Laravel</b> 8, <b>React</b>, Tailwind e Inertia."
+            "description": "Mantenimiento y mejora de una plataforma de coordinación de eventos entre vendedores y compradores, con registros y notificaciones automatizadas usando <b>PHP/Laravel</b> 8, <b>JavaScript/React</b>, Tailwind e Inertia."
           },
           {
             "role": "Frontend",
-            "description": "Implementación de una herramienta tipo tablero para flujos de venta con chat integrado, conexión a servicios externos mediante proxy en <b>NodeJS</b>/<b>Express</b> y despliegue en <b>Azure</b> usando <b>React</b>, <b>Redux</b>, GO.js y Azure Chat."
+            "description": "Implementación de una herramienta tipo tablero para flujos de venta con chat integrado, conexión a servicios externos mediante proxy en <b>NodeJS</b>/<b>Express</b> y despliegue en <b>Azure</b> usando <b>JavaScript/React</b>, <b>Redux</b>, GO.js y Azure Chat."
           },
           {
             "role": "Frontend",
@@ -73,11 +79,11 @@
           },
           {
             "role": "Frontend",
-            "description": "Construcción de funcionalidades frontend para una plataforma de aprendizaje en línea con <b>React</b>, <b>Next</b> y <b>Redux Saga</b>."
+            "description": "Construcción de funcionalidades frontend para una plataforma de aprendizaje en línea con <b>JavaScript/React</b>, <b>Next</b> y <b>Redux Saga</b>."
           },
           {
             "role": "Frontend",
-            "description": "Maquetación e integración de vistas móviles con <b>React Native</b> y Styled Components."
+            "description": "Maquetación e integración de vistas móviles con <b>JavaScript/React Native</b> y Styled Components."
           },
           {
             "role": "Backend Frontend",
@@ -92,30 +98,36 @@
       {
         "title": "Desarrollador Fullstack",
         "company": "Freelancer (medio tiempo)",
-        "date": ["2019-12", "2020-08"],
+        "date": [
+          "2019-12",
+          "2020-08"
+        ],
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Construcción de un sistema de documentación de obra civil para avances, planos y fotografías, reduciendo aproximadamente 90% la carga documental con <b>Laravel</b> 6, <b>Vue.js 2</b> y Vuetify."
+            "description": "Construcción de un sistema de documentación de obra civil para avances, planos y fotografías, reduciendo aproximadamente 90% la carga documental con <b>PHP/Laravel</b> 6, <b>JavaScript/Vue.js 2</b> y Vuetify."
           },
           {
             "role": "Frontend",
-            "description": "Desarrollo de una app Android en <b>React Native</b> para capturar avances y evidencia fotográfica, reduciendo el tiempo de recolección de datos en campo."
+            "description": "Desarrollo de una app Android en <b>JavaScript/React Native</b> para capturar avances y evidencia fotográfica, reduciendo el tiempo de recolección de datos en campo."
           }
         ]
       },
       {
         "title": "Desarrollador Fullstack",
         "company": "HabitatWeb",
-        "date": ["2018-03", "2020-03"],
+        "date": [
+          "2018-03",
+          "2020-03"
+        ],
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Soporte y mejora de plataformas de materiales escolares construidas con <b>Laravel</b> 5.3/5.4, JQuery, Dio y <b>React</b>, desplegadas en <b>Elastic Beanstalk</b>."
+            "description": "Soporte y mejora de plataformas de materiales escolares construidas con <b>PHP/Laravel</b> 5.3/5.4, JQuery, Dio y <b>React</b>, desplegadas en <b>Elastic Beanstalk</b>."
           },
           {
             "role": "Backend Frontend",
-            "description": "Implementación de funcionalidades y correcciones en múltiples aplicaciones web, principalmente con <b>Laravel</b> y tecnologías frontend relacionadas."
+            "description": "Implementación de funcionalidades y correcciones en múltiples aplicaciones web, principalmente con <b>PHP/Laravel</b> y tecnologías frontend relacionadas."
           },
           {
             "role": "Backend",
@@ -134,18 +146,24 @@
       {
         "title": "Desarrollador Fullstack",
         "company": "Freelancer",
-        "date": ["2017-12", "2018-03"],
+        "date": [
+          "2017-12",
+          "2018-03"
+        ],
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Construcción de una aplicación de capacitación para clientes, instructores, cursos, pagos e informes con <b>Laravel 5.5</b>, <b>Vue.js 2</b>, Vuetify, Snappy PDF y Maatwebsite Excel."
+            "description": "Construcción de una aplicación de capacitación para clientes, instructores, cursos, pagos e informes con <b>PHP/Laravel 5.5</b>, <b>JavaScript/Vue.js 2</b>, Vuetify, Snappy PDF y Maatwebsite Excel."
           }
         ]
       },
       {
         "title": "Programador",
         "company": "Axsis Tecnología",
-        "date": ["2017-06", "2017-10"],
+        "date": [
+          "2017-06",
+          "2017-10"
+        ],
         "details": [
           {
             "role": "Backend Frontend",
@@ -168,15 +186,18 @@
       {
         "title": "Desarrollador Fullstack",
         "company": "Construcción Proyectos y Topografía ICB",
-        "date": ["2015-05", "2017-06"],
+        "date": [
+          "2015-05",
+          "2017-06"
+        ],
         "details": [
           {
             "role": "Backend Frontend",
-            "description": "Construcción de una plataforma operativa para empleados, nómina, obras y compras, mejorando la gestión de proyectos con <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
+            "description": "Construcción de una plataforma operativa para empleados, nómina, obras y compras, mejorando la gestión de proyectos con <b>PHP/Laravel 5.2</b> y <b>Vue.js 2</b>."
           },
           {
             "role": "Backend Frontend",
-            "description": "Creación de una aplicación de estimación de costos y documentación de obra que redujo aproximadamente 80% el tiempo de preparación, con <b>Laravel 5.2</b> y <b>Vue.js 2</b>."
+            "description": "Creación de una aplicación de estimación de costos y documentación de obra que redujo aproximadamente 80% el tiempo de preparación, con <b>PHP/Laravel 5.2</b> y <b>Vue.js 2</b>."
           },
           {
             "role": "Frontend",
